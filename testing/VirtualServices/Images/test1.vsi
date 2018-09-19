@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="6" name="test1" created="2018-03-20.10:16:12.963" lastModified="2018-03-20.10:16:41.358" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="5" nd="true" ads="true">
+<sp>
+<t id="9">
+<rq id="10" op="GET /tpmRest/v1/participants/enabledProtocolPropertyValues/{URLPARAM0}/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;true;;;;">123</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">tpmRest</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">participants</p>
+<p n="HTTP-Segment-Attr-3">enabledProtocolPropertyValues</p>
+<p n="HTTP-Segment-Attr-4">123</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/tpmRest/v1/participants/enabledProtocolPropertyValues/123</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="lisa.vse.private.allow.dups">true</p>
+</m>
+</rq>
+<rs>
+<rp id="11" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;&quot;Name&quot;:&quot;ABC&quot;,&#13;&#10;&quot;ID&quot;:&quot;{{=request_URLPARAM0;/*123*/}}&quot;,&#13;&#10;&quot;Email&quot;:&quot;abc@domain.com&quot;&#13;&#10;}</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="12" op="GET /tpmRest/v1/participants/enabledProtocolPropertyValues/{URLPARAM0}/" tl="SIGNATURE">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;true;;;;">123</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">tpmRest</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">participants</p>
+<p n="HTTP-Segment-Attr-3">enabledProtocolPropertyValues</p>
+<p n="HTTP-Segment-Attr-4">123</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/tpmRest/v1/participants/enabledProtocolPropertyValues/123</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="lisa.vse.private.allow.dups">true</p>
+</m>
+</rq>
+<rs>
+<rp id="13" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;&quot;Name&quot;:&quot;ABC&quot;,&#13;&#10;&quot;ID&quot;:&quot;{{=request_URLPARAM0;/*123*/}}&quot;,&#13;&#10;&quot;Email&quot;:&quot;abc@domain.com&quot;&#13;&#10;}</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="8" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="7" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

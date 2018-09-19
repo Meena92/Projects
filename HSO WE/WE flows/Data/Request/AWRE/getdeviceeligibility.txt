@@ -1,0 +1,12 @@
+{  
+   "MSISDN":"{{MSISDN}}",
+   "productType":"{{productType}}",
+   "marketCode":"{{marketcode}}",
+   "dealerCode":"{{dealerCode}}",
+   "accountType":"{{accountType}}",
+   "accountSubType":"{{accountSubType}}",
+   "billType":"{{billType}}"
+}
+
+
+

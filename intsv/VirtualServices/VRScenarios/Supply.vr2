@@ -1,0 +1,81 @@
+{
+    "modifyDate": "2017-10-24T14:31:54+05:30",
+    "description": "",
+    "appliedDPH": [{
+        "isRequest": true,
+        "isResponse": false,
+        "name": "Web Services (SOAP)",
+        "className": "com.itko.lisa.vse.stateful.protocol.ws.WSSOAPProtocolHandler",
+        "id": "E6F8C746B89911E79F5CD8CB8A8AB1DA",
+        "config": {},
+        "userConfigured": true
+    }],
+    "artifactGeneration": {
+        "exportFile": "D:\\DevTest\\vseRecording\\VSE_2013\\DB0033F2B89911E79F5CD8CB8A8AB1DA\\Project\\Data\\Supply.xml",
+        "allowDupSpecificTxns": false,
+        "basePath": "/",
+        "defaultNonLeafNavigation": "WIDE",
+        "defaultLeafNavigation": "LOOSE",
+        "vsmStyle": "EFFICIENT"
+    },
+    "statusDescription": "Saved",
+    "transportProtocol": {
+        "protocolId": "HTTP_GATEWAY",
+        "statelessTxns": false,
+        "deidentifyTxn": false,
+        "protocolConfig": {
+            "allowModifyHostHeader": false,
+            "targetEndpoint": {
+                "sslConfig": {
+                    "aliasPassword": "",
+                    "password": "",
+                    "filename": "",
+                    "bytes": "",
+                    "alias": "",
+                    "hash": 0
+                },
+                "port": 0,
+                "host": "",
+                "hash": 0,
+                "useSSL": false
+            },
+            "recordingEndpoint": {
+                "sslConfig": {
+                    "aliasPassword": "",
+                    "password": "",
+                    "filename": "",
+                    "bytes": "",
+                    "alias": "",
+                    "hash": 0
+                },
+                "port": 15404,
+                "host": "",
+                "hash": 0,
+                "useSSL": false
+            }
+        },
+        "protocolVersion": "1.0"
+    },
+    "name": "Supply",
+    "saveVsConfig": {
+        "concurrentCapacity": 1,
+        "thinkTime": 100,
+        "groupTag": "",
+        "saveOption": "saveDeploy",
+        "leafNavigation": "Loose",
+        "allowDupSpecific": false,
+        "defaultNavigation": "Wide",
+        "createBaseline": false,
+        "vsmStyle": "efficient"
+    },
+    "bundleIds": ["2fuYDionjA7epaN12dvjWu"],
+    "validationMsgs": [{
+        "level": "WARNING",
+        "category": "targetURLValidation",
+        "message": "unspecified targetHost or targetPort"
+    }],
+    "id": "DB0033F2B89911E79F5CD8CB8A8AB1DA",
+    "detectedDPH": [],
+    "status": 9,
+    "createDate": "2017-10-24T14:31:00+05:30"
+}

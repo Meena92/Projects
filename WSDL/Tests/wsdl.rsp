@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Wed Jan 03 12:41:36 IST 2018 -->
+
+
+<Results name="wsdl">
+
+
+    <Result node="Web Service">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.gui.XMLResultsCache>
+  <Sxml>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#xd;
+&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xd;
+  &lt;soapenv:Body&gt;&#xd;
+    &lt;koPaStateFioResponse xmlns=&quot;http://www.logobject.ch/ns/KopaWfm/&quot;&gt;&#xd;
+      &lt;out&gt;&#xd;
+        &lt;errorStatus&gt;&#xd;
+          &lt;errorCode&gt;1&lt;/errorCode&gt;&#xd;
+          &lt;errorText&gt;1N4tk7&lt;/errorText&gt;&#xd;
+        &lt;/errorStatus&gt;&#xd;
+        &lt;integrationHeader&gt;&#xd;
+          &lt;!--geId is optional--&gt;&#xd;
+          &lt;geId&gt;13Ao5J80a&lt;/geId&gt;&#xd;
+        &lt;/integrationHeader&gt;&#xd;
+      &lt;/out&gt;&#xd;
+    &lt;/koPaStateFioResponse&gt;&#xd;
+  &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;&#xd;
+</Sxml>
+  <headers>HTTP/1.1 200 OK&#xd;
+Server: LISA/Virtual-Environment-Server&#xd;
+Date: Wed, 03 Jan 2018 11:37:43 IST&#xd;
+X-Powered-By: LISA/10.0.0 (10.0.0.431)&#xd;
+Content-Type: text/xml; charset=utf-8&#xd;
+Content-Length: 600&#xd;
+</headers>
+  <attachments/>
+</com.itko.lisa.gui.XMLResultsCache>]]></content>
+    </Result>
+
+
+</Results>

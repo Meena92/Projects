@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+        <ns0:createDraftOrderResponse xmlns:ns0="http://esp.t-mobile.com/commercemanagement/order">
+            <cso:header xmlns="http://esp.t-mobile.com/commercemanagement/order" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns3="http://esp.t-mobile.com/cso" xmlns:com="http://esp.t-mobile.com/cso/commercemanagement" xmlns:ord="http://esp.t-mobile.com/commercemanagement/order" xmlns:cso="http://esp.t-mobile.com/cso">
+                <cso:sender>
+                    <cso:senderId>ACUI</cso:senderId>
+                    <cso:channelId>RETAIL</cso:channelId>
+                    <cso:applicationId>ACUI</cso:applicationId>
+                    <cso:applicationUserId>Superusr</cso:applicationUserId>
+                    <cso:sessionId>cf36a531d7d9bd2a:78562e9a:15e2f9a8c0e:-655e</cso:sessionId>
+                    <cso:storeId>451</cso:storeId>
+                    <cso:dealerCode>0000002</cso:dealerCode>
+                </cso:sender>
+                <cso:target>
+                    <cso:customerCompanyId>TMobileUS</cso:customerCompanyId>
+                </cso:target>
+            </cso:header>
+            <ns1:responseStatus xmlns:ns1="http://esp.t-mobile.com/cso" code="100"/>
+            <ns0:orderId>S000105846</ns0:orderId>
+            <ns0:orderCategory>Sale</ns0:orderCategory>
+        </ns0:createDraftOrderResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

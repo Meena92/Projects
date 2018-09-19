@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Results name="db">
+
+
+    <Result node="JDBC">
+      <content charset="UTF-8" type="xstream"><![CDATA[<com.itko.lisa.jdbc.JDBCResultSetCache>
+  <rows>
+    <list>
+      <string>#21C-C2951-CITJAN17_5</string>
+      <string>123455</string>
+      <string>CISCO 2951 W/3 GE 4 EHWIC 3 CF-CITJAN17_1</string>
+    </list>
+  </rows>
+  <columns>
+    <string>CUSTID</string>
+    <string>BTITEMNUM</string>
+    <string>ITEMNAME</string>
+  </columns>
+  <maxRows>2147483647</maxRows>
+  <columnCount>3</columnCount>
+</com.itko.lisa.jdbc.JDBCResultSetCache>]]></content>
+    </Result>
+
+
+</Results>

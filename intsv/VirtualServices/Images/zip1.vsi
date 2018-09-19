@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="20" name="zip1" created="2017-11-02.12:04:20.241" lastModified="2017-11-02.12:04:46.961" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="13" nd="true">
+<sp>
+<t id="23">
+<rq id="24" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">60532</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60532&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60532&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="25" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;   &lt;soap:Body&gt;&#13;&#10;      &lt;GetSupplierByZipCodeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;         &lt;GetSupplierByZipCodeResult&gt;true&lt;/GetSupplierByZipCodeResult&gt;&#13;&#10;         &lt;SupplierDataLists&gt;&#13;&#10;            &lt;SupplierDatas&gt;&#13;&#10;               &lt;SupplierData&gt;&#13;&#10;                  &lt;SupplierNumber&gt;0194080005&lt;/SupplierNumber&gt;&#13;&#10;                  &lt;CompanyName&gt;DOCS DRUGS LTD&lt;/CompanyName&gt;&#13;&#10;                  &lt;Address1&gt;1020 MAPLE AVE&lt;/Address1&gt;&#13;&#10;                  &lt;Address2/&gt;&#13;&#10;                  &lt;City&gt;LISLE&lt;/City&gt;&#13;&#10;                  &lt;Zip&gt;{{=request_zip;/*60532*/}}&lt;/Zip&gt;&#13;&#10;                  &lt;ZipPlus4&gt;IL&lt;/ZipPlus4&gt;&#13;&#10;                  &lt;Telephone&gt;2329&lt;/Telephone&gt;&#13;&#10;                  &lt;Description&gt;(630)968-4165&lt;/Description&gt;&#13;&#10;                  &lt;IsSupplierParticipating&gt;04&lt;/IsSupplierParticipating&gt;&#13;&#10;               &lt;/SupplierData&gt;&#13;&#10;             &lt;/SupplierDatas&gt;&#13;&#10;            &lt;TotalRecords&gt;1&lt;/TotalRecords&gt;&#13;&#10;         &lt;/SupplierDataLists&gt;&#13;&#10;      &lt;/GetSupplierByZipCodeResponse&gt;&#13;&#10;   &lt;/soap:Body&gt;&#13;&#10;&lt;/soap:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+<t id="14">
+<rq id="26" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">89301</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;89301&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;89301&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="27" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;            &lt;tdsns0:GetSupplierByZipCodeResult&gt;true&lt;/tdsns0:GetSupplierByZipCodeResult&gt;&#13;&#10;            &lt;tdsns0:SupplierDataLists&gt;&#13;&#10;                &lt;tdsns0:SupplierDatas&gt;&#13;&#10;                    &lt;tdsns0:SupplierData&gt;&#13;&#10;                        &lt;tdsns0:SupplierNumber&gt;22300-P14-005&lt;/tdsns0:SupplierNumber&gt;&#13;&#10;                        &lt;tdsns0:CompanyName&gt;Aggregate Industries LTD&lt;/tdsns0:CompanyName&gt;&#13;&#10;                        &lt;tdsns0:Address1&gt;HC-04 BOX 15534&lt;/tdsns0:Address1&gt;&#13;&#10;                        &lt;tdsns0:Address2/&gt;&#13;&#10;                        &lt;tdsns0:City&gt;Sunflower&lt;/tdsns0:City&gt;&#13;&#10;                        &lt;tdsns0:Zip&gt;{{=request_zip;/*89301*/}}&lt;/tdsns0:Zip&gt;&#13;&#10;                        &lt;tdsns0:ZipPlus4&gt;MS&lt;/tdsns0:ZipPlus4&gt;&#13;&#10;                        &lt;tdsns0:Telephone&gt;8062&lt;/tdsns0:Telephone&gt;&#13;&#10;                        &lt;tdsns0:Description&gt;(694)974-1818&lt;/tdsns0:Description&gt;&#13;&#10;                        &lt;tdsns0:IsSupplierParticipating&gt;04&lt;/tdsns0:IsSupplierParticipating&gt;&#13;&#10;                    &lt;/tdsns0:SupplierData&gt;&#13;&#10;                &lt;/tdsns0:SupplierDatas&gt;&#13;&#10;                &lt;tdsns0:TotalRecords&gt;1&lt;/tdsns0:TotalRecords&gt;&#13;&#10;            &lt;/tdsns0:SupplierDataLists&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+<t id="15">
+<rq id="28" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">92625</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;92625&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;92625&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="29" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;            &lt;tdsns0:GetSupplierByZipCodeResult&gt;true&lt;/tdsns0:GetSupplierByZipCodeResult&gt;&#13;&#10;            &lt;tdsns0:SupplierDataLists&gt;&#13;&#10;                &lt;tdsns0:SupplierDatas&gt;&#13;&#10;                    &lt;tdsns0:SupplierData&gt;&#13;&#10;                        &lt;tdsns0:SupplierNumber&gt;53534-SA5-951&lt;/tdsns0:SupplierNumber&gt;&#13;&#10;                        &lt;tdsns0:CompanyName&gt;Vickers Engineering LTD&lt;/tdsns0:CompanyName&gt;&#13;&#10;                        &lt;tdsns0:Address1&gt;HC-3 BOX 8517&lt;/tdsns0:Address1&gt;&#13;&#10;                        &lt;tdsns0:Address2/&gt;&#13;&#10;                        &lt;tdsns0:City&gt;Wells tannery&lt;/tdsns0:City&gt;&#13;&#10;                        &lt;tdsns0:Zip&gt;{{=request_zip;/*92625*/}}&lt;/tdsns0:Zip&gt;&#13;&#10;                        &lt;tdsns0:ZipPlus4&gt;PA&lt;/tdsns0:ZipPlus4&gt;&#13;&#10;                        &lt;tdsns0:Telephone&gt;2696&lt;/tdsns0:Telephone&gt;&#13;&#10;                        &lt;tdsns0:Description&gt;(609)982-1318&lt;/tdsns0:Description&gt;&#13;&#10;                        &lt;tdsns0:IsSupplierParticipating&gt;04&lt;/tdsns0:IsSupplierParticipating&gt;&#13;&#10;                    &lt;/tdsns0:SupplierData&gt;&#13;&#10;                &lt;/tdsns0:SupplierDatas&gt;&#13;&#10;                &lt;tdsns0:TotalRecords&gt;1&lt;/tdsns0:TotalRecords&gt;&#13;&#10;            &lt;/tdsns0:SupplierDataLists&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+<t id="16">
+<rq id="30" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">70394</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;70394&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;70394&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="31" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;            &lt;tdsns0:GetSupplierByZipCodeResult&gt;true&lt;/tdsns0:GetSupplierByZipCodeResult&gt;&#13;&#10;            &lt;tdsns0:SupplierDataLists&gt;&#13;&#10;                &lt;tdsns0:SupplierDatas&gt;&#13;&#10;                    &lt;tdsns0:SupplierData&gt;&#13;&#10;                        &lt;tdsns0:SupplierNumber&gt;13321-634-003&lt;/tdsns0:SupplierNumber&gt;&#13;&#10;                        &lt;tdsns0:CompanyName&gt;Volkswagen United Kingdom LTD&lt;/tdsns0:CompanyName&gt;&#13;&#10;                        &lt;tdsns0:Address1&gt;CARR  SAN JOSE 87-1&lt;/tdsns0:Address1&gt;&#13;&#10;                        &lt;tdsns0:Address2/&gt;&#13;&#10;                        &lt;tdsns0:City&gt;Herndon&lt;/tdsns0:City&gt;&#13;&#10;                        &lt;tdsns0:Zip&gt;{{=request_zip;/*70394*/}}&lt;/tdsns0:Zip&gt;&#13;&#10;                        &lt;tdsns0:ZipPlus4&gt;VA&lt;/tdsns0:ZipPlus4&gt;&#13;&#10;                        &lt;tdsns0:Telephone&gt;8531&lt;/tdsns0:Telephone&gt;&#13;&#10;                        &lt;tdsns0:Description&gt;(886)578-1927&lt;/tdsns0:Description&gt;&#13;&#10;                        &lt;tdsns0:IsSupplierParticipating&gt;04&lt;/tdsns0:IsSupplierParticipating&gt;&#13;&#10;                    &lt;/tdsns0:SupplierData&gt;&#13;&#10;                &lt;/tdsns0:SupplierDatas&gt;&#13;&#10;                &lt;tdsns0:TotalRecords&gt;1&lt;/tdsns0:TotalRecords&gt;&#13;&#10;            &lt;/tdsns0:SupplierDataLists&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+<t id="17">
+<rq id="32" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">60481</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60481&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60481&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="33" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;            &lt;tdsns0:GetSupplierByZipCodeResult&gt;true&lt;/tdsns0:GetSupplierByZipCodeResult&gt;&#13;&#10;            &lt;tdsns0:SupplierDataLists&gt;&#13;&#10;                &lt;tdsns0:SupplierDatas&gt;&#13;&#10;                    &lt;tdsns0:SupplierData&gt;&#13;&#10;                        &lt;tdsns0:SupplierNumber&gt;38800-PEO-063&lt;/tdsns0:SupplierNumber&gt;&#13;&#10;                        &lt;tdsns0:CompanyName&gt;Telef&#65533;nica LTD&lt;/tdsns0:CompanyName&gt;&#13;&#10;                        &lt;tdsns0:Address1&gt;BOX 4026&lt;/tdsns0:Address1&gt;&#13;&#10;                        &lt;tdsns0:Address2/&gt;&#13;&#10;                        &lt;tdsns0:City&gt;Courtland&lt;/tdsns0:City&gt;&#13;&#10;                        &lt;tdsns0:Zip&gt;{{=request_zip;/*60481*/}}&lt;/tdsns0:Zip&gt;&#13;&#10;                        &lt;tdsns0:ZipPlus4&gt;MN&lt;/tdsns0:ZipPlus4&gt;&#13;&#10;                        &lt;tdsns0:Telephone&gt;5037&lt;/tdsns0:Telephone&gt;&#13;&#10;                        &lt;tdsns0:Description&gt;(533)650-1642&lt;/tdsns0:Description&gt;&#13;&#10;                        &lt;tdsns0:IsSupplierParticipating&gt;04&lt;/tdsns0:IsSupplierParticipating&gt;&#13;&#10;                    &lt;/tdsns0:SupplierData&gt;&#13;&#10;                &lt;/tdsns0:SupplierDatas&gt;&#13;&#10;                &lt;tdsns0:TotalRecords&gt;1&lt;/tdsns0:TotalRecords&gt;&#13;&#10;            &lt;/tdsns0:SupplierDataLists&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+<t id="18">
+<rq id="34" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">06063</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;06063&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;06063&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="35" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;            &lt;tdsns0:GetSupplierByZipCodeResult&gt;true&lt;/tdsns0:GetSupplierByZipCodeResult&gt;&#13;&#10;            &lt;tdsns0:SupplierDataLists&gt;&#13;&#10;                &lt;tdsns0:SupplierDatas&gt;&#13;&#10;                    &lt;tdsns0:SupplierData&gt;&#13;&#10;                        &lt;tdsns0:SupplierNumber&gt;45251-SB2-661&lt;/tdsns0:SupplierNumber&gt;&#13;&#10;                        &lt;tdsns0:CompanyName&gt;Saffery Champness LTD&lt;/tdsns0:CompanyName&gt;&#13;&#10;                        &lt;tdsns0:Address1&gt;HC-02 BZN 124523&lt;/tdsns0:Address1&gt;&#13;&#10;                        &lt;tdsns0:Address2/&gt;&#13;&#10;                        &lt;tdsns0:City&gt;Mills&lt;/tdsns0:City&gt;&#13;&#10;                        &lt;tdsns0:Zip&gt;{{=request_zip;/*06063*/}}&lt;/tdsns0:Zip&gt;&#13;&#10;                        &lt;tdsns0:ZipPlus4&gt;WY&lt;/tdsns0:ZipPlus4&gt;&#13;&#10;                        &lt;tdsns0:Telephone&gt;5735&lt;/tdsns0:Telephone&gt;&#13;&#10;                        &lt;tdsns0:Description&gt;(513)593-1951&lt;/tdsns0:Description&gt;&#13;&#10;                        &lt;tdsns0:IsSupplierParticipating&gt;04&lt;/tdsns0:IsSupplierParticipating&gt;&#13;&#10;                    &lt;/tdsns0:SupplierData&gt;&#13;&#10;                &lt;/tdsns0:SupplierDatas&gt;&#13;&#10;                &lt;tdsns0:TotalRecords&gt;1&lt;/tdsns0:TotalRecords&gt;&#13;&#10;            &lt;/tdsns0:SupplierDataLists&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+<t id="19">
+<rq id="36" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">13126</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;13126&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;13126&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="37" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;            &lt;tdsns0:GetSupplierByZipCodeResult&gt;true&lt;/tdsns0:GetSupplierByZipCodeResult&gt;&#13;&#10;            &lt;tdsns0:SupplierDataLists&gt;&#13;&#10;                &lt;tdsns0:SupplierDatas&gt;&#13;&#10;                    &lt;tdsns0:SupplierData&gt;&#13;&#10;                        &lt;tdsns0:SupplierNumber&gt;061B1-PH2-010&lt;/tdsns0:SupplierNumber&gt;&#13;&#10;                        &lt;tdsns0:CompanyName&gt;Georg Wimpey LTD&lt;/tdsns0:CompanyName&gt;&#13;&#10;                        &lt;tdsns0:Address1&gt;HC 01 BOX 4551 SABANA HOYOS&lt;/tdsns0:Address1&gt;&#13;&#10;                        &lt;tdsns0:Address2/&gt;&#13;&#10;                        &lt;tdsns0:City&gt;Vansant&lt;/tdsns0:City&gt;&#13;&#10;                        &lt;tdsns0:Zip&gt;{{=request_zip;/*13126*/}}&lt;/tdsns0:Zip&gt;&#13;&#10;                        &lt;tdsns0:ZipPlus4&gt;VA&lt;/tdsns0:ZipPlus4&gt;&#13;&#10;                        &lt;tdsns0:Telephone&gt;8918&lt;/tdsns0:Telephone&gt;&#13;&#10;                        &lt;tdsns0:Description&gt;(692)115-1125&lt;/tdsns0:Description&gt;&#13;&#10;                        &lt;tdsns0:IsSupplierParticipating&gt;04&lt;/tdsns0:IsSupplierParticipating&gt;&#13;&#10;                    &lt;/tdsns0:SupplierData&gt;&#13;&#10;                &lt;/tdsns0:SupplierDatas&gt;&#13;&#10;                &lt;tdsns0:TotalRecords&gt;1&lt;/tdsns0:TotalRecords&gt;&#13;&#10;            &lt;/tdsns0:SupplierDataLists&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCodeResponse&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="38" op="GetSupplierByZipCode" tl="SIGNATURE">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">60532</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60532&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60532&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="39" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;   &lt;soap:Body&gt;&#13;&#10;      &lt;GetSupplierByZipCodeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;         &lt;GetSupplierByZipCodeResult&gt;true&lt;/GetSupplierByZipCodeResult&gt;&#13;&#10;         &lt;SupplierDataLists&gt;&#13;&#10;            &lt;SupplierDatas&gt;&#13;&#10;               &lt;SupplierData&gt;&#13;&#10;                  &lt;SupplierNumber&gt;0194080005&lt;/SupplierNumber&gt;&#13;&#10;                  &lt;CompanyName&gt;DOCS DRUGS LTD&lt;/CompanyName&gt;&#13;&#10;                  &lt;Address1&gt;1020 MAPLE AVE&lt;/Address1&gt;&#13;&#10;                  &lt;Address2/&gt;&#13;&#10;                  &lt;City&gt;LISLE&lt;/City&gt;&#13;&#10;                  &lt;Zip&gt;{{=request_zip;/*60532*/}}&lt;/Zip&gt;&#13;&#10;                  &lt;ZipPlus4&gt;IL&lt;/ZipPlus4&gt;&#13;&#10;                  &lt;Telephone&gt;2329&lt;/Telephone&gt;&#13;&#10;                  &lt;Description&gt;(630)968-4165&lt;/Description&gt;&#13;&#10;                  &lt;IsSupplierParticipating&gt;04&lt;/IsSupplierParticipating&gt;&#13;&#10;               &lt;/SupplierData&gt;&#13;&#10;             &lt;/SupplierDatas&gt;&#13;&#10;            &lt;TotalRecords&gt;1&lt;/TotalRecords&gt;&#13;&#10;         &lt;/SupplierDataLists&gt;&#13;&#10;      &lt;/GetSupplierByZipCodeResponse&gt;&#13;&#10;   &lt;/soap:Body&gt;&#13;&#10;&lt;/soap:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="22" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="21" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

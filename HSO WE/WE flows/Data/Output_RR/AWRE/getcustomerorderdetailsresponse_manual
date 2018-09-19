@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Body>
+    <pfx3:esiGetCustomerOrderDetailsResponse xmlns:pfx3="http://www.t-mobile.com/esi/order/getcustomerorderdetails" xmlns:ns="http://www.t-mobile.com/esi/base" xmlns:ns20="http://www.t-mobile.com/eo/contact/notificationtype" xmlns:pfx5="http://www.t-mobile.com/eo/address/address" xmlns:pfx4="http://services.tmobile.com/eo/receipt" xmlns:tib="http://www.tibco.com/bw/xslt/custom-functions" xmlns:pfx2="http://xmlns.example.com/unique/default/namespace/1073503881527" xmlns:ns16="http://www.t-mobile.com/eo/omsorderdetails" xmlns:ns17="http://www.t-mobile.com/eo/shipment/estimatedshipdate" xmlns:ns14="http://services.tmobile.com/eo/receipt/receiptdetails" xmlns:ns15="http://www.t-mobile.com/co/omsorderdetails" xmlns:ns18="http://www.t-mobile.com/co/contact/notificationtype" xmlns:ns9="http://www.t-mobile.com/co/product/accessory" xmlns:ns12="http://www.tibco.com/pe/GenerateErrorActivity/InputSchema" xmlns:ns5="http://www.t-mobile.com/co/orderdetails" xmlns:ns13="http://services.tmobile.com/co/receipt/receiptdetails" xmlns:ns6="http://www.t-mobile.com/csi/base" xmlns:ns10="http://www.t-mobile.com/eo/product/accessory" xmlns:ns7="http://www.t-mobile.com/co/order/base" xmlns:pfx="http://www.t-mobile.com/csi/order/getorderdetails" xmlns:ns11="http://services.tmobile.com/co/receipt" xmlns:ns8="http://www.t-mobile.com/eo/orderdetails" xmlns:ns2="http://www.tibco.com/pe/DeployedVarsType" xmlns:pd="http://xmlns.tibco.com/bw/process/2003" xmlns:ns1="http://www.tibco.com/pe/EngineTypes" xmlns:ns4="http://www.t-mobile.com/eo/common" xmlns:ns3="http://www.t-mobile.com/eo/order/base" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <ns:status>
+        <ns:statusCode>100</ns:statusCode>
+        <ns:statusMessage>Success</ns:statusMessage>
+      </ns:status>
+      <pfx3:eipInfo />
+      <pfx3:retrieveReceiptError>true</pfx3:retrieveReceiptError>
+      <pfx3:OMSOrder>
+        <pfx3:orderDetails>
+          <ns16:id>S000104545</ns16:id>
+          <ns16:fulfillmentOrderId />
+          <ns16:status>PendingShipping</ns16:status>
+          <ns16:selectionStatus>CONFIRMEDORDER</ns16:selectionStatus>
+          <ns16:orderCategory>Sale</ns16:orderCategory>
+          <ns16:orderType>STANDARD</ns16:orderType>
+          <ns16:totalCharges>
+            <ns16:linesTotal>7.48</ns16:linesTotal>
+            <ns16:headerCharge>6.99</ns16:headerCharge>
+            <ns16:headerDiscount>0.0</ns16:headerDiscount>
+            <ns16:headerTax>0.49</ns16:headerTax>
+            <ns16:headerTotal>7.48</ns16:headerTotal>
+            <ns16:shippingTax>0.49</ns16:shippingTax>
+            <ns16:shippingTotal>6.99</ns16:shippingTotal>
+            <ns16:charge>6.99</ns16:charge>
+            <ns16:discount>0.0</ns16:discount>
+            <ns16:tax>0.49</ns16:tax>
+            <ns16:total>7.48</ns16:total>
+            <ns16:chargeSummary>
+              <ns16:amount>0.0</ns16:amount>
+              <ns16:name>RetailPrice</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+            </ns16:chargeSummary>
+            <ns16:chargeSummary>
+              <ns16:amount>0.0</ns16:amount>
+              <ns16:name>RestockingFee</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:additionalDescription>RSKFE</ns16:additionalDescription>
+            </ns16:chargeSummary>
+            <ns16:chargeSummary>
+              <ns16:amount>6.99</ns16:amount>
+              <ns16:name>Shipping</ns16:name>
+              <ns16:category>Shipping</ns16:category>
+              <ns16:additionalDescription>SHIPP</ns16:additionalDescription>
+            </ns16:chargeSummary>
+            <ns16:chargeSummary>
+              <ns16:amount>0.0</ns16:amount>
+              <ns16:name>DefectiveSKU</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:additionalDescription>yes</ns16:additionalDescription>
+            </ns16:chargeSummary>
+            <ns16:chargeSummary>
+              <ns16:amount>0.0</ns16:amount>
+              <ns16:name>ReplacementSKU</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:additionalDescription>yes</ns16:additionalDescription>
+            </ns16:chargeSummary>
+            <ns16:chargeSummary>
+              <ns16:amount>0.0</ns16:amount>
+              <ns16:name>OOWFee</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:additionalDescription>TLACC</ns16:additionalDescription>
+            </ns16:chargeSummary>
+          </ns16:totalCharges>
+          <ns16:archived>false</ns16:archived>
+          <ns16:eipInfo>
+            <ns16:firstInstallment>0.0</ns16:firstInstallment>
+            <ns16:paymentMethod />
+            <ns16:monthlyPaymentWithTax>0.0</ns16:monthlyPaymentWithTax>
+            <ns16:remainingFinancedAmountWithTax>0.0</ns16:remainingFinancedAmountWithTax>
+          </ns16:eipInfo>
+          <ns16:accountInfo>
+            <ns16:accountNumber>955224675</ns16:accountNumber>
+            <ns16:accountStatus />
+            <ns16:accountType>I</ns16:accountType>
+            <ns16:accountSubType>R</ns16:accountSubType>
+            <ns16:creditClass />
+            <ns16:billingContact>
+              <ns16:personName>
+                <ns16:fullName>DLM RETAIL DATA DONOTUSE</ns16:fullName>
+                <ns16:firstName>DLM</ns16:firstName>
+                <ns16:familyName>RETAIL DATA DONOTUSE</ns16:familyName>
+              </ns16:personName>
+              <ns16:addressCommunication>
+                <ns16:address>
+                  <ns16:addressLine1>1 RAVINIA DR STE 1000</ns16:addressLine1>
+                  <ns16:addressLine2 />
+                  <ns16:cityName>ATLANTA</ns16:cityName>
+                  <ns16:stateName>GA</ns16:stateName>
+                  <ns16:countryName>USA</ns16:countryName>
+                  <ns16:postalCode>30346</ns16:postalCode>
+                </ns16:address>
+              </ns16:addressCommunication>
+              <ns16:phoneCommunication>
+                <ns16:phoneNumber />
+              </ns16:phoneCommunication>
+              <ns16:emailCommunication />
+            </ns16:billingContact>
+            <ns16:billingMethod />
+            <ns16:creditRiskProfile>
+              <ns16:behaviorScore />
+              <ns16:decisionCriteria />
+              <ns16:creditApplicationReferenceNumber />
+            </ns16:creditRiskProfile>
+            <ns16:eipInfo />
+          </ns16:accountInfo>
+          <ns16:paymentStatus>AWAIT_PAY_INFO</ns16:paymentStatus>
+          <ns16:payment>
+            <ns16:card>
+              <ns16:category>HYBRID</ns16:category>
+            </ns16:card>
+            <ns16:suspended>false</ns16:suspended>
+            <ns16:paymentType>DPY</ns16:paymentType>
+            <ns16:personName />
+            <ns16:displayCardNumber />
+            <ns16:displayPrimaryAccountNo />
+            <ns16:totalRefundedAmount>0.0</ns16:totalRefundedAmount>
+            <ns16:totalChargeAmount>0.0</ns16:totalChargeAmount>
+            <ns16:requestedChargeAmount>0.0</ns16:requestedChargeAmount>
+            <ns16:requestedAuthAmount>0.0</ns16:requestedAuthAmount>
+            <ns16:transactionDetails>
+              <ns16:authProcessStatus>OPEN</ns16:authProcessStatus>
+              <ns16:authStatus>Success</ns16:authStatus>
+              <ns16:requestedAmount>0.0</ns16:requestedAmount>
+              <ns16:chargeType>CREATE_ORDER</ns16:chargeType>
+              <ns16:authExpiryDate>2017-08-24T23:02:35-04:00</ns16:authExpiryDate>
+            </ns16:transactionDetails>
+          </ns16:payment>
+          <ns16:notification>
+            <ns16:notificationPreference>S</ns16:notificationPreference>
+            <ns16:MSISDN>7138948601</ns16:MSISDN>
+          </ns16:notification>
+          <ns16:receiptNotification />
+          <ns16:headerCharge>
+            <ns16:amount>6.99</ns16:amount>
+            <ns16:name>Shipping</ns16:name>
+            <ns16:category>Shipping</ns16:category>
+            <ns16:additionalDescription>SHIPP</ns16:additionalDescription>
+            <ns16:refundEligible>false</ns16:refundEligible>
+          </ns16:headerCharge>
+          <ns16:tax>
+            <ns16:taxDetail>
+              <ns16:amount>0.49</ns16:amount>
+              <ns16:name>SHIPPINGTAX</ns16:name>
+              <ns16:percentage>0.07</ns16:percentage>
+              <ns16:chargeCategory>SHIPPINGTAX</ns16:chargeCategory>
+              <ns16:chargeName>SHIPPINGTAX</ns16:chargeName>
+              <ns16:invoicedAmount>0.0</ns16:invoicedAmount>
+              <ns16:refundEligible>false</ns16:refundEligible>
+            </ns16:taxDetail>
+            <ns16:totalTax>0.49</ns16:totalTax>
+          </ns16:tax>
+          <ns16:orderLine>
+            <ns16:id>20170824230221183087141</ns16:id>
+            <ns16:fulfillmentLineId>10</ns16:fulfillmentLineId>
+            <ns16:deliveryMethod>SHP</ns16:deliveryMethod>
+            <ns16:sequenceNumber>1.1</ns16:sequenceNumber>
+            <ns16:description>SAM N920T NOTE 5 32G BLK EXCH</ns16:description>
+            <ns16:shortDescription>XSAMN920TB32</ns16:shortDescription>
+            <ns16:kitCode />
+            <ns16:quantity>1</ns16:quantity>
+            <ns16:unitOfMeasure>EA</ns16:unitOfMeasure>
+            <ns16:status>Created</ns16:status>
+            <ns16:charge>
+              <ns16:amount>34.55</ns16:amount>
+              <ns16:name>RestockingFee</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:additionalDescription>RSKFE</ns16:additionalDescription>
+              <ns16:refundEligible>false</ns16:refundEligible>
+              <ns16:reference>RSKFE</ns16:reference>
+              <ns16:SOC>RSKFEE</ns16:SOC>
+              <ns16:chargePerLine>34.55</ns16:chargePerLine>
+            </ns16:charge>
+            <ns16:charge>
+              <ns16:amount>25.55</ns16:amount>
+              <ns16:name>OOWFee</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:additionalDescription>TLACC</ns16:additionalDescription>
+              <ns16:refundEligible>false</ns16:refundEligible>
+              <ns16:reference>TLACC</ns16:reference>
+              <ns16:SOC>OOWFEE</ns16:SOC>
+              <ns16:chargePerLine>25.55</ns16:chargePerLine>
+            </ns16:charge>
+            <ns16:charge>
+              <ns16:amount>0.0</ns16:amount>
+              <ns16:name>RetailPrice</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:refundEligible>false</ns16:refundEligible>
+              <ns16:reference />
+              <ns16:chargePerLine>0</ns16:chargePerLine>
+            </ns16:charge>
+            <ns16:charge>
+              <ns16:amount>0.0</ns16:amount>
+              <ns16:name>ReplacementSKU</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:additionalDescription>yes</ns16:additionalDescription>
+              <ns16:refundEligible>false</ns16:refundEligible>
+              <ns16:reference>yes</ns16:reference>
+              <ns16:chargePerLine>0</ns16:chargePerLine>
+            </ns16:charge>
+            <ns16:tax>
+              <ns16:taxDetail>
+                <ns16:amount>0.0</ns16:amount>
+                <ns16:name>SALESTAX</ns16:name>
+                <ns16:percentage>0.07</ns16:percentage>
+                <ns16:chargeCategory>SALESTAX</ns16:chargeCategory>
+                <ns16:chargeName>SALESTAX</ns16:chargeName>
+                <ns16:invoicedAmount>0.0</ns16:invoicedAmount>
+                <ns16:refundEligible>false</ns16:refundEligible>
+              </ns16:taxDetail>
+              <ns16:totalTax>0.0</ns16:totalTax>
+            </ns16:tax>
+            <ns16:priceInfo>
+              <ns16:unitPrice>0.0</ns16:unitPrice>
+              <ns16:salePrice>0.0</ns16:salePrice>
+              <ns16:retailPrice>0.0</ns16:retailPrice>
+            </ns16:priceInfo>
+            <ns16:eipInfo>
+              <ns16:depositIndicator>false</ns16:depositIndicator>
+            </ns16:eipInfo>
+            <ns16:sku>XSAMN920TB32</ns16:sku>
+            <ns16:planType />
+            <ns16:UPCCode />
+            <ns16:itemType>Device</ns16:itemType>
+            <ns16:subscriberInfo>
+              <ns16:MSISDN>7138948601</ns16:MSISDN>
+              <ns16:tradeInDetails>
+                <ns16:deviceInfo />
+                <ns16:claimInfo />
+                <ns16:promotionInfo>
+                  <ns16:discount />
+                </ns16:promotionInfo>
+              </ns16:tradeInDetails>
+              <ns16:eligibleForEarlyUpgrade>false</ns16:eligibleForEarlyUpgrade>
+              <ns16:customerAccountType>POSTPAID</ns16:customerAccountType>
+            </ns16:subscriberInfo>
+            <ns16:eligibilityForReturn>false</ns16:eligibilityForReturn>
+            <ns16:references>
+              <ns16:reference Name="SocEffectiveDate" Value="" />
+              <ns16:reference Name="ProductType" Value="" />
+              <ns16:reference Name="SocIndicator" Value="" />
+              <ns16:reference Name="Level" Value="" />
+              <ns16:reference Name="FirstUseDate" Value="" />
+              <ns16:reference Name="LastUseDate" Value="" />
+              <ns16:reference Name="WarrantyExpirationDate" Value="" />
+              <ns16:reference Name="IsAddDevice" Value="" />
+              <ns16:reference Name="SoftwareVersion" Value="" />
+              <ns16:reference Name="InsuranceReplacementIndicator" Value="" />
+              <ns16:reference Name="DeviceType" Value="" />
+              <ns16:reference Name="DeviceRepairLocation" Value="" />
+            </ns16:references>
+          </ns16:orderLine>
+          <ns16:orderLine>
+            <ns16:id>20170824230221183087142</ns16:id>
+            <ns16:fulfillmentLineId>20</ns16:fulfillmentLineId>
+            <ns16:deliveryMethod>SHP</ns16:deliveryMethod>
+            <ns16:sequenceNumber>2.1</ns16:sequenceNumber>
+            <ns16:description>Samsung - Galaxy Note 3</ns16:description>
+            <ns16:shortDescription>XSAMN920TB32</ns16:shortDescription>
+            <ns16:kitCode />
+            <ns16:quantity>1</ns16:quantity>
+            <ns16:unitOfMeasure>EA</ns16:unitOfMeasure>
+            <ns16:status>Created</ns16:status>
+            <ns16:charge>
+              <ns16:amount>0.0</ns16:amount>
+              <ns16:name>DefectiveSKU</ns16:name>
+              <ns16:category>InfoOnly</ns16:category>
+              <ns16:additionalDescription>yes</ns16:additionalDescription>
+              <ns16:refundEligible>false</ns16:refundEligible>
+              <ns16:reference>yes</ns16:reference>
+              <ns16:chargePerLine>0</ns16:chargePerLine>
+            </ns16:charge>
+            <ns16:tax />
+            <ns16:priceInfo>
+              <ns16:unitPrice>0.0</ns16:unitPrice>
+              <ns16:salePrice>0.0</ns16:salePrice>
+            </ns16:priceInfo>
+            <ns16:eipInfo>
+              <ns16:depositIndicator>false</ns16:depositIndicator>
+            </ns16:eipInfo>
+            <ns16:sku>XSAMN920TB32</ns16:sku>
+            <ns16:planType />
+            <ns16:UPCCode />
+            <ns16:itemType>Device</ns16:itemType>
+            <ns16:subscriberInfo>
+              <ns16:MSISDN>7138948601</ns16:MSISDN>
+              <ns16:serialNumber>353756073978470</ns16:serialNumber>
+              <ns16:tradeInDetails>
+                <ns16:deviceInfo />
+                <ns16:claimInfo />
+                <ns16:promotionInfo>
+                  <ns16:discount />
+                </ns16:promotionInfo>
+              </ns16:tradeInDetails>
+              <ns16:eligibleForEarlyUpgrade>false</ns16:eligibleForEarlyUpgrade>
+              <ns16:customerAccountType>POSTPAID</ns16:customerAccountType>
+            </ns16:subscriberInfo>
+            <ns16:eligibilityForReturn>false</ns16:eligibilityForReturn>
+            <ns16:isAddDevice>true</ns16:isAddDevice>
+            <ns16:references>
+              <ns16:reference Name="SocEffectiveDate" Value="" />
+              <ns16:reference Name="ProductType" Value="" />
+              <ns16:reference Name="SocIndicator" Value="" />
+              <ns16:reference Name="Level" Value="" />
+              <ns16:reference Name="FirstUseDate" Value="2017-07-23T21:25:52Z" />
+              <ns16:reference Name="LastUseDate" Value="2017-07-26T21:25:52Z" />
+              <ns16:reference Name="WarrantyExpirationDate" Value="2018-07-23T07:00:00Z" />
+              <ns16:reference Name="IsAddDevice" Value="true" />
+              <ns16:reference Name="SoftwareVersion" Value="" />
+              <ns16:reference Name="InsuranceReplacementIndicator" Value="" />
+              <ns16:reference Name="DeviceType" Value="T-Mobile - New" />
+              <ns16:reference Name="DeviceRepairLocation" Value="" />
+            </ns16:references>
+          </ns16:orderLine>
+          <ns16:createdBy>
+            <ns16:channelId>RETAIL</ns16:channelId>
+            <ns16:dealerCode>0000002</ns16:dealerCode>
+            <ns16:userName>admin</ns16:userName>
+            <ns16:time>2017-08-24T23:02:21-04:00</ns16:time>
+          </ns16:createdBy>
+          <ns16:modifiedBy>
+            <ns16:channelId>RETAIL</ns16:channelId>
+            <ns16:dealerCode>0000002</ns16:dealerCode>
+            <ns16:storeId>TMobileUS</ns16:storeId>
+            <ns16:userName>Superusr</ns16:userName>
+            <ns16:time>2017-08-24T23:02:40-04:00</ns16:time>
+          </ns16:modifiedBy>
+          <ns16:shippingInfo>
+            <ns16:shippingMode>
+              <ns16:code>10</ns16:code>
+              <ns16:description>UPS Ground - Up to 7 business days ($6.99)</ns16:description>
+              <ns16:cost>6.99</ns16:cost>
+            </ns16:shippingMode>
+            <ns16:shipToContact>
+              <ns16:personName>
+                <ns16:fullName>DLM RETAIL DATA DONOTUSE</ns16:fullName>
+                <ns16:firstName>DLM</ns16:firstName>
+                <ns16:familyName>RETAIL DATA DONOTUSE</ns16:familyName>
+              </ns16:personName>
+              <ns16:addressCommunication>
+                <ns16:address>
+                  <ns16:addressLine1>1 RAVINIA DR STE 1000</ns16:addressLine1>
+                  <ns16:addressLine2 />
+                  <ns16:cityName>ATLANTA</ns16:cityName>
+                  <ns16:stateName>GA</ns16:stateName>
+                  <ns16:countryName>USA</ns16:countryName>
+                  <ns16:postalCode>30346</ns16:postalCode>
+                  <ns16:urbanizationName />
+                  <ns16:additionalNotes />
+                </ns16:address>
+              </ns16:addressCommunication>
+              <ns16:emailCommunication />
+            </ns16:shipToContact>
+          </ns16:shippingInfo>
+          <ns16:returnDeviceInfo />
+          <ns16:note>
+            <ns16:reasonCode>Audio / Speaker Issues</ns16:reasonCode>
+          </ns16:note>
+          <ns16:note>
+            <ns16:reasonCode />
+          </ns16:note>
+          <ns16:transactionType>WARRANTYEXCHANGE</ns16:transactionType>
+          <ns16:shipmentTrackingNumber>1Z3V891F0226409465</ns16:shipmentTrackingNumber>
+          <ns16:isTaxExempt>True</ns16:isTaxExempt>
+          <ns16:estimatedShipDate>
+            <ns17:from>2017-08-24</ns17:from>
+            <ns17:to>2017-08-29</ns17:to>
+          </ns16:estimatedShipDate>
+          <ns16:initiatingStoreId>451</ns16:initiatingStoreId>
+          <ns16:orderTypeVersion>AdvancedExchange</ns16:orderTypeVersion>
+          <ns16:isPHPDeclined>true</ns16:isPHPDeclined>
+          <ns16:references>
+            <ns16:reference Name="OverrideType" Value="" />
+            <ns16:reference Name="OverrideBy" Value="" />
+            <ns16:reference Name="Reason" Value="" />
+            <ns16:reference Name="ServiceActivationDate" Value="2017-01-20T08:00:00Z" />
+            <ns16:reference Name="IsPHPDeclined" Value="true" />
+            <ns16:reference Name="PickupStoreId" Value="" />
+            <ns16:reference Name="InitiatingStoreId" Value="451" />
+            <ns16:reference Name="CompanyCode" Value="" />
+            <ns16:reference Name="OrderTypeVersion" Value="AdvancedExchange" />
+            <ns16:reference Name="StatusCode" Value="PS" />
+          </ns16:references>
+        </pfx3:orderDetails>
+      </pfx3:OMSOrder>
+    </pfx3:esiGetCustomerOrderDetailsResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

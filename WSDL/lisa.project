@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<Project>
+<Name>WSDL</Name>
+<Version>V2</Version>
+<Notes></Notes>
+<ActiveConfig>{{LISA_RELATIVE_PROJ_ROOT}}/Configs/project.config</ActiveConfig>
+<ProjectPrefs>
+<Pref>
+<Key>rh.proj.info</Key>
+<Value>&lt;com.ca.lisa.core.project.ProjectService_-ResourceInfoMapImpl resolves-to=&quot;com.ca.lisa.core.project.ProjectService$ResourceInfoMapImpl$SProxy&quot;&gt;&#10;  &lt;projectResources&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;WSDL\VirtualServices\WSDL.vsm&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;lVJ6W&lt;/id&gt;&#10;        &lt;providerKey&gt;WSDL\VirtualServices\WSDL.vsm&lt;/providerKey&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;WSDL\Tests\jdbc.tst&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;otOq7&lt;/id&gt;&#10;        &lt;providerKey&gt;WSDL\Tests\jdbc.tst&lt;/providerKey&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;WSDL\Tests\wsdl.tst&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;qegoW&lt;/id&gt;&#10;        &lt;providerKey&gt;WSDL\Tests\wsdl.tst&lt;/providerKey&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;  &lt;/projectResources&gt;&#10;  &lt;idsToKeys&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;otOq7&lt;/string&gt;&#10;      &lt;string&gt;WSDL\Tests\jdbc.tst&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;lVJ6W&lt;/string&gt;&#10;      &lt;string&gt;WSDL\VirtualServices\WSDL.vsm&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;qegoW&lt;/string&gt;&#10;      &lt;string&gt;WSDL\Tests\wsdl.tst&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;  &lt;/idsToKeys&gt;&#10;&lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfoMapImpl&gt;</Value>
+</Pref>
+</ProjectPrefs>
+</Project>

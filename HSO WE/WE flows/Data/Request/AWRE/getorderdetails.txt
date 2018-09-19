@@ -1,0 +1,4 @@
+https://qattbco522.unix.gsm1900.org:7116/service/rest/v1/CommerceManagement/Order/GetOrderDetails?orderId=S000098072&senderId=ACUI&applicationId=ACUI&channelId=RETAIL&requestId=1588561608134158130&workflowId=1588383487250482464&sessionId=cf36a531d7d9bd2a:-7f75af4d:15dbb1bc258:-2f95&applicationUserId=superusr&dealerCode=0000002&storeId=7806&customerCompanyId=TMobileUS 
+
+
+______http://qattbco522.unix.gsm1900.org:7115/service/rest/v1/CommerceManagement/Order/GetOrderDetails?senderId=ACUI&customerCompanyId=TMobileUS&channelId=RETAIL&applicationId=ACUI&dealerCode=100003&storeId=10157&sessionId=cf36a531d7d9bd2a:-6fd94eae:15d3081e239:-403d&orderId=S000068323&orderCategory=Sale 

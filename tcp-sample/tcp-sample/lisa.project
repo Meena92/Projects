@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<Project>
+<Name>tcp-sample</Name>
+<Version>V2</Version>
+<Notes></Notes>
+<ActiveConfig>{{LISA_RELATIVE_PROJ_ROOT}}/Configs/project.config</ActiveConfig>
+<ProjectPrefs>
+<Pref>
+<Key>rh.proj.info</Key>
+<Value>&lt;com.ca.lisa.core.project.ProjectService_-ResourceInfoMapImpl resolves-to=&quot;com.ca.lisa.core.project.ProjectService$ResourceInfoMapImpl$SProxy&quot;&gt;&#10;  &lt;projectResources&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;tcp-sample\tcp-sample\VirtualServices\VRScenarios\TransformationService-v3.vsm&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;bitFc1zAIseRNl0harezWFGdoyX_-&lt;/id&gt;&#10;        &lt;providerKey&gt;tcp-sample\tcp-sample\VirtualServices\VRScenarios\TransformationService-v3.vsm&lt;/providerKey&gt;&#10;        &lt;grouping&gt;VRScenarios&lt;/grouping&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;tcp-sample\tcp-sample\Tests\TransformationServiceTest-v3.tst&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;t1m2FPC082TnzMho6imAKaBDtzwojCZjW&lt;/id&gt;&#10;        &lt;providerKey&gt;tcp-sample\tcp-sample\Tests\TransformationServiceTest-v3.tst&lt;/providerKey&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;  &lt;/projectResources&gt;&#10;  &lt;idsToKeys&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;bitFc1zAIseRNl0harezWFGdoyX_-&lt;/string&gt;&#10;      &lt;string&gt;tcp-sample\tcp-sample\VirtualServices\VRScenarios\TransformationService-v3.vsm&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;t1m2FPC082TnzMho6imAKaBDtzwojCZjW&lt;/string&gt;&#10;      &lt;string&gt;tcp-sample\tcp-sample\Tests\TransformationServiceTest-v3.tst&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;  &lt;/idsToKeys&gt;&#10;&lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfoMapImpl&gt;</Value>
+</Pref>
+</ProjectPrefs>
+</Project>

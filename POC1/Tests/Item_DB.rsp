@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Wed Feb 07 16:13:03 IST 2018 -->
+
+
+<Results name="Item_DB">
+
+
+    <Result node="JDBC">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.jdbc.JDBCResultSetCache>
+  <rows>
+    <list>
+      <string>&apos;DSY&apos;</string>
+      <string>&apos;UPDATE&apos;</string>
+      <string>&apos;#ACC-2901VOI126&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;Item 2.2&apos;</string>
+      <string>&apos;Some New Item&apos;</string>
+      <string>&apos;SALSTCFG&apos;</string>
+      <string>&apos;C&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;EACH&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;ISSUABLE&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;Y&apos;</string>
+      <string>&apos;T&apos;</string>
+      <string>&apos;Dell&apos;</string>
+      <string>&apos;Laptop&apos;</string>
+      <string>&apos;Y&apos;</string>
+      <string>&apos;N&apos;</string>
+      <string>&apos;Y&apos;</string>
+      <string>&apos;N&apos;</string>
+      <string>&apos;N&apos;</string>
+      <string>&apos;Special&apos;</string>
+      <string>&apos;Y&apos;</string>
+      <string>&apos;Y&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+      <string>&apos;&apos;</string>
+    </list>
+  </rows>
+  <columns>
+    <string>CUSTOMERID</string>
+    <string>ACTIONTYPE</string>
+    <string>CUSTOMERITEMNUMBER</string>
+    <string>BTITEMNUMBER</string>
+    <string>ITEMNAME</string>
+    <string>ITEMDESC</string>
+    <string>CUSTOMERBUSINESSDIVISION</string>
+    <string>ITEMCLASS</string>
+    <string>PRODUCTGROUPCODE</string>
+    <string>ITEMUNITOFMEASURE</string>
+    <string>SAFETYANDREGULATORYFACTORS</string>
+    <string>LIFECYCLESTATUS</string>
+    <string>PRIMESUPPLIERID</string>
+    <string>SERIALNUMBERREQUIREDFLAG</string>
+    <string>SERIALTRACELEVEL</string>
+    <string>MANUFACTURERNAME</string>
+    <string>MANUFACTURERPARTNUMBER</string>
+    <string>CONTAINSLITHIUMBATTERIES</string>
+    <string>REPAIRORSCRAPINDICATOR</string>
+    <string>CONSUMABLE</string>
+    <string>RETURNABLE</string>
+    <string>SPECIALHANDLING</string>
+    <string>SPECIALHANDLINGINSTRUCTIONS</string>
+    <string>REPAIRAVOIDANCE</string>
+    <string>CUSTOMEROWNED</string>
+    <string>GENERICATTRIBUTE1</string>
+    <string>GENERICATTRIBUTE2</string>
+    <string>GENERICATTRIBUTE3</string>
+    <string>GENERICATTRIBUTE4</string>
+    <string>GENERICATTRIBUTE5</string>
+    <string>GENERICFLAG1</string>
+    <string>GENERICFLAG2</string>
+    <string>GENERICFLAG3</string>
+    <string>GENERICFLAG4</string>
+    <string>GENERICFLAG5</string>
+  </columns>
+  <maxRows>2147483647</maxRows>
+  <columnCount>35</columnCount>
+</com.itko.lisa.jdbc.JDBCResultSetCache>]]></content>
+    </Result>
+
+
+</Results>

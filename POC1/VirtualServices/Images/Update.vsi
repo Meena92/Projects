@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="963" name="Update" created="2018-02-07.15:04:48.794" lastModified="2018-02-07.15:21:45.519" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="962" nd="true" ads="true">
+<sp>
+<t id="966">
+<rq id="967" op="ItemRequest" tl="EXACT">
+<ag>
+<p n="ItemElement_BusinessOperation" t="arg:EQUALS;false;;;;">Op</p>
+<p n="ItemElement_CustomerId" t="arg:EQUALS;true;;;;">DSY</p>
+<p n="ItemElement_ActionType" t="arg:EQUALS;false;;;;">UPDATE</p>
+<p n="ItemElement_CustomerItemNumber" t="arg:EQUALS;false;;;;">#ACC-2901VOI126</p>
+<p n="ItemElement_BTItemNumber" t="arg:EQUALS;false;;;;"></p>
+<p n="ItemElement_ItemName" t="arg:EQUALS;false;;;;">Item 2.2</p>
+<p n="ItemElement_ItemDesc" t="arg:EQUALS;false;;;;">Some New Item</p>
+<p n="ItemElement_CustomerBusinessDivision" t="arg:EQUALS;false;;;;">SALSTCFG</p>
+<p n="ItemElement_ItemClass" t="arg:EQUALS;false;;;;">C</p>
+<p n="ItemElement_ItemUnitOfMeasure" t="arg:EQUALS;false;;;;">EACH</p>
+<p n="ItemElement_LifecycleStatus" t="arg:EQUALS;false;;;;">ISSUABLE</p>
+<p n="ItemElement_SerialNumberRequiredFlag" t="arg:EQUALS;false;;;;">Y</p>
+<p n="ItemElement_SerialTraceLevel" t="arg:EQUALS;false;;;;">T</p>
+<p n="ItemElement_ManufacturerName" t="arg:EQUALS;false;;;;">Dell</p>
+<p n="ItemElement_ManufacturerPartNumber" t="arg:EQUALS;false;;;;">Laptop</p>
+<p n="ItemElement_ContainsLithiumBatteries" t="arg:EQUALS;false;;;;">Y</p>
+<p n="ItemElement_RepairOrScrapIndicator" t="arg:EQUALS;false;;;;">N</p>
+<p n="ItemElement_Consumable" t="arg:EQUALS;false;;;;">Y</p>
+<p n="ItemElement_Returnable" t="arg:EQUALS;false;;;;">N</p>
+<p n="ItemElement_SpecialHandling" t="arg:EQUALS;false;;;;">N</p>
+<p n="ItemElement_SpecialHandlingInstructions" t="arg:EQUALS;false;;;;">Special</p>
+<p n="ItemElement_RepairAvoidance" t="arg:EQUALS;false;;;;">Y</p>
+<p n="ItemElement_CustomerOwned" t="arg:EQUALS;false;;;;">Y</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:v3=&quot;http://capabilities.nat.bt.com/xsd/EDM/EMP/Item/V3.2&quot; xmlns:v1=&quot;http://capabilities.nat.bt.com/xsd/SCMPAL/AbstractContainer/V1.0&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;     &lt;v3:ItemRequest&gt;&#13;&#10;         &lt;v3:ItemElement&gt;&#13;&#10;            &lt;v3:BusinessOperation&gt;Op&lt;/v3:BusinessOperation&gt;&#13;&#10;            &lt;v3:CustomerId&gt;DSY&lt;/v3:CustomerId&gt;&#13;&#10;            &lt;v3:ActionType&gt;UPDATE&lt;/v3:ActionType&gt;&#13;&#10;            &lt;v3:CustomerItemNumber&gt;#ACC-2901VOI126&lt;/v3:CustomerItemNumber&gt;&#13;&#10;            &lt;v3:BTItemNumber&gt;&lt;/v3:BTItemNumber&gt;&#13;&#10;            &lt;v3:ItemName&gt;Item 2.2&lt;/v3:ItemName&gt;&#13;&#10;            &lt;v3:ItemDesc&gt;Some New Item&lt;/v3:ItemDesc&gt;&#13;&#10;            &lt;v3:CustomerBusinessDivision&gt;SALSTCFG&lt;/v3:CustomerBusinessDivision&gt;&#13;&#10;            &lt;v3:ItemClass&gt;C&lt;/v3:ItemClass&gt;&#13;&#10;            &lt;v3:ItemUnitOfMeasure&gt;EACH&lt;/v3:ItemUnitOfMeasure&gt;&#13;&#10;            &lt;v3:LifecycleStatus&gt;ISSUABLE&lt;/v3:LifecycleStatus&gt;&#13;&#10;            &lt;v3:SerialNumberRequiredFlag&gt;Y&lt;/v3:SerialNumberRequiredFlag&gt;&#13;&#10;            &lt;v3:SerialTraceLevel&gt;T&lt;/v3:SerialTraceLevel&gt;&#13;&#10;            &lt;v3:ManufacturerName&gt;Dell&lt;/v3:ManufacturerName&gt;&#13;&#10;            &lt;v3:ManufacturerPartNumber&gt;Laptop&lt;/v3:ManufacturerPartNumber&gt;&#13;&#10;            &lt;v3:ContainsLithiumBatteries&gt;Y&lt;/v3:ContainsLithiumBatteries&gt;&#13;&#10;            &lt;v3:RepairOrScrapIndicator&gt;N&lt;/v3:RepairOrScrapIndicator&gt;&#13;&#10;            &lt;v3:Consumable&gt;Y&lt;/v3:Consumable&gt;&#13;&#10;            &lt;v3:Returnable&gt;N&lt;/v3:Returnable&gt;&#13;&#10;            &lt;v3:SpecialHandling&gt;N&lt;/v3:SpecialHandling&gt;&#13;&#10;            &lt;v3:SpecialHandlingInstructions&gt;Special&lt;/v3:SpecialHandlingInstructions&gt;&#13;&#10;            &lt;v3:RepairAvoidance&gt;Y&lt;/v3:RepairAvoidance&gt;&#13;&#10;            &lt;v3:CustomerOwned&gt;Y&lt;/v3:CustomerOwned&gt;&#13;&#10;         &lt;/v3:ItemElement&gt;&#13;&#10;      &lt;/v3:ItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</p>
+</at>
+<m>
+<p n="lisa.vse.private.allow.dups">true</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:v3=&quot;http://capabilities.nat.bt.com/xsd/EDM/EMP/Item/V3.2&quot; xmlns:v1=&quot;http://capabilities.nat.bt.com/xsd/SCMPAL/AbstractContainer/V1.0&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;     &lt;v3:ItemRequest&gt;&#13;&#10;         &lt;v3:ItemElement&gt;&#13;&#10;            &lt;v3:BusinessOperation&gt;Op&lt;/v3:BusinessOperation&gt;&#13;&#10;            &lt;v3:CustomerId&gt;DSY&lt;/v3:CustomerId&gt;&#13;&#10;            &lt;v3:ActionType&gt;UPDATE&lt;/v3:ActionType&gt;&#13;&#10;            &lt;v3:CustomerItemNumber&gt;#ACC-2901VOI126&lt;/v3:CustomerItemNumber&gt;&#13;&#10;            &lt;v3:BTItemNumber&gt;&lt;/v3:BTItemNumber&gt;&#13;&#10;            &lt;v3:ItemName&gt;Item 2.2&lt;/v3:ItemName&gt;&#13;&#10;            &lt;v3:ItemDesc&gt;Some New Item&lt;/v3:ItemDesc&gt;&#13;&#10;            &lt;v3:CustomerBusinessDivision&gt;SALSTCFG&lt;/v3:CustomerBusinessDivision&gt;&#13;&#10;            &lt;v3:ItemClass&gt;C&lt;/v3:ItemClass&gt;&#13;&#10;            &lt;v3:ItemUnitOfMeasure&gt;EACH&lt;/v3:ItemUnitOfMeasure&gt;&#13;&#10;            &lt;v3:LifecycleStatus&gt;ISSUABLE&lt;/v3:LifecycleStatus&gt;&#13;&#10;            &lt;v3:SerialNumberRequiredFlag&gt;Y&lt;/v3:SerialNumberRequiredFlag&gt;&#13;&#10;            &lt;v3:SerialTraceLevel&gt;T&lt;/v3:SerialTraceLevel&gt;&#13;&#10;            &lt;v3:ManufacturerName&gt;Dell&lt;/v3:ManufacturerName&gt;&#13;&#10;            &lt;v3:ManufacturerPartNumber&gt;Laptop&lt;/v3:ManufacturerPartNumber&gt;&#13;&#10;            &lt;v3:ContainsLithiumBatteries&gt;Y&lt;/v3:ContainsLithiumBatteries&gt;&#13;&#10;            &lt;v3:RepairOrScrapIndicator&gt;N&lt;/v3:RepairOrScrapIndicator&gt;&#13;&#10;            &lt;v3:Consumable&gt;Y&lt;/v3:Consumable&gt;&#13;&#10;            &lt;v3:Returnable&gt;N&lt;/v3:Returnable&gt;&#13;&#10;            &lt;v3:SpecialHandling&gt;N&lt;/v3:SpecialHandling&gt;&#13;&#10;            &lt;v3:SpecialHandlingInstructions&gt;Special&lt;/v3:SpecialHandlingInstructions&gt;&#13;&#10;            &lt;v3:RepairAvoidance&gt;Y&lt;/v3:RepairAvoidance&gt;&#13;&#10;            &lt;v3:CustomerOwned&gt;Y&lt;/v3:CustomerOwned&gt;&#13;&#10;         &lt;/v3:ItemElement&gt;&#13;&#10;      &lt;/v3:ItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="968" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;env:Header/&gt;&#13;&#10;   &lt;env:Body&gt;&#13;&#10;      &lt;ItemResponse xmlns=&quot;http://capabilities.nat.bt.com/xsd/EDM/SCM/ItemResponse/V1.0&quot;&gt;&#13;&#10;         &lt;ItemResponseElement&gt;&#13;&#10;            &lt;SourceItemID&gt;#ACC-2901VOI126&lt;/SourceItemID&gt;&#13;&#10;            &lt;CustomerId&gt;{{=request_ItemElement_CustomerId;/*DSY*/}}&lt;/CustomerId&gt;&#13;&#10;            &lt;Status&gt;SUCCESS&lt;/Status&gt;&#13;&#10;            &lt;ErrorType xsi:nil=&quot;true&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;/&gt;&#13;&#10;            &lt;ErrorMessage xsi:nil=&quot;true&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;/&gt;&#13;&#10;         &lt;/ItemResponseElement&gt;&#13;&#10;      &lt;/ItemResponse&gt;&#13;&#10;   &lt;/env:Body&gt;&#13;&#10;&lt;/env:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="969" op="ItemRequest" tl="SIGNATURE">
+<ag>
+<p n="ItemElement_BusinessOperation" t="arg:EQUALS;false;;;;">Op</p>
+<p n="ItemElement_CustomerId" t="arg:EQUALS;true;;;;">DSY</p>
+<p n="ItemElement_ActionType" t="arg:EQUALS;false;;;;">UPDATE</p>
+<p n="ItemElement_CustomerItemNumber" t="arg:EQUALS;false;;;;">#ACC-2901VOI126</p>
+<p n="ItemElement_BTItemNumber" t="arg:EQUALS;false;;;;"></p>
+<p n="ItemElement_ItemName" t="arg:EQUALS;false;;;;">Item 2.2</p>
+<p n="ItemElement_ItemDesc" t="arg:EQUALS;false;;;;">Some New Item</p>
+<p n="ItemElement_CustomerBusinessDivision" t="arg:EQUALS;false;;;;">SALSTCFG</p>
+<p n="ItemElement_ItemClass" t="arg:EQUALS;false;;;;">C</p>
+<p n="ItemElement_ItemUnitOfMeasure" t="arg:EQUALS;false;;;;">EACH</p>
+<p n="ItemElement_LifecycleStatus" t="arg:EQUALS;false;;;;">ISSUABLE</p>
+<p n="ItemElement_SerialNumberRequiredFlag" t="arg:EQUALS;false;;;;">Y</p>
+<p n="ItemElement_SerialTraceLevel" t="arg:EQUALS;false;;;;">T</p>
+<p n="ItemElement_ManufacturerName" t="arg:EQUALS;false;;;;">Dell</p>
+<p n="ItemElement_ManufacturerPartNumber" t="arg:EQUALS;false;;;;">Laptop</p>
+<p n="ItemElement_ContainsLithiumBatteries" t="arg:EQUALS;false;;;;">Y</p>
+<p n="ItemElement_RepairOrScrapIndicator" t="arg:EQUALS;false;;;;">N</p>
+<p n="ItemElement_Consumable" t="arg:EQUALS;false;;;;">Y</p>
+<p n="ItemElement_Returnable" t="arg:EQUALS;false;;;;">N</p>
+<p n="ItemElement_SpecialHandling" t="arg:EQUALS;false;;;;">N</p>
+<p n="ItemElement_SpecialHandlingInstructions" t="arg:EQUALS;false;;;;">Special</p>
+<p n="ItemElement_RepairAvoidance" t="arg:EQUALS;false;;;;">Y</p>
+<p n="ItemElement_CustomerOwned" t="arg:EQUALS;false;;;;">Y</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:v3=&quot;http://capabilities.nat.bt.com/xsd/EDM/EMP/Item/V3.2&quot; xmlns:v1=&quot;http://capabilities.nat.bt.com/xsd/SCMPAL/AbstractContainer/V1.0&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;     &lt;v3:ItemRequest&gt;&#13;&#10;         &lt;v3:ItemElement&gt;&#13;&#10;            &lt;v3:BusinessOperation&gt;Op&lt;/v3:BusinessOperation&gt;&#13;&#10;            &lt;v3:CustomerId&gt;DSY&lt;/v3:CustomerId&gt;&#13;&#10;            &lt;v3:ActionType&gt;UPDATE&lt;/v3:ActionType&gt;&#13;&#10;            &lt;v3:CustomerItemNumber&gt;#ACC-2901VOI126&lt;/v3:CustomerItemNumber&gt;&#13;&#10;            &lt;v3:BTItemNumber&gt;&lt;/v3:BTItemNumber&gt;&#13;&#10;            &lt;v3:ItemName&gt;Item 2.2&lt;/v3:ItemName&gt;&#13;&#10;            &lt;v3:ItemDesc&gt;Some New Item&lt;/v3:ItemDesc&gt;&#13;&#10;            &lt;v3:CustomerBusinessDivision&gt;SALSTCFG&lt;/v3:CustomerBusinessDivision&gt;&#13;&#10;            &lt;v3:ItemClass&gt;C&lt;/v3:ItemClass&gt;&#13;&#10;            &lt;v3:ItemUnitOfMeasure&gt;EACH&lt;/v3:ItemUnitOfMeasure&gt;&#13;&#10;            &lt;v3:LifecycleStatus&gt;ISSUABLE&lt;/v3:LifecycleStatus&gt;&#13;&#10;            &lt;v3:SerialNumberRequiredFlag&gt;Y&lt;/v3:SerialNumberRequiredFlag&gt;&#13;&#10;            &lt;v3:SerialTraceLevel&gt;T&lt;/v3:SerialTraceLevel&gt;&#13;&#10;            &lt;v3:ManufacturerName&gt;Dell&lt;/v3:ManufacturerName&gt;&#13;&#10;            &lt;v3:ManufacturerPartNumber&gt;Laptop&lt;/v3:ManufacturerPartNumber&gt;&#13;&#10;            &lt;v3:ContainsLithiumBatteries&gt;Y&lt;/v3:ContainsLithiumBatteries&gt;&#13;&#10;            &lt;v3:RepairOrScrapIndicator&gt;N&lt;/v3:RepairOrScrapIndicator&gt;&#13;&#10;            &lt;v3:Consumable&gt;Y&lt;/v3:Consumable&gt;&#13;&#10;            &lt;v3:Returnable&gt;N&lt;/v3:Returnable&gt;&#13;&#10;            &lt;v3:SpecialHandling&gt;N&lt;/v3:SpecialHandling&gt;&#13;&#10;            &lt;v3:SpecialHandlingInstructions&gt;Special&lt;/v3:SpecialHandlingInstructions&gt;&#13;&#10;            &lt;v3:RepairAvoidance&gt;Y&lt;/v3:RepairAvoidance&gt;&#13;&#10;            &lt;v3:CustomerOwned&gt;Y&lt;/v3:CustomerOwned&gt;&#13;&#10;         &lt;/v3:ItemElement&gt;&#13;&#10;      &lt;/v3:ItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</p>
+</at>
+<m>
+<p n="lisa.vse.private.allow.dups">true</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:v3=&quot;http://capabilities.nat.bt.com/xsd/EDM/EMP/Item/V3.2&quot; xmlns:v1=&quot;http://capabilities.nat.bt.com/xsd/SCMPAL/AbstractContainer/V1.0&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;     &lt;v3:ItemRequest&gt;&#13;&#10;         &lt;v3:ItemElement&gt;&#13;&#10;            &lt;v3:BusinessOperation&gt;Op&lt;/v3:BusinessOperation&gt;&#13;&#10;            &lt;v3:CustomerId&gt;DSY&lt;/v3:CustomerId&gt;&#13;&#10;            &lt;v3:ActionType&gt;UPDATE&lt;/v3:ActionType&gt;&#13;&#10;            &lt;v3:CustomerItemNumber&gt;#ACC-2901VOI126&lt;/v3:CustomerItemNumber&gt;&#13;&#10;            &lt;v3:BTItemNumber&gt;&lt;/v3:BTItemNumber&gt;&#13;&#10;            &lt;v3:ItemName&gt;Item 2.2&lt;/v3:ItemName&gt;&#13;&#10;            &lt;v3:ItemDesc&gt;Some New Item&lt;/v3:ItemDesc&gt;&#13;&#10;            &lt;v3:CustomerBusinessDivision&gt;SALSTCFG&lt;/v3:CustomerBusinessDivision&gt;&#13;&#10;            &lt;v3:ItemClass&gt;C&lt;/v3:ItemClass&gt;&#13;&#10;            &lt;v3:ItemUnitOfMeasure&gt;EACH&lt;/v3:ItemUnitOfMeasure&gt;&#13;&#10;            &lt;v3:LifecycleStatus&gt;ISSUABLE&lt;/v3:LifecycleStatus&gt;&#13;&#10;            &lt;v3:SerialNumberRequiredFlag&gt;Y&lt;/v3:SerialNumberRequiredFlag&gt;&#13;&#10;            &lt;v3:SerialTraceLevel&gt;T&lt;/v3:SerialTraceLevel&gt;&#13;&#10;            &lt;v3:ManufacturerName&gt;Dell&lt;/v3:ManufacturerName&gt;&#13;&#10;            &lt;v3:ManufacturerPartNumber&gt;Laptop&lt;/v3:ManufacturerPartNumber&gt;&#13;&#10;            &lt;v3:ContainsLithiumBatteries&gt;Y&lt;/v3:ContainsLithiumBatteries&gt;&#13;&#10;            &lt;v3:RepairOrScrapIndicator&gt;N&lt;/v3:RepairOrScrapIndicator&gt;&#13;&#10;            &lt;v3:Consumable&gt;Y&lt;/v3:Consumable&gt;&#13;&#10;            &lt;v3:Returnable&gt;N&lt;/v3:Returnable&gt;&#13;&#10;            &lt;v3:SpecialHandling&gt;N&lt;/v3:SpecialHandling&gt;&#13;&#10;            &lt;v3:SpecialHandlingInstructions&gt;Special&lt;/v3:SpecialHandlingInstructions&gt;&#13;&#10;            &lt;v3:RepairAvoidance&gt;Y&lt;/v3:RepairAvoidance&gt;&#13;&#10;            &lt;v3:CustomerOwned&gt;Y&lt;/v3:CustomerOwned&gt;&#13;&#10;         &lt;/v3:ItemElement&gt;&#13;&#10;      &lt;/v3:ItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="970" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;env:Envelope xmlns:env=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;env:Header/&gt;&#13;&#10;   &lt;env:Body&gt;&#13;&#10;      &lt;ItemResponse xmlns=&quot;http://capabilities.nat.bt.com/xsd/EDM/SCM/ItemResponse/V1.0&quot;&gt;&#13;&#10;         &lt;ItemResponseElement&gt;&#13;&#10;            &lt;SourceItemID&gt;#ACC-2901VOI127&lt;/SourceItemID&gt;&#13;&#10;            &lt;CustomerId&gt;DSY&lt;/CustomerId&gt;&#13;&#10;            &lt;Status&gt;UAF_VALIDATION_ERROR&lt;/Status&gt;&#13;&#10;            &lt;ErrorType&gt;UAF_VALIDATION_ERROR&lt;/ErrorType&gt;&#13;&#10;            &lt;ErrorMessage&gt;Item does not exist.&lt;/ErrorMessage&gt;&#13;&#10;         &lt;/ItemResponseElement&gt;&#13;&#10;      &lt;/ItemResponse&gt;&#13;&#10;   &lt;/env:Body&gt;&#13;&#10;&lt;/env:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="965" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="964" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

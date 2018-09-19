@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="58" name="p" created="2017-11-15.13:00:52.015" lastModified="2017-11-15.13:02:03.181" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="57" nd="true">
+<sp>
+<t id="61">
+<rq id="62" op="POST /api/sec/contacts/get-available-appointment-time-v1/" tl="EXACT">
+<ag>
+<p n="key1" t="arg:EQUALS;false;;;;">value1</p>
+<p n="key2" t="arg:EQUALS;false;;;;">value2</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">sec</p>
+<p n="HTTP-Segment-Attr-2">contacts</p>
+<p n="HTTP-Segment-Attr-3">get-available-appointment-time-v1</p>
+<p n="recorded_raw_request_bytes">YWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQpjb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24NCkNvbm5lY3Rpb246IEtlZXAtQWxpdmUNClVzZXItQWdlbnQ6IExJU0ENCkN1c3RvbS1IZWFkZXI6IE15SGVhZGVyVmFsDQoNCnsgImxpc2EtbWV0YSI6eyAiSFRUUC1NZXRob2QiOiJQT1NUIC9hcGkvc2VjL2NvbnRhY3RzL2dldC1hdmFpbGFibGUtYXBwb2ludG1lbnQtdGltZS12MSIsICJPTEJfQUNDRVNTX0lEIjoiNDE0NzI4NTEiLCAiY29udGVudC10eXBlIjoiYXBwbGljYXRpb24vanNvbiIsICJDb29raWUiOiJTTVNFU1NJT049NDE0NzI4NTEiIH0sICJtZXRhIjp7ICJsYW5nIjoiZW4iLCAiYXBwVmVyc2lvbiI6IjEuMC4wLjAiLCAib3NOYW1lIjoiaW9zIiwgIm9zVmVyc2lvbiI6IjYuMC4wIiwgImRldmljZU1vZGVsIjoiaVBhZDMiLCAiZGV2aWNlVHlwZSI6ImlQYWQiLCAiZGV2aWNlQXBwVG9rZW4iOiAieHh4eHh4eHh4eHgtVEJELXh4eHh4eHh4eHh4eHgiLCAiaXBBZGRyZXNzIjogIjAuMC4wLjAiIH0sICJjaGFsbGVuZ2VSZXF1ZXN0Ijp7ICJkZXZpY2VGaW5nZXJwcmludCI6Inh4eHh4LXh4eHh4LXh4eHh4LWZpbmdlcnByaW50LXRvLWJlLWdlbmVyYXRlZC1ieS1SU0EtU0RLLXh4eHh4LXh4eHh4LXh4eHh4LSIsICJzZXNzaW9uQ29ycmVsYXRpb25JZCI6IlhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYIiB9LCAicmVxdWVzdCI6eyAidG9waWNJZCI6MSB9IH0=</p>
+<p n="recorded_raw_request">accept: application/json&#13;&#10;content-Type: application/json&#13;&#10;Connection: Keep-Alive&#13;&#10;User-Agent: LISA&#13;&#10;Custom-Header: MyHeaderVal&#13;&#10;&#13;&#10;{ &quot;lisa-meta&quot;:{ &quot;HTTP-Method&quot;:&quot;POST /api/sec/contacts/get-available-appointment-time-v1&quot;, &quot;OLB_ACCESS_ID&quot;:&quot;41472851&quot;, &quot;content-type&quot;:&quot;application/json&quot;, &quot;Cookie&quot;:&quot;SMSESSION=41472851&quot; }, &quot;meta&quot;:{ &quot;lang&quot;:&quot;en&quot;, &quot;appVersion&quot;:&quot;1.0.0.0&quot;, &quot;osName&quot;:&quot;ios&quot;, &quot;osVersion&quot;:&quot;6.0.0&quot;, &quot;deviceModel&quot;:&quot;iPad3&quot;, &quot;deviceType&quot;:&quot;iPad&quot;, &quot;deviceAppToken&quot;: &quot;xxxxxxxxxxx-TBD-xxxxxxxxxxxxx&quot;, &quot;ipAddress&quot;: &quot;0.0.0.0&quot; }, &quot;challengeRequest&quot;:{ &quot;deviceFingerprint&quot;:&quot;xxxxx-xxxxx-xxxxx-fingerprint-to-be-generated-by-RSA-SDK-xxxxx-xxxxx-xxxxx-&quot;, &quot;sessionCorrelationId&quot;:&quot;XXXXXXXXXXXXXXXXXXXXXXX&quot; }, &quot;request&quot;:{ &quot;topicId&quot;:1 } }</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">/api/sec/contacts/get-available-appointment-time-v1?key1=value1&amp;key2=value2</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+<bd chs="UTF-8">accept: application/json&#13;&#10;content-Type: application/json&#13;&#10;Connection: Keep-Alive&#13;&#10;User-Agent: LISA&#13;&#10;Custom-Header: MyHeaderVal&#13;&#10;&#13;&#10;{ &quot;lisa-meta&quot;:{ &quot;HTTP-Method&quot;:&quot;POST /api/sec/contacts/get-available-appointment-time-v1&quot;, &quot;OLB_ACCESS_ID&quot;:&quot;41472851&quot;, &quot;content-type&quot;:&quot;application/json&quot;, &quot;Cookie&quot;:&quot;SMSESSION=41472851&quot; }, &quot;meta&quot;:{ &quot;lang&quot;:&quot;en&quot;, &quot;appVersion&quot;:&quot;1.0.0.0&quot;, &quot;osName&quot;:&quot;ios&quot;, &quot;osVersion&quot;:&quot;6.0.0&quot;, &quot;deviceModel&quot;:&quot;iPad3&quot;, &quot;deviceType&quot;:&quot;iPad&quot;, &quot;deviceAppToken&quot;: &quot;xxxxxxxxxxx-TBD-xxxxxxxxxxxxx&quot;, &quot;ipAddress&quot;: &quot;0.0.0.0&quot; }, &quot;challengeRequest&quot;:{ &quot;deviceFingerprint&quot;:&quot;xxxxx-xxxxx-xxxxx-fingerprint-to-be-generated-by-RSA-SDK-xxxxx-xxxxx-xxxxx-&quot;, &quot;sessionCorrelationId&quot;:&quot;XXXXXXXXXXXXXXXXXXXXXXX&quot; }, &quot;request&quot;:{ &quot;topicId&quot;:1 } }</bd>
+</rq>
+<rs>
+<rp id="63" t="1">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="HTTP-Version">HTTP/1.1&#65533;200</p>
+</m>
+<bd chs="UTF-8">{ &quot;result&quot;:{ &quot;type&quot;:&quot;OK&quot;, &quot;sysmsg&quot;:&quot;OK @ Fri Feb 15 10:43:01 PST 2013&quot; }, &quot;response&quot;:{ &quot;appointmentTimes&quot;:[ 1351234800000, 1351234801000, 1351234802000, 1351234803000, 1351234804000, 1351234805000, 1351234806000, 1351234807000, 1351234808000, 1351234809000 ] } }</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="64" op="POST /api/sec/contacts/get-available-appointment-time-v1/" tl="SIGNATURE">
+<ag>
+<p n="key1" t="arg:EQUALS;false;;;;">value1</p>
+<p n="key2" t="arg:EQUALS;false;;;;">value2</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">sec</p>
+<p n="HTTP-Segment-Attr-2">contacts</p>
+<p n="HTTP-Segment-Attr-3">get-available-appointment-time-v1</p>
+<p n="recorded_raw_request_bytes">YWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uDQpjb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24NCkNvbm5lY3Rpb246IEtlZXAtQWxpdmUNClVzZXItQWdlbnQ6IExJU0ENCkN1c3RvbS1IZWFkZXI6IE15SGVhZGVyVmFsDQoNCnsgImxpc2EtbWV0YSI6eyAiSFRUUC1NZXRob2QiOiJQT1NUIC9hcGkvc2VjL2NvbnRhY3RzL2dldC1hdmFpbGFibGUtYXBwb2ludG1lbnQtdGltZS12MSIsICJPTEJfQUNDRVNTX0lEIjoiNDE0NzI4NTEiLCAiY29udGVudC10eXBlIjoiYXBwbGljYXRpb24vanNvbiIsICJDb29raWUiOiJTTVNFU1NJT049NDE0NzI4NTEiIH0sICJtZXRhIjp7ICJsYW5nIjoiZW4iLCAiYXBwVmVyc2lvbiI6IjEuMC4wLjAiLCAib3NOYW1lIjoiaW9zIiwgIm9zVmVyc2lvbiI6IjYuMC4wIiwgImRldmljZU1vZGVsIjoiaVBhZDMiLCAiZGV2aWNlVHlwZSI6ImlQYWQiLCAiZGV2aWNlQXBwVG9rZW4iOiAieHh4eHh4eHh4eHgtVEJELXh4eHh4eHh4eHh4eHgiLCAiaXBBZGRyZXNzIjogIjAuMC4wLjAiIH0sICJjaGFsbGVuZ2VSZXF1ZXN0Ijp7ICJkZXZpY2VGaW5nZXJwcmludCI6Inh4eHh4LXh4eHh4LXh4eHh4LWZpbmdlcnByaW50LXRvLWJlLWdlbmVyYXRlZC1ieS1SU0EtU0RLLXh4eHh4LXh4eHh4LXh4eHh4LSIsICJzZXNzaW9uQ29ycmVsYXRpb25JZCI6IlhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYIiB9LCAicmVxdWVzdCI6eyAidG9waWNJZCI6MSB9IH0=</p>
+<p n="recorded_raw_request">accept: application/json&#13;&#10;content-Type: application/json&#13;&#10;Connection: Keep-Alive&#13;&#10;User-Agent: LISA&#13;&#10;Custom-Header: MyHeaderVal&#13;&#10;&#13;&#10;{ &quot;lisa-meta&quot;:{ &quot;HTTP-Method&quot;:&quot;POST /api/sec/contacts/get-available-appointment-time-v1&quot;, &quot;OLB_ACCESS_ID&quot;:&quot;41472851&quot;, &quot;content-type&quot;:&quot;application/json&quot;, &quot;Cookie&quot;:&quot;SMSESSION=41472851&quot; }, &quot;meta&quot;:{ &quot;lang&quot;:&quot;en&quot;, &quot;appVersion&quot;:&quot;1.0.0.0&quot;, &quot;osName&quot;:&quot;ios&quot;, &quot;osVersion&quot;:&quot;6.0.0&quot;, &quot;deviceModel&quot;:&quot;iPad3&quot;, &quot;deviceType&quot;:&quot;iPad&quot;, &quot;deviceAppToken&quot;: &quot;xxxxxxxxxxx-TBD-xxxxxxxxxxxxx&quot;, &quot;ipAddress&quot;: &quot;0.0.0.0&quot; }, &quot;challengeRequest&quot;:{ &quot;deviceFingerprint&quot;:&quot;xxxxx-xxxxx-xxxxx-fingerprint-to-be-generated-by-RSA-SDK-xxxxx-xxxxx-xxxxx-&quot;, &quot;sessionCorrelationId&quot;:&quot;XXXXXXXXXXXXXXXXXXXXXXX&quot; }, &quot;request&quot;:{ &quot;topicId&quot;:1 } }</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">/api/sec/contacts/get-available-appointment-time-v1?key1=value1&amp;key2=value2</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+<bd chs="UTF-8">accept: application/json&#13;&#10;content-Type: application/json&#13;&#10;Connection: Keep-Alive&#13;&#10;User-Agent: LISA&#13;&#10;Custom-Header: MyHeaderVal&#13;&#10;&#13;&#10;{ &quot;lisa-meta&quot;:{ &quot;HTTP-Method&quot;:&quot;POST /api/sec/contacts/get-available-appointment-time-v1&quot;, &quot;OLB_ACCESS_ID&quot;:&quot;41472851&quot;, &quot;content-type&quot;:&quot;application/json&quot;, &quot;Cookie&quot;:&quot;SMSESSION=41472851&quot; }, &quot;meta&quot;:{ &quot;lang&quot;:&quot;en&quot;, &quot;appVersion&quot;:&quot;1.0.0.0&quot;, &quot;osName&quot;:&quot;ios&quot;, &quot;osVersion&quot;:&quot;6.0.0&quot;, &quot;deviceModel&quot;:&quot;iPad3&quot;, &quot;deviceType&quot;:&quot;iPad&quot;, &quot;deviceAppToken&quot;: &quot;xxxxxxxxxxx-TBD-xxxxxxxxxxxxx&quot;, &quot;ipAddress&quot;: &quot;0.0.0.0&quot; }, &quot;challengeRequest&quot;:{ &quot;deviceFingerprint&quot;:&quot;xxxxx-xxxxx-xxxxx-fingerprint-to-be-generated-by-RSA-SDK-xxxxx-xxxxx-xxxxx-&quot;, &quot;sessionCorrelationId&quot;:&quot;XXXXXXXXXXXXXXXXXXXXXXX&quot; }, &quot;request&quot;:{ &quot;topicId&quot;:1 } }</bd>
+</rq>
+<rs>
+<rp id="65" t="1">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="HTTP-Version">HTTP/1.1&#65533;200</p>
+</m>
+<bd chs="UTF-8">{ &quot;result&quot;:{ &quot;type&quot;:&quot;OK&quot;, &quot;sysmsg&quot;:&quot;OK @ Fri Feb 15 10:43:01 PST 2013&quot; }, &quot;response&quot;:{ &quot;appointmentTimes&quot;:[ 1351234800000, 1351234801000, 1351234802000, 1351234803000, 1351234804000, 1351234805000, 1351234806000, 1351234807000, 1351234808000, 1351234809000 ] } }</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="60" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="59" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

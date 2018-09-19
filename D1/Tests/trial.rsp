@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Fri Mar 02 10:38:34 IST 2018 -->
+
+
+<Results name="trial">
+
+
+    <Result node="http GET /api/v1/books">
+      <content type="com.itko.lisa.http.html.HtmlResponseWrapper" charset="UTF-8"><![CDATA[SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IExJU0EvVmlydHVhbC1FbnZpcm9ubWVudC1TZXJ2ZXINCkRhdGU6IEZyaSwgMDIgTWFyIDIwMTggMTA6Mzg6MDYgSVNUDQpYLVBvd2VyZWQtQnk6IExJU0EvMTAuMC4wICgxMC4wLjAuNDMxKQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uDQpDb250ZW50LUxlbmd0aDogMjkwew0KICAgIm1ldGEiOiB7DQogICAgImVycm9yIjogNzg5LA0KICAgICJtZXNzYWdlIjogIlRpdGxlIGZpZWxkIGlzIHJlcXVpcmVkIg0KICB9LA0KICAiZGF0YSI6IFt7DQogICAgImlkIjogMjQsDQogICAgInRpdGxlIjogIkJlaGF2aW9yLURyaXZlbiBEZXZlbG9wbWVudCIsDQogICAgImF1dGhvciI6ICJWaWt0b3IgRmFyY2ljIg0KICB9LCB7DQogICAgImlkIjogMjUsDQogICAgInRpdGxlIjogIkNvbnRpbnVvdXMgSW50ZWdyYXRpb24iLA0KICAgICJhdXRob3IiOiAiVmlrdG9yIEZhcmNpYyINCiAgfV0NCn0=]]></content>
+    </Result>
+
+
+</Results>

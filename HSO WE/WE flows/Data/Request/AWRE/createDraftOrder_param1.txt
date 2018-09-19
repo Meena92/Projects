@@ -1,0 +1,162 @@
+<createDraftOrderRequest xmlns="http://esp.t-mobile.com/commercemanagement/order">
+  <ns3:header xmlns:ns3="http://esp.t-mobile.com/cso">
+    <ns3:sender>
+      <ns3:senderId>ACUI</ns3:senderId>
+      <ns3:channelId>RETAIL</ns3:channelId>
+      <ns3:applicationId>ACUI</ns3:applicationId>
+      <ns3:applicationUserId>Superusr</ns3:applicationUserId>
+      <ns3:sessionId>{{sessionid}}</ns3:sessionId>
+      <ns3:storeId>451</ns3:storeId>
+      <ns3:dealerCode>0000002</ns3:dealerCode>
+    </ns3:sender>
+    <ns3:target>
+      <ns3:customerCompanyId>TMobileUS</ns3:customerCompanyId>
+    </ns3:target>
+  </ns3:header>
+  <order>
+    <ns4:orderType xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">STANDARD</ns4:orderType>
+    <ns4:accountInfo xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">
+      <ns4:accountNumber>{{BAN}}</ns4:accountNumber>
+      <ns4:serviceStartDate>2017-01-20T08:00:00Z</ns4:serviceStartDate>
+      <ns4:accountType>I</ns4:accountType>
+      <ns4:accountSubType>R</ns4:accountSubType>
+      <ns4:billingContact>
+        <ns3:personName xmlns:ns3="http://esp.t-mobile.com/cso">
+          <ns3:firstName>DLM</ns3:firstName>
+          <ns3:lastName>RETAIL DATA DONOTUSE</ns3:lastName>
+        </ns3:personName>
+        <ns3:addressCommunication xmlns:ns3="http://esp.t-mobile.com/cso">
+          <ns3:address>
+            <ns3:addressLine1>1 RAVINIA DR STE 1000</ns3:addressLine1>
+            <ns3:cityName>ATLANTA</ns3:cityName>
+            <ns3:stateName>GA</ns3:stateName>
+            <ns3:countryName>USA</ns3:countryName>
+            <ns3:postalCode>30346</ns3:postalCode>
+          </ns3:address>
+        </ns3:addressCommunication>
+      </ns4:billingContact>
+    </ns4:accountInfo>
+    <ns4:payment xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">
+      <ns4:paymentType>DPY</ns4:paymentType>
+    </ns4:payment>
+    <ns4:notification xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">
+      <ns4:notificationPreference>S</ns4:notificationPreference>
+      <ns4:MSISDN>{{MSISDN}}</ns4:MSISDN>
+    </ns4:notification>
+    <ns4:headerCharge xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">
+      <ns4:amount>6.99</ns4:amount>
+      <ns4:name>Shipping</ns4:name>
+      <ns4:category>Shipping</ns4:category>
+      <ns4:reference>SHIPP</ns4:reference>
+      <ns4:SOC>SHIPFEE</ns4:SOC>
+    </ns4:headerCharge>
+    <ns4:orderLine xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">
+      <ns4:id/>
+      <ns4:fulfillmentLineId>1</ns4:fulfillmentLineId>
+      <ns4:deliveryMethod>SHP</ns4:deliveryMethod>
+      <ns4:description>Galaxy S7 edge - Silver Titanium - 32GB</ns4:description>
+      <ns4:shortDescription>610214696489</ns4:shortDescription>
+      <ns4:kitCode>ReplacementSKU</ns4:kitCode>
+      <ns4:marketCode>ATG</ns4:marketCode>
+      <ns4:quantity>1</ns4:quantity>
+      <ns4:unitOfMeasure>EA</ns4:unitOfMeasure>
+      <ns4:charge>
+        <ns4:amount>34.55</ns4:amount>
+        <ns4:name>RestockingFee</ns4:name>
+        <ns4:category>InfoOnly</ns4:category>
+        <ns4:reference>RSKFE</ns4:reference>
+        <ns4:SOC>RSKFEE</ns4:SOC>
+      </ns4:charge>
+      <ns4:charge>
+        <ns4:amount>25.55</ns4:amount>
+        <ns4:name>OOWFee</ns4:name>
+        <ns4:category>InfoOnly</ns4:category>
+        <ns4:reference>TLACC</ns4:reference>
+        <ns4:SOC>OOWFEE</ns4:SOC>
+      </ns4:charge>
+      <ns4:charge>
+        <ns4:amount>0</ns4:amount>
+        <ns4:name>RetailPrice</ns4:name>
+        <ns4:category>InfoOnly</ns4:category>
+      </ns4:charge>
+      <ns4:charge>
+        <ns4:amount>0</ns4:amount>
+        <ns4:name>ReplacementSKU</ns4:name>
+        <ns4:category>InfoOnly</ns4:category>
+        <ns4:reference>yes</ns4:reference>
+      </ns4:charge>
+      <ns4:sku>610214696489</ns4:sku>
+      <ns4:subscriberInfo>
+        <ns4:MSISDN>{{MSISDN}}</ns4:MSISDN>
+      </ns4:subscriberInfo>
+    </ns4:orderLine>
+    <ns4:orderLine xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">
+      <ns4:id/>
+      <ns4:fulfillmentLineId>2</ns4:fulfillmentLineId>
+      <ns4:deliveryMethod>SHP</ns4:deliveryMethod>
+      <ns4:description>Samsung - Galaxy Note 3</ns4:description>
+      <ns4:shortDescription>{{sku}}</ns4:shortDescription>
+      <ns4:kitCode>DefectiveSKU</ns4:kitCode>
+      <ns4:quantity>1</ns4:quantity>
+      <ns4:unitOfMeasure>EA</ns4:unitOfMeasure>
+      <ns4:charge>
+        <ns4:amount>0</ns4:amount>
+        <ns4:name>DefectiveSKU</ns4:name>
+        <ns4:category>InfoOnly</ns4:category>
+        <ns4:reference>yes</ns4:reference>
+      </ns4:charge>
+      <ns4:sku>{{sku}}</ns4:sku>
+      <ns4:subscriberInfo>
+        <ns4:MSISDN>{{MSISDN}}</ns4:MSISDN>
+        <ns4:serialNumber>{{imei}}</ns4:serialNumber>
+        <ns4:PHPIndicator>0</ns4:PHPIndicator>
+        <ns4:SAPWarrantyType>R</ns4:SAPWarrantyType>
+        <ns4:warrantyType>R</ns4:warrantyType>
+      </ns4:subscriberInfo>
+      <ns4:deviceItem>
+        <ns3:basicInfo xmlns:ns3="http://esp.t-mobile.com/cso">
+          <ns3:manufacturer>Samsung</ns3:manufacturer>
+        </ns3:basicInfo>
+        <ns3:firstUseDate xmlns:ns3="http://esp.t-mobile.com/cso">2017-07-23T21:25:52Z</ns3:firstUseDate>
+        <ns3:lastUseDate xmlns:ns3="http://esp.t-mobile.com/cso">2017-07-26T21:25:52Z</ns3:lastUseDate>
+        <ns3:warrantyExpirationDate xmlns:ns3="http://esp.t-mobile.com/cso">2018-07-23T07:00:00Z</ns3:warrantyExpirationDate>
+        <ns3:type xmlns:ns3="http://esp.t-mobile.com/cso">T-Mobile - New</ns3:type>
+      </ns4:deviceItem>
+      <ns4:isAddDevice>false</ns4:isAddDevice>
+      <ns4:insuranceReplacementIndicator/>
+    </ns4:orderLine>
+    <ns4:shippingInfo xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">
+      <ns4:shippingMode>
+        <ns4:code>10</ns4:code>
+        <ns4:description>UPS Ground - Up to 7 business days ($6.99)</ns4:description>
+      </ns4:shippingMode>
+      <ns4:shipToContact>
+        <ns3:personName xmlns:ns3="http://esp.t-mobile.com/cso">
+          <ns3:firstName>DLM</ns3:firstName>
+          <ns3:lastName>RETAIL DATA DONOTUSE</ns3:lastName>
+        </ns3:personName>
+        <ns3:addressCommunication xmlns:ns3="http://esp.t-mobile.com/cso">
+          <ns3:address>
+            <ns3:addressLine1>1 RAVINIA DR STE 1000</ns3:addressLine1>
+            <ns3:cityName>ATLANTA</ns3:cityName>
+            <ns3:stateName>GA</ns3:stateName>
+            <ns3:countryName>USA</ns3:countryName>
+            <ns3:postalCode>30346</ns3:postalCode>
+          </ns3:address>
+        </ns3:addressCommunication>
+        <ns3:emailCommunication xmlns:ns3="http://esp.t-mobile.com/cso">
+          <ns3:emailAddress/>
+        </ns3:emailCommunication>
+      </ns4:shipToContact>
+    </ns4:shippingInfo>
+    <ns4:note xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">
+      <ns4:reasonCode>Audio / Speaker Issues</ns4:reasonCode>
+      <ns4:notes>wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</ns4:notes>
+      <ns4:customerSatIndicator>Audio / Speaker Issues</ns4:customerSatIndicator>
+    </ns4:note>
+    <ns4:transactionType xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">WARRANTYEXCHANGE</ns4:transactionType>
+    <ns4:initiatingStoreId xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">451</ns4:initiatingStoreId>
+    <ns4:orderTypeVersion xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">AdvancedExchange</ns4:orderTypeVersion>
+    <ns4:isPHPDeclined xmlns:ns4="http://esp.t-mobile.com/cso/commercemanagement">false</ns4:isPHPDeclined>
+  </order>
+</createDraftOrderRequest>

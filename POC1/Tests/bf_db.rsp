@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Sat Feb 03 17:10:13 IST 2018 -->
+
+
+<Results name="bf_db">
+
+
+    <Result node="JDBC">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.jdbc.JDBCResultSetCache>
+  <rows>
+    <list>
+      <string>Belgian Waffles</string>
+      <string>$5.95</string>
+      <string>650</string>
+    </list>
+    <list>
+      <string>Belgian Waffles</string>
+      <string>$5.95</string>
+      <string>650</string>
+    </list>
+    <list>
+      <string>Belgian Waffles</string>
+      <string>$5.95</string>
+      <string>650</string>
+    </list>
+    <list>
+      <string>Belgian Waffles</string>
+      <string>$5.95</string>
+      <string>650</string>
+    </list>
+  </rows>
+  <columns>
+    <string>NAME</string>
+    <string>PRICE</string>
+    <string>CALORIES</string>
+  </columns>
+  <maxRows>2147483647</maxRows>
+  <columnCount>3</columnCount>
+</com.itko.lisa.jdbc.JDBCResultSetCache>]]></content>
+    </Result>
+
+
+</Results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Thu Nov 09 14:41:53 IST 2017 -->
+
+
+<Results name="rrp1">
+
+
+    <Result node="http GET">
+      <content type="java.lang.String" charset="UTF-8"><![CDATA[PGh0bWw+PGJvZHk+PC9ib2R5PjwvaHRtbD4=]]></content>
+    </Result>
+
+
+</Results>

@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="90" name="wsdl1" created="2018-04-05.15:46:51.061" lastModified="2018-04-05.15:48:05.760" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="89" nd="true">
+<sp>
+<t id="93">
+<rq id="94" op="getTaskInfo" tl="EXACT">
+<ag>
+<p n="geId" t="arg:EQUALS;false;;;;">D11M48qte</p>
+<p n="syncId" t="arg:EQUALS;false;;;;">gVRxKD</p>
+</ag>
+<at>
+<p n="xmlns">http://www.logobject.ch/ns/inquiry</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;getTaskInfo xmlns=&quot;http://www.logobject.ch/ns/inquiry&quot;&gt;&#13;&#10;      &lt;geId&gt;D11M48qte&lt;/geId&gt;&#13;&#10;      &lt;syncId&gt;gVRxKD&lt;/syncId&gt;&#13;&#10;    &lt;/getTaskInfo&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://www.example.org/</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.logobject.ch/ns/inquiry/getTaskInfo&quot;</p>
+<p n="Content-Length">363</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;getTaskInfo xmlns=&quot;http://www.logobject.ch/ns/inquiry&quot;&gt;&#13;&#10;      &lt;geId&gt;D11M48qte&lt;/geId&gt;&#13;&#10;      &lt;syncId&gt;gVRxKD&lt;/syncId&gt;&#13;&#10;    &lt;/getTaskInfo&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="95" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;getTaskInfoResponse xmlns=&quot;http://www.logobject.ch/ns/inquiry&quot;&gt;&#13;&#10;      &lt;out&gt;&#13;&#10;        &lt;!--task is optional, but can have an unlimited number of instances--&gt;&#13;&#10;        &lt;task&gt;&#13;&#10;          &lt;businessLine&gt;{{=[:businessLine:1]}}&lt;/businessLine&gt;&#13;&#10;          &lt;!--appointment is optional--&gt;&#13;&#10;          &lt;appointment&gt;&#13;&#10;            &lt;start&gt;{{=[:start:2000-01-01T00\:00\:00]}}&lt;/start&gt;&#13;&#10;            &lt;end&gt;{{=[:end:2000-01-01T00\:00\:00]}}&lt;/end&gt;&#13;&#10;          &lt;/appointment&gt;&#13;&#10;          &lt;!--status is optional--&gt;&#13;&#10;          &lt;status&gt;&#13;&#10;            &lt;code&gt;{{=[:code:1]}}&lt;/code&gt;&#13;&#10;            &lt;text&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/text&gt;&#13;&#10;            &lt;timestamp&gt;{{=[:timestamp:2000-01-01T00\:00\:00]}}&lt;/timestamp&gt;&#13;&#10;          &lt;/status&gt;&#13;&#10;          &lt;!--workInfo is optional, but can have an unlimited number of instances--&gt;&#13;&#10;          &lt;workInfo&gt;&#13;&#10;            &lt;code&gt;{{=[:code:1]}}&lt;/code&gt;&#13;&#10;            &lt;text&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/text&gt;&#13;&#10;            &lt;!--comment is optional--&gt;&#13;&#10;            &lt;comment&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/comment&gt;&#13;&#10;            &lt;timestamp&gt;{{=[:timestamp:2000-01-01T00\:00\:00]}}&lt;/timestamp&gt;&#13;&#10;          &lt;/workInfo&gt;&#13;&#10;          &lt;!--completion is optional--&gt;&#13;&#10;          &lt;completion&gt;&#13;&#10;            &lt;code&gt;{{=[:code:1]}}&lt;/code&gt;&#13;&#10;            &lt;text&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/text&gt;&#13;&#10;            &lt;!--notice is optional--&gt;&#13;&#10;            &lt;notice&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/notice&gt;&#13;&#10;            &lt;timestamp&gt;{{=[:timestamp:2000-01-01T00\:00\:00]}}&lt;/timestamp&gt;&#13;&#10;          &lt;/completion&gt;&#13;&#10;          &lt;!--partnerCompany is optional--&gt;&#13;&#10;          &lt;partnerCompany&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/partnerCompany&gt;&#13;&#10;        &lt;/task&gt;&#13;&#10;        &lt;status&gt;&#13;&#10;          &lt;code&gt;{{=[:code:1]}}&lt;/code&gt;&#13;&#10;          &lt;text&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/text&gt;&#13;&#10;        &lt;/status&gt;&#13;&#10;      &lt;/out&gt;&#13;&#10;    &lt;/getTaskInfoResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="96" op="getTaskInfo" tl="SIGNATURE">
+<ag>
+<p n="geId" t="arg:EQUALS;false;;;;">D11M48qte</p>
+<p n="syncId" t="arg:EQUALS;false;;;;">gVRxKD</p>
+</ag>
+<at>
+<p n="xmlns">http://www.logobject.ch/ns/inquiry</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;getTaskInfo xmlns=&quot;http://www.logobject.ch/ns/inquiry&quot;&gt;&#13;&#10;      &lt;geId&gt;D11M48qte&lt;/geId&gt;&#13;&#10;      &lt;syncId&gt;gVRxKD&lt;/syncId&gt;&#13;&#10;    &lt;/getTaskInfo&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://www.example.org/</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.logobject.ch/ns/inquiry/getTaskInfo&quot;</p>
+<p n="Content-Length">363</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;getTaskInfo xmlns=&quot;http://www.logobject.ch/ns/inquiry&quot;&gt;&#13;&#10;      &lt;geId&gt;D11M48qte&lt;/geId&gt;&#13;&#10;      &lt;syncId&gt;gVRxKD&lt;/syncId&gt;&#13;&#10;    &lt;/getTaskInfo&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="97" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;getTaskInfoResponse xmlns=&quot;http://www.logobject.ch/ns/inquiry&quot;&gt;&#13;&#10;      &lt;out&gt;&#13;&#10;        &lt;!--task is optional, but can have an unlimited number of instances--&gt;&#13;&#10;        &lt;task&gt;&#13;&#10;          &lt;businessLine&gt;{{=[:businessLine:1]}}&lt;/businessLine&gt;&#13;&#10;          &lt;!--appointment is optional--&gt;&#13;&#10;          &lt;appointment&gt;&#13;&#10;            &lt;start&gt;{{=[:start:2000-01-01T00\:00\:00]}}&lt;/start&gt;&#13;&#10;            &lt;end&gt;{{=[:end:2000-01-01T00\:00\:00]}}&lt;/end&gt;&#13;&#10;          &lt;/appointment&gt;&#13;&#10;          &lt;!--status is optional--&gt;&#13;&#10;          &lt;status&gt;&#13;&#10;            &lt;code&gt;{{=[:code:1]}}&lt;/code&gt;&#13;&#10;            &lt;text&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/text&gt;&#13;&#10;            &lt;timestamp&gt;{{=[:timestamp:2000-01-01T00\:00\:00]}}&lt;/timestamp&gt;&#13;&#10;          &lt;/status&gt;&#13;&#10;          &lt;!--workInfo is optional, but can have an unlimited number of instances--&gt;&#13;&#10;          &lt;workInfo&gt;&#13;&#10;            &lt;code&gt;{{=[:code:1]}}&lt;/code&gt;&#13;&#10;            &lt;text&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/text&gt;&#13;&#10;            &lt;!--comment is optional--&gt;&#13;&#10;            &lt;comment&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/comment&gt;&#13;&#10;            &lt;timestamp&gt;{{=[:timestamp:2000-01-01T00\:00\:00]}}&lt;/timestamp&gt;&#13;&#10;          &lt;/workInfo&gt;&#13;&#10;          &lt;!--completion is optional--&gt;&#13;&#10;          &lt;completion&gt;&#13;&#10;            &lt;code&gt;{{=[:code:1]}}&lt;/code&gt;&#13;&#10;            &lt;text&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/text&gt;&#13;&#10;            &lt;!--notice is optional--&gt;&#13;&#10;            &lt;notice&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/notice&gt;&#13;&#10;            &lt;timestamp&gt;{{=[:timestamp:2000-01-01T00\:00\:00]}}&lt;/timestamp&gt;&#13;&#10;          &lt;/completion&gt;&#13;&#10;          &lt;!--partnerCompany is optional--&gt;&#13;&#10;          &lt;partnerCompany&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/partnerCompany&gt;&#13;&#10;        &lt;/task&gt;&#13;&#10;        &lt;status&gt;&#13;&#10;          &lt;code&gt;{{=[:code:1]}}&lt;/code&gt;&#13;&#10;          &lt;text&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/text&gt;&#13;&#10;        &lt;/status&gt;&#13;&#10;      &lt;/out&gt;&#13;&#10;    &lt;/getTaskInfoResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="92" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="91" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

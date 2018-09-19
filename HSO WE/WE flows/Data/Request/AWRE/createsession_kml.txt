@@ -1,0 +1,32 @@
+{
+  "createSessionRequest": {
+    "serviceTransactionId": "1234",
+    "header": {
+      "sender": {
+        "senderId": "ACUI",
+        "channelId": "RETAIL",
+        "applicationId": "ACUI",
+        "applicationUserId": "123",
+       
+        "workflowId": "27917413052984803",
+        "activityId": "123",
+        "timestamp": "2013-10-03T13:20:00-05:00",
+        "storeId": "123",
+        "dealerCode": "0000002"
+      },
+      "target": {
+        "targetSystemId": {
+          "systemId": "123",
+          "userId": "1234"
+        },
+        "userCompanyId": "123",
+        "customerCompanyId": "1234",
+        "servicePartnerId": "1231",
+        "transactionType": "123124"
+      }
+    },
+    "userId": "1232",
+    "password": "123123",
+    "authenticationRequired": "false"
+  }
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <soapenv:Body>
+<ns0:CreateOrderEventRequest xmlns:ns0="http://services.tmobile.com/oe" languageCode="en-US">
+			<eventSummary xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://services.tmobile.com/oe" xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+				<eventType>EXCHReadyPickup</eventType>
+				<eventDateTime>2017-08-07T14:13:32</eventDateTime>
+				<notificationList/>
+			</eventSummary>
+			<orderList xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://services.tmobile.com/oe" xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+				<order>
+					<orderSummary>
+						<ban>{{BAN}}</ban>
+						<msisdn>{{MSISDN}}</msisdn>
+						<channel>12</channel>
+						<storeId>451</storeId>
+						<originalSystemId>STRE</originalSystemId>
+						<orderNumber>{{orderId}}</orderNumber>
+						<sapOrderNumber>7000207321</sapOrderNumber>
+						<orderStatus>RP</orderStatus>
+						<orderType>ZW01</orderType>
+						<orderDateTime>2017-08-07T14:13:30</orderDateTime>
+						<orderItem>
+							<msisdn>{{MSISDN}}</msisdn>
+							<description>SAM N920T NOTE 5 32G BLK KIT</description>
+							<itemType>DATK</itemType>
+							<sku>000000610214642400</sku>
+							<quantity>1.000 </quantity>
+							<orderDetailId>100221873</orderDetailId>
+							<suppressCustomerNotification>false</suppressCustomerNotification>
+							<defectiveSKU>000000610214642400</defectiveSKU>
+							<defectiveSKUDescription>SAM N920T NOTE 5 32G BLK KIT</defectiveSKUDescription>
+							<defectiveIMEI>353756078813573</defectiveIMEI>
+						</orderItem>
+						<comments>Handset/Device is ready for pickup at Store 451</comments>
+					</orderSummary>
+					<orderShipToAddress>
+						<name>TM - SUPERMALL</name>
+						<addressLine1>1101 SUPERMALL WAY STE 1317</addressLine1>
+						<city>AUBURN</city>
+						<zipcode>98001-6526</zipcode>
+						<state>WA</state>
+						<shippingMethod>04</shippingMethod>
+					</orderShipToAddress>
+					<orderBillToAddress>
+						<name>TOBY KENOBI</name>
+						<addressLine1>1101 Outlet Collection Way Ste 1317</addressLine1>
+						<city>Auburn</city>
+						<zipcode>30346</zipcode>
+						<state>GA</state>
+					</orderBillToAddress>
+				</order>
+			</orderList>
+		</ns0:CreateOrderEventRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

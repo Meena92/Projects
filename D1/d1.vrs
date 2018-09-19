@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+
+<RecordingSession nonLeaf="WIDE" leaf="LOOSE" asObject="true">
+<Protocol type="com.itko.lisa.vse.stateful.protocol.rrpairs.VSFromRRPairsTransportProtocol">
+<Transport allAreStateless="false" asObject="true" desensitize="false" duptxns="false">
+<exportFile></exportFile>
+<RequestSide>
+<Protocol type="com.itko.lisa.vse.stateful.protocol.rest.RestDataProtocol">
+<requestSideUnparsed>true</requestSideUnparsed>
+<rules>
+<rule>
+<operation>GET /fulfillment-order-services/resources/item/pick/validate/</operation>
+</rule>
+</rules>
+</Protocol>
+</RequestSide>
+</Transport>
+<rrDir>C:\Users\mn00365099\newgit\Get</rrDir>
+<transportProtocol>
+<Protocol type="com.itko.lisa.vse.stateful.protocol.http.HttpProtocolHandler">
+<Transport allAreStateless="false" asObject="true" desensitize="false" duptxns="false">
+</Transport>
+<listenPort>6084</listenPort>
+<targetHost>localhost</targetHost>
+<targetPort>8080</targetPort>
+<useGateway>true</useGateway>
+<hostHeaderPassThrough>false</hostHeaderPassThrough>
+<ssl toClient="false" sslClientAuthType="none" toServer="false"/><basePath>/fulfillment-order-services/resources/item/pick/validate?userId=user&amp;nodeId=5578&amp;countryCode=US&amp;upc=123&amp;pickUpcNbr=60958523083&amp;pickUpcType=substitute&amp;serialNbr=1234&amp;serialNbrFmt=23234&amp;fulfillOrderId=2402</basePath>
+</Protocol>
+</transportProtocol>
+</Protocol>
+</RecordingSession>

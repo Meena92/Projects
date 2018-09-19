@@ -1,0 +1,4 @@
+
+{"createSessionRequest": {"header": {"target":{"customerCompanyId":"TMobileUS"},"sender":{"sessionId":null,"channelId":"CARE","workflowId":"1588561608134157241","serviceTransactionId":"1588561608134157270","dealerCode":"0000002","applicationId":"ACUI","applicationUserId":"vkuperm","senderId":"ACUI","storeId":"9999"},"targetSystemId":{"userId":"1992"}},"userId":"vkuperm","authenticationRequired":"false"}}
+
+

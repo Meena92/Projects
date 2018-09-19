@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+
+<RecordingSession nonLeaf="WIDE" leaf="LOOSE" asObject="true">
+<Protocol type="com.itko.lisa.vse.stateful.protocol.rrpairs.VSFromRRPairsTransportProtocol">
+<Transport allAreStateless="false" asObject="true" desensitize="false" duptxns="false">
+<exportFile></exportFile>
+<RequestSide>
+<Protocol type="com.itko.lisa.vse.stateful.protocol.rest.RestDataProtocol">
+<requestSideUnparsed>true</requestSideUnparsed>
+<rules>
+<rule>
+<operation>GET /rest-example/control/users/lisa_simpson/</operation>
+</rule>
+</rules>
+</Protocol>
+</RequestSide>
+</Transport>
+<rrDir>C:/Users/mn00365099/Desktop/SV/SV_Assign/R1</rrDir>
+<transportProtocol>
+<Protocol type="com.itko.lisa.vse.stateful.protocol.http.HttpProtocolHandler">
+<Transport allAreStateless="false" asObject="true" desensitize="false" duptxns="false">
+</Transport>
+<listenPort>8025</listenPort>
+<targetHost>localhost</targetHost>
+<targetPort>8080</targetPort>
+<useGateway>true</useGateway>
+<hostHeaderPassThrough>false</hostHeaderPassThrough>
+<ssl toClient="false" sslClientAuthType="none" toServer="false"/><basePath>/rest-example/control/users/lisa_simpson</basePath>
+</Protocol>
+</transportProtocol>
+</Protocol>
+</RecordingSession>

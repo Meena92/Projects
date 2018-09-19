@@ -1,0 +1,3 @@
+{"confirmOrderRequest": {"header": {"target":{"customerCompanyId":"{{customerCompanyId}}"},"sender":{"sessionId":"{{sessionid}}","channelId":"{{channelId}}","workflowId":"1588383487250482078","serviceTransactionId":"1588383487250482109","dealerCode":"{{dealerCode}}","applicationId":"{{applicationId}}","applicationUserId":"{{applicationUserId}}","senderId":"{{senderId}}","storeId":"{{storeId}}"},"targetSystemId":{"userId":"{{userId}}"}},"orderId":"{{orderId}}"}}
+
+

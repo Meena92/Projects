@@ -1,0 +1,190 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="68" name="n1" created="2017-11-02.14:49:37.129" lastModified="2017-11-02.14:50:23.757" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="67" nd="true">
+<sp>
+<t id="71">
+<rq id="72" op="koPaStateFio" tl="EXACT">
+<ag>
+<p n="taskHeader_fioId" t="arg:EQUALS;false;;;;">akeA8</p>
+<p n="taskHeader_fioKoPaId" t="arg:EQUALS;false;;;;">IDDTu7e</p>
+<p n="taskHeader_koPaId" t="arg:EQUALS;false;;;;">5TtA7</p>
+<p n="taskHeader_timestamp" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="taskHeader_requestId" t="arg:EQUALS;false;;;;">bu2jyC8b50Rab</p>
+<p n="taskHeader_sourceApplicationId" t="arg:EQUALS;false;;;;">ma58P</p>
+<p n="taskHeader_appId" t="arg:EQUALS;false;;;;">mr7528M</p>
+<p n="taskHeader_appStartDate" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="taskHeader_appEndDate" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="taskHeader_integrationId" t="arg:EQUALS;false;;;;">tCufo16281</p>
+<p n="taskHeader_outOfSla" t="arg:EQUALS;false;;;;">0</p>
+<p n="taskHeader_outOfSlaReason" t="arg:EQUALS;false;;;;">1</p>
+<p n="taskHeader_comment" t="arg:EQUALS;false;;;;">iiK1eGn77n</p>
+<p n="koPaState_text" t="arg:EQUALS;false;;;;">8R8cB07iEJ5t20</p>
+<p n="koPaState_code" t="arg:EQUALS;false;;;;">1</p>
+<p n="koPaState_date" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="workInfo_infoText" t="arg:EQUALS;false;;;;">w7Emfy</p>
+<p n="workInfo_infoCode" t="arg:EQUALS;false;;;;">1</p>
+<p n="workInfo_infoComment" t="arg:EQUALS;false;;;;">bS6wqO</p>
+<p n="ipData_ipCompany" t="arg:EQUALS;false;;;;">OfQ6Ui</p>
+<p n="ipData_ipFirstName" t="arg:EQUALS;false;;;;">rw62y</p>
+<p n="ipData_ipLastName" t="arg:EQUALS;false;;;;">2al3e</p>
+<p n="ipData_ipPhone" t="arg:EQUALS;false;;;;">m8bX55</p>
+<p n="reportData_orderCompletionCode" t="arg:EQUALS;false;;;;">1</p>
+<p n="reportData_orderCompletionText" t="arg:EQUALS;false;;;;">XuNjEo</p>
+<p n="reportData_installationComment" t="arg:EQUALS;false;;;;">qnK52</p>
+<p n="reportData_inventory_otoKey" t="arg:EQUALS;false;;;;">Dk7J7</p>
+<p n="reportData_inventory_otoType" t="arg:EQUALS;false;;;;">07UjJjmOhNPWUA0</p>
+<p n="reportData_inventory_otoOnly" t="arg:EQUALS;false;;;;">1</p>
+<p n="reportData_inventory_partnerLabel" t="arg:EQUALS;false;;;;">Og757</p>
+<p n="reportData_inventory_installationDate" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="reportData_inventory_flatId" t="arg:EQUALS;false;;;;">xAVf42</p>
+<p n="reportData_inventory_flatMemo" t="arg:EQUALS;false;;;;">4EGQ3</p>
+<p n="reportData_inventory_installationPartner" t="arg:EQUALS;false;;;;">b44576</p>
+<p n="reportData_inventory_lengthInhouseCable" t="arg:EQUALS;false;;;;">Yi8ir</p>
+<p n="reportData_inventory_connectionBuildingentryBep" t="arg:EQUALS;false;;;;">w77fD</p>
+<p n="reportData_inventory_trayEquipmentBep" t="arg:EQUALS;false;;;;">Nlcr7kGr</p>
+<p n="reportData_inventory_connectionBepVerticalShaft" t="arg:EQUALS;false;;;;">RTqasAB</p>
+<p n="reportData_inventory_infrastructureVerticalShaft" t="arg:EQUALS;false;;;;">46SL1S7</p>
+<p n="reportData_inventory_jumperVerticalShaft" t="arg:EQUALS;false;;;;">6sklhd</p>
+<p n="reportData_inventory_infrastructureFlat" t="arg:EQUALS;false;;;;">dt4hV</p>
+<p n="reportData_inventory_connectionVerticalShaftOto" t="arg:EQUALS;false;;;;">x3h0gK8qI2j</p>
+<p n="reportData_inventory_endpointFlat" t="arg:EQUALS;false;;;;">AiTw58h</p>
+<p n="reportData_inventory_commentPartner" t="arg:EQUALS;false;;;;">3Ld8vGLqf1</p>
+<p n="workPackage_workPackageCode" t="arg:EQUALS;false;;;;">1</p>
+<p n="workPackage_quantity" t="arg:EQUALS;false;;;;">1</p>
+</ag>
+<at>
+<p n="xmlns">http://www.logobject.ch/ns/KopaWfm/</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;koPaStateFio xmlns=&quot;http://www.logobject.ch/ns/KopaWfm/&quot;&gt;&#13;&#10;      &lt;taskHeader&gt;&#13;&#10;        &lt;fioId&gt;akeA8&lt;/fioId&gt;&#13;&#10;        &lt;fioKoPaId&gt;IDDTu7e&lt;/fioKoPaId&gt;&#13;&#10;        &lt;koPaId&gt;5TtA7&lt;/koPaId&gt;&#13;&#10;        &lt;timestamp&gt;2000-01-01T00:00:00&lt;/timestamp&gt;&#13;&#10;        &lt;!--requestId is optional--&gt;&#13;&#10;        &lt;requestId&gt;bu2jyC8b50Rab&lt;/requestId&gt;&#13;&#10;        &lt;sourceApplicationId&gt;ma58P&lt;/sourceApplicationId&gt;&#13;&#10;        &lt;!--appId is optional--&gt;&#13;&#10;        &lt;appId&gt;mr7528M&lt;/appId&gt;&#13;&#10;        &lt;!--appStartDate is optional--&gt;&#13;&#10;        &lt;appStartDate&gt;2000-01-01T00:00:00&lt;/appStartDate&gt;&#13;&#10;        &lt;!--appEndDate is optional--&gt;&#13;&#10;        &lt;appEndDate&gt;2000-01-01T00:00:00&lt;/appEndDate&gt;&#13;&#10;        &lt;!--integrationId is optional--&gt;&#13;&#10;        &lt;integrationId&gt;tCufo16281&lt;/integrationId&gt;&#13;&#10;        &lt;!--outOfSla is optional--&gt;&#13;&#10;        &lt;outOfSla&gt;0&lt;/outOfSla&gt;&#13;&#10;        &lt;!--outOfSlaReason is optional--&gt;&#13;&#10;        &lt;outOfSlaReason&gt;1&lt;/outOfSlaReason&gt;&#13;&#10;        &lt;!--comment is optional--&gt;&#13;&#10;        &lt;comment&gt;iiK1eGn77n&lt;/comment&gt;&#13;&#10;      &lt;/taskHeader&gt;&#13;&#10;      &lt;koPaState&gt;&#13;&#10;        &lt;text&gt;8R8cB07iEJ5t20&lt;/text&gt;&#13;&#10;        &lt;code&gt;1&lt;/code&gt;&#13;&#10;        &lt;date&gt;2000-01-01T00:00:00&lt;/date&gt;&#13;&#10;      &lt;/koPaState&gt;&#13;&#10;      &lt;!--workInfo is optional--&gt;&#13;&#10;      &lt;workInfo&gt;&#13;&#10;        &lt;infoText&gt;w7Emfy&lt;/infoText&gt;&#13;&#10;        &lt;infoCode&gt;1&lt;/infoCode&gt;&#13;&#10;        &lt;infoComment&gt;bS6wqO&lt;/infoComment&gt;&#13;&#10;      &lt;/workInfo&gt;&#13;&#10;      &lt;!--ipData is optional--&gt;&#13;&#10;      &lt;ipData&gt;&#13;&#10;        &lt;!--ipCompany is optional--&gt;&#13;&#10;        &lt;ipCompany&gt;OfQ6Ui&lt;/ipCompany&gt;&#13;&#10;        &lt;!--ipFirstName is optional--&gt;&#13;&#10;        &lt;ipFirstName&gt;rw62y&lt;/ipFirstName&gt;&#13;&#10;        &lt;!--ipLastName is optional--&gt;&#13;&#10;        &lt;ipLastName&gt;2al3e&lt;/ipLastName&gt;&#13;&#10;        &lt;!--ipPhone is optional--&gt;&#13;&#10;        &lt;ipPhone&gt;m8bX55&lt;/ipPhone&gt;&#13;&#10;      &lt;/ipData&gt;&#13;&#10;      &lt;!--reportData is optional--&gt;&#13;&#10;      &lt;reportData&gt;&#13;&#10;        &lt;orderCompletionCode&gt;1&lt;/orderCompletionCode&gt;&#13;&#10;        &lt;orderCompletionText&gt;XuNjEo&lt;/orderCompletionText&gt;&#13;&#10;        &lt;!--installationComment is optional--&gt;&#13;&#10;        &lt;installationComment&gt;qnK52&lt;/installationComment&gt;&#13;&#10;        &lt;!--inventory is optional--&gt;&#13;&#10;        &lt;inventory&gt;&#13;&#10;          &lt;otoKey&gt;Dk7J7&lt;/otoKey&gt;&#13;&#10;          &lt;!--otoType is optional--&gt;&#13;&#10;          &lt;otoType&gt;07UjJjmOhNPWUA0&lt;/otoType&gt;&#13;&#10;          &lt;!--otoOnly is optional--&gt;&#13;&#10;          &lt;otoOnly&gt;1&lt;/otoOnly&gt;&#13;&#10;          &lt;!--partnerLabel is optional--&gt;&#13;&#10;          &lt;partnerLabel&gt;Og757&lt;/partnerLabel&gt;&#13;&#10;          &lt;!--installationDate is optional--&gt;&#13;&#10;          &lt;installationDate&gt;2000-01-01T00:00:00&lt;/installationDate&gt;&#13;&#10;          &lt;!--flatId is optional--&gt;&#13;&#10;          &lt;flatId&gt;xAVf42&lt;/flatId&gt;&#13;&#10;          &lt;!--flatMemo is optional--&gt;&#13;&#10;          &lt;flatMemo&gt;4EGQ3&lt;/flatMemo&gt;&#13;&#10;          &lt;!--installationPartner is optional--&gt;&#13;&#10;          &lt;installationPartner&gt;b44576&lt;/installationPartner&gt;&#13;&#10;          &lt;!--lengthInhouseCable is optional--&gt;&#13;&#10;          &lt;lengthInhouseCable&gt;Yi8ir&lt;/lengthInhouseCable&gt;&#13;&#10;          &lt;!--connectionBuildingentryBep is optional--&gt;&#13;&#10;          &lt;connectionBuildingentryBep&gt;w77fD&lt;/connectionBuildingentryBep&gt;&#13;&#10;          &lt;!--trayEquipmentBep is optional--&gt;&#13;&#10;          &lt;trayEquipmentBep&gt;Nlcr7kGr&lt;/trayEquipmentBep&gt;&#13;&#10;          &lt;!--connectionBepVerticalShaft is optional--&gt;&#13;&#10;          &lt;connectionBepVerticalShaft&gt;RTqasAB&lt;/connectionBepVerticalShaft&gt;&#13;&#10;          &lt;!--infrastructureVerticalShaft is optional--&gt;&#13;&#10;          &lt;infrastructureVerticalShaft&gt;46SL1S7&lt;/infrastructureVerticalShaft&gt;&#13;&#10;          &lt;!--jumperVerticalShaft is optional--&gt;&#13;&#10;          &lt;jumperVerticalShaft&gt;6sklhd&lt;/jumperVerticalShaft&gt;&#13;&#10;          &lt;!--infrastructureFlat is optional--&gt;&#13;&#10;          &lt;infrastructureFlat&gt;dt4hV&lt;/infrastructureFlat&gt;&#13;&#10;          &lt;!--connectionVerticalShaftOto is optional--&gt;&#13;&#10;          &lt;connectionVerticalShaftOto&gt;x3h0gK8qI2j&lt;/connectionVerticalShaftOto&gt;&#13;&#10;          &lt;!--endpointFlat is optional--&gt;&#13;&#10;          &lt;endpointFlat&gt;AiTw58h&lt;/endpointFlat&gt;&#13;&#10;          &lt;!--commentPartner is optional--&gt;&#13;&#10;          &lt;commentPartner&gt;3Ld8vGLqf1&lt;/commentPartner&gt;&#13;&#10;        &lt;/inventory&gt;&#13;&#10;      &lt;/reportData&gt;&#13;&#10;      &lt;!--workPackage is optional, but can have an unlimited number of instances--&gt;&#13;&#10;      &lt;workPackage&gt;&#13;&#10;        &lt;workPackageCode&gt;1&lt;/workPackageCode&gt;&#13;&#10;        &lt;quantity&gt;1&lt;/quantity&gt;&#13;&#10;      &lt;/workPackage&gt;&#13;&#10;    &lt;/koPaStateFio&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://sg2110p.corproot.net:8080/axis/services/KopaWfmSOAP</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.logobject.ch/ns/KopaWfm/koPaStateFio&quot;</p>
+<p n="Content-Length">4318</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;koPaStateFio xmlns=&quot;http://www.logobject.ch/ns/KopaWfm/&quot;&gt;&#13;&#10;      &lt;taskHeader&gt;&#13;&#10;        &lt;fioId&gt;akeA8&lt;/fioId&gt;&#13;&#10;        &lt;fioKoPaId&gt;IDDTu7e&lt;/fioKoPaId&gt;&#13;&#10;        &lt;koPaId&gt;5TtA7&lt;/koPaId&gt;&#13;&#10;        &lt;timestamp&gt;2000-01-01T00:00:00&lt;/timestamp&gt;&#13;&#10;        &lt;!--requestId is optional--&gt;&#13;&#10;        &lt;requestId&gt;bu2jyC8b50Rab&lt;/requestId&gt;&#13;&#10;        &lt;sourceApplicationId&gt;ma58P&lt;/sourceApplicationId&gt;&#13;&#10;        &lt;!--appId is optional--&gt;&#13;&#10;        &lt;appId&gt;mr7528M&lt;/appId&gt;&#13;&#10;        &lt;!--appStartDate is optional--&gt;&#13;&#10;        &lt;appStartDate&gt;2000-01-01T00:00:00&lt;/appStartDate&gt;&#13;&#10;        &lt;!--appEndDate is optional--&gt;&#13;&#10;        &lt;appEndDate&gt;2000-01-01T00:00:00&lt;/appEndDate&gt;&#13;&#10;        &lt;!--integrationId is optional--&gt;&#13;&#10;        &lt;integrationId&gt;tCufo16281&lt;/integrationId&gt;&#13;&#10;        &lt;!--outOfSla is optional--&gt;&#13;&#10;        &lt;outOfSla&gt;0&lt;/outOfSla&gt;&#13;&#10;        &lt;!--outOfSlaReason is optional--&gt;&#13;&#10;        &lt;outOfSlaReason&gt;1&lt;/outOfSlaReason&gt;&#13;&#10;        &lt;!--comment is optional--&gt;&#13;&#10;        &lt;comment&gt;iiK1eGn77n&lt;/comment&gt;&#13;&#10;      &lt;/taskHeader&gt;&#13;&#10;      &lt;koPaState&gt;&#13;&#10;        &lt;text&gt;8R8cB07iEJ5t20&lt;/text&gt;&#13;&#10;        &lt;code&gt;1&lt;/code&gt;&#13;&#10;        &lt;date&gt;2000-01-01T00:00:00&lt;/date&gt;&#13;&#10;      &lt;/koPaState&gt;&#13;&#10;      &lt;!--workInfo is optional--&gt;&#13;&#10;      &lt;workInfo&gt;&#13;&#10;        &lt;infoText&gt;w7Emfy&lt;/infoText&gt;&#13;&#10;        &lt;infoCode&gt;1&lt;/infoCode&gt;&#13;&#10;        &lt;infoComment&gt;bS6wqO&lt;/infoComment&gt;&#13;&#10;      &lt;/workInfo&gt;&#13;&#10;      &lt;!--ipData is optional--&gt;&#13;&#10;      &lt;ipData&gt;&#13;&#10;        &lt;!--ipCompany is optional--&gt;&#13;&#10;        &lt;ipCompany&gt;OfQ6Ui&lt;/ipCompany&gt;&#13;&#10;        &lt;!--ipFirstName is optional--&gt;&#13;&#10;        &lt;ipFirstName&gt;rw62y&lt;/ipFirstName&gt;&#13;&#10;        &lt;!--ipLastName is optional--&gt;&#13;&#10;        &lt;ipLastName&gt;2al3e&lt;/ipLastName&gt;&#13;&#10;        &lt;!--ipPhone is optional--&gt;&#13;&#10;        &lt;ipPhone&gt;m8bX55&lt;/ipPhone&gt;&#13;&#10;      &lt;/ipData&gt;&#13;&#10;      &lt;!--reportData is optional--&gt;&#13;&#10;      &lt;reportData&gt;&#13;&#10;        &lt;orderCompletionCode&gt;1&lt;/orderCompletionCode&gt;&#13;&#10;        &lt;orderCompletionText&gt;XuNjEo&lt;/orderCompletionText&gt;&#13;&#10;        &lt;!--installationComment is optional--&gt;&#13;&#10;        &lt;installationComment&gt;qnK52&lt;/installationComment&gt;&#13;&#10;        &lt;!--inventory is optional--&gt;&#13;&#10;        &lt;inventory&gt;&#13;&#10;          &lt;otoKey&gt;Dk7J7&lt;/otoKey&gt;&#13;&#10;          &lt;!--otoType is optional--&gt;&#13;&#10;          &lt;otoType&gt;07UjJjmOhNPWUA0&lt;/otoType&gt;&#13;&#10;          &lt;!--otoOnly is optional--&gt;&#13;&#10;          &lt;otoOnly&gt;1&lt;/otoOnly&gt;&#13;&#10;          &lt;!--partnerLabel is optional--&gt;&#13;&#10;          &lt;partnerLabel&gt;Og757&lt;/partnerLabel&gt;&#13;&#10;          &lt;!--installationDate is optional--&gt;&#13;&#10;          &lt;installationDate&gt;2000-01-01T00:00:00&lt;/installationDate&gt;&#13;&#10;          &lt;!--flatId is optional--&gt;&#13;&#10;          &lt;flatId&gt;xAVf42&lt;/flatId&gt;&#13;&#10;          &lt;!--flatMemo is optional--&gt;&#13;&#10;          &lt;flatMemo&gt;4EGQ3&lt;/flatMemo&gt;&#13;&#10;          &lt;!--installationPartner is optional--&gt;&#13;&#10;          &lt;installationPartner&gt;b44576&lt;/installationPartner&gt;&#13;&#10;          &lt;!--lengthInhouseCable is optional--&gt;&#13;&#10;          &lt;lengthInhouseCable&gt;Yi8ir&lt;/lengthInhouseCable&gt;&#13;&#10;          &lt;!--connectionBuildingentryBep is optional--&gt;&#13;&#10;          &lt;connectionBuildingentryBep&gt;w77fD&lt;/connectionBuildingentryBep&gt;&#13;&#10;          &lt;!--trayEquipmentBep is optional--&gt;&#13;&#10;          &lt;trayEquipmentBep&gt;Nlcr7kGr&lt;/trayEquipmentBep&gt;&#13;&#10;          &lt;!--connectionBepVerticalShaft is optional--&gt;&#13;&#10;          &lt;connectionBepVerticalShaft&gt;RTqasAB&lt;/connectionBepVerticalShaft&gt;&#13;&#10;          &lt;!--infrastructureVerticalShaft is optional--&gt;&#13;&#10;          &lt;infrastructureVerticalShaft&gt;46SL1S7&lt;/infrastructureVerticalShaft&gt;&#13;&#10;          &lt;!--jumperVerticalShaft is optional--&gt;&#13;&#10;          &lt;jumperVerticalShaft&gt;6sklhd&lt;/jumperVerticalShaft&gt;&#13;&#10;          &lt;!--infrastructureFlat is optional--&gt;&#13;&#10;          &lt;infrastructureFlat&gt;dt4hV&lt;/infrastructureFlat&gt;&#13;&#10;          &lt;!--connectionVerticalShaftOto is optional--&gt;&#13;&#10;          &lt;connectionVerticalShaftOto&gt;x3h0gK8qI2j&lt;/connectionVerticalShaftOto&gt;&#13;&#10;          &lt;!--endpointFlat is optional--&gt;&#13;&#10;          &lt;endpointFlat&gt;AiTw58h&lt;/endpointFlat&gt;&#13;&#10;          &lt;!--commentPartner is optional--&gt;&#13;&#10;          &lt;commentPartner&gt;3Ld8vGLqf1&lt;/commentPartner&gt;&#13;&#10;        &lt;/inventory&gt;&#13;&#10;      &lt;/reportData&gt;&#13;&#10;      &lt;!--workPackage is optional, but can have an unlimited number of instances--&gt;&#13;&#10;      &lt;workPackage&gt;&#13;&#10;        &lt;workPackageCode&gt;1&lt;/workPackageCode&gt;&#13;&#10;        &lt;quantity&gt;1&lt;/quantity&gt;&#13;&#10;      &lt;/workPackage&gt;&#13;&#10;    &lt;/koPaStateFio&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="73" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;koPaStateFioResponse xmlns=&quot;http://www.logobject.ch/ns/KopaWfm/&quot;&gt;&#13;&#10;      &lt;out&gt;&#13;&#10;        &lt;errorStatus&gt;&#13;&#10;          &lt;errorCode&gt;{{=[:errorCode:1]}}&lt;/errorCode&gt;&#13;&#10;          &lt;errorText&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/errorText&gt;&#13;&#10;        &lt;/errorStatus&gt;&#13;&#10;        &lt;integrationHeader&gt;&#13;&#10;          &lt;!--geId is optional--&gt;&#13;&#10;          &lt;geId&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/geId&gt;&#13;&#10;        &lt;/integrationHeader&gt;&#13;&#10;      &lt;/out&gt;&#13;&#10;    &lt;/koPaStateFioResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="74" op="koPaStateFio" tl="SIGNATURE">
+<ag>
+<p n="taskHeader_fioId" t="arg:EQUALS;false;;;;">akeA8</p>
+<p n="taskHeader_fioKoPaId" t="arg:EQUALS;false;;;;">IDDTu7e</p>
+<p n="taskHeader_koPaId" t="arg:EQUALS;false;;;;">5TtA7</p>
+<p n="taskHeader_timestamp" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="taskHeader_requestId" t="arg:EQUALS;false;;;;">bu2jyC8b50Rab</p>
+<p n="taskHeader_sourceApplicationId" t="arg:EQUALS;false;;;;">ma58P</p>
+<p n="taskHeader_appId" t="arg:EQUALS;false;;;;">mr7528M</p>
+<p n="taskHeader_appStartDate" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="taskHeader_appEndDate" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="taskHeader_integrationId" t="arg:EQUALS;false;;;;">tCufo16281</p>
+<p n="taskHeader_outOfSla" t="arg:EQUALS;false;;;;">0</p>
+<p n="taskHeader_outOfSlaReason" t="arg:EQUALS;false;;;;">1</p>
+<p n="taskHeader_comment" t="arg:EQUALS;false;;;;">iiK1eGn77n</p>
+<p n="koPaState_text" t="arg:EQUALS;false;;;;">8R8cB07iEJ5t20</p>
+<p n="koPaState_code" t="arg:EQUALS;false;;;;">1</p>
+<p n="koPaState_date" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="workInfo_infoText" t="arg:EQUALS;false;;;;">w7Emfy</p>
+<p n="workInfo_infoCode" t="arg:EQUALS;false;;;;">1</p>
+<p n="workInfo_infoComment" t="arg:EQUALS;false;;;;">bS6wqO</p>
+<p n="ipData_ipCompany" t="arg:EQUALS;false;;;;">OfQ6Ui</p>
+<p n="ipData_ipFirstName" t="arg:EQUALS;false;;;;">rw62y</p>
+<p n="ipData_ipLastName" t="arg:EQUALS;false;;;;">2al3e</p>
+<p n="ipData_ipPhone" t="arg:EQUALS;false;;;;">m8bX55</p>
+<p n="reportData_orderCompletionCode" t="arg:EQUALS;false;;;;">1</p>
+<p n="reportData_orderCompletionText" t="arg:EQUALS;false;;;;">XuNjEo</p>
+<p n="reportData_installationComment" t="arg:EQUALS;false;;;;">qnK52</p>
+<p n="reportData_inventory_otoKey" t="arg:EQUALS;false;;;;">Dk7J7</p>
+<p n="reportData_inventory_otoType" t="arg:EQUALS;false;;;;">07UjJjmOhNPWUA0</p>
+<p n="reportData_inventory_otoOnly" t="arg:EQUALS;false;;;;">1</p>
+<p n="reportData_inventory_partnerLabel" t="arg:EQUALS;false;;;;">Og757</p>
+<p n="reportData_inventory_installationDate" t="arg:EQUALS;false;;;;">2000-01-01T00:00:00</p>
+<p n="reportData_inventory_flatId" t="arg:EQUALS;false;;;;">xAVf42</p>
+<p n="reportData_inventory_flatMemo" t="arg:EQUALS;false;;;;">4EGQ3</p>
+<p n="reportData_inventory_installationPartner" t="arg:EQUALS;false;;;;">b44576</p>
+<p n="reportData_inventory_lengthInhouseCable" t="arg:EQUALS;false;;;;">Yi8ir</p>
+<p n="reportData_inventory_connectionBuildingentryBep" t="arg:EQUALS;false;;;;">w77fD</p>
+<p n="reportData_inventory_trayEquipmentBep" t="arg:EQUALS;false;;;;">Nlcr7kGr</p>
+<p n="reportData_inventory_connectionBepVerticalShaft" t="arg:EQUALS;false;;;;">RTqasAB</p>
+<p n="reportData_inventory_infrastructureVerticalShaft" t="arg:EQUALS;false;;;;">46SL1S7</p>
+<p n="reportData_inventory_jumperVerticalShaft" t="arg:EQUALS;false;;;;">6sklhd</p>
+<p n="reportData_inventory_infrastructureFlat" t="arg:EQUALS;false;;;;">dt4hV</p>
+<p n="reportData_inventory_connectionVerticalShaftOto" t="arg:EQUALS;false;;;;">x3h0gK8qI2j</p>
+<p n="reportData_inventory_endpointFlat" t="arg:EQUALS;false;;;;">AiTw58h</p>
+<p n="reportData_inventory_commentPartner" t="arg:EQUALS;false;;;;">3Ld8vGLqf1</p>
+<p n="workPackage_workPackageCode" t="arg:EQUALS;false;;;;">1</p>
+<p n="workPackage_quantity" t="arg:EQUALS;false;;;;">1</p>
+</ag>
+<at>
+<p n="xmlns">http://www.logobject.ch/ns/KopaWfm/</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;koPaStateFio xmlns=&quot;http://www.logobject.ch/ns/KopaWfm/&quot;&gt;&#13;&#10;      &lt;taskHeader&gt;&#13;&#10;        &lt;fioId&gt;akeA8&lt;/fioId&gt;&#13;&#10;        &lt;fioKoPaId&gt;IDDTu7e&lt;/fioKoPaId&gt;&#13;&#10;        &lt;koPaId&gt;5TtA7&lt;/koPaId&gt;&#13;&#10;        &lt;timestamp&gt;2000-01-01T00:00:00&lt;/timestamp&gt;&#13;&#10;        &lt;!--requestId is optional--&gt;&#13;&#10;        &lt;requestId&gt;bu2jyC8b50Rab&lt;/requestId&gt;&#13;&#10;        &lt;sourceApplicationId&gt;ma58P&lt;/sourceApplicationId&gt;&#13;&#10;        &lt;!--appId is optional--&gt;&#13;&#10;        &lt;appId&gt;mr7528M&lt;/appId&gt;&#13;&#10;        &lt;!--appStartDate is optional--&gt;&#13;&#10;        &lt;appStartDate&gt;2000-01-01T00:00:00&lt;/appStartDate&gt;&#13;&#10;        &lt;!--appEndDate is optional--&gt;&#13;&#10;        &lt;appEndDate&gt;2000-01-01T00:00:00&lt;/appEndDate&gt;&#13;&#10;        &lt;!--integrationId is optional--&gt;&#13;&#10;        &lt;integrationId&gt;tCufo16281&lt;/integrationId&gt;&#13;&#10;        &lt;!--outOfSla is optional--&gt;&#13;&#10;        &lt;outOfSla&gt;0&lt;/outOfSla&gt;&#13;&#10;        &lt;!--outOfSlaReason is optional--&gt;&#13;&#10;        &lt;outOfSlaReason&gt;1&lt;/outOfSlaReason&gt;&#13;&#10;        &lt;!--comment is optional--&gt;&#13;&#10;        &lt;comment&gt;iiK1eGn77n&lt;/comment&gt;&#13;&#10;      &lt;/taskHeader&gt;&#13;&#10;      &lt;koPaState&gt;&#13;&#10;        &lt;text&gt;8R8cB07iEJ5t20&lt;/text&gt;&#13;&#10;        &lt;code&gt;1&lt;/code&gt;&#13;&#10;        &lt;date&gt;2000-01-01T00:00:00&lt;/date&gt;&#13;&#10;      &lt;/koPaState&gt;&#13;&#10;      &lt;!--workInfo is optional--&gt;&#13;&#10;      &lt;workInfo&gt;&#13;&#10;        &lt;infoText&gt;w7Emfy&lt;/infoText&gt;&#13;&#10;        &lt;infoCode&gt;1&lt;/infoCode&gt;&#13;&#10;        &lt;infoComment&gt;bS6wqO&lt;/infoComment&gt;&#13;&#10;      &lt;/workInfo&gt;&#13;&#10;      &lt;!--ipData is optional--&gt;&#13;&#10;      &lt;ipData&gt;&#13;&#10;        &lt;!--ipCompany is optional--&gt;&#13;&#10;        &lt;ipCompany&gt;OfQ6Ui&lt;/ipCompany&gt;&#13;&#10;        &lt;!--ipFirstName is optional--&gt;&#13;&#10;        &lt;ipFirstName&gt;rw62y&lt;/ipFirstName&gt;&#13;&#10;        &lt;!--ipLastName is optional--&gt;&#13;&#10;        &lt;ipLastName&gt;2al3e&lt;/ipLastName&gt;&#13;&#10;        &lt;!--ipPhone is optional--&gt;&#13;&#10;        &lt;ipPhone&gt;m8bX55&lt;/ipPhone&gt;&#13;&#10;      &lt;/ipData&gt;&#13;&#10;      &lt;!--reportData is optional--&gt;&#13;&#10;      &lt;reportData&gt;&#13;&#10;        &lt;orderCompletionCode&gt;1&lt;/orderCompletionCode&gt;&#13;&#10;        &lt;orderCompletionText&gt;XuNjEo&lt;/orderCompletionText&gt;&#13;&#10;        &lt;!--installationComment is optional--&gt;&#13;&#10;        &lt;installationComment&gt;qnK52&lt;/installationComment&gt;&#13;&#10;        &lt;!--inventory is optional--&gt;&#13;&#10;        &lt;inventory&gt;&#13;&#10;          &lt;otoKey&gt;Dk7J7&lt;/otoKey&gt;&#13;&#10;          &lt;!--otoType is optional--&gt;&#13;&#10;          &lt;otoType&gt;07UjJjmOhNPWUA0&lt;/otoType&gt;&#13;&#10;          &lt;!--otoOnly is optional--&gt;&#13;&#10;          &lt;otoOnly&gt;1&lt;/otoOnly&gt;&#13;&#10;          &lt;!--partnerLabel is optional--&gt;&#13;&#10;          &lt;partnerLabel&gt;Og757&lt;/partnerLabel&gt;&#13;&#10;          &lt;!--installationDate is optional--&gt;&#13;&#10;          &lt;installationDate&gt;2000-01-01T00:00:00&lt;/installationDate&gt;&#13;&#10;          &lt;!--flatId is optional--&gt;&#13;&#10;          &lt;flatId&gt;xAVf42&lt;/flatId&gt;&#13;&#10;          &lt;!--flatMemo is optional--&gt;&#13;&#10;          &lt;flatMemo&gt;4EGQ3&lt;/flatMemo&gt;&#13;&#10;          &lt;!--installationPartner is optional--&gt;&#13;&#10;          &lt;installationPartner&gt;b44576&lt;/installationPartner&gt;&#13;&#10;          &lt;!--lengthInhouseCable is optional--&gt;&#13;&#10;          &lt;lengthInhouseCable&gt;Yi8ir&lt;/lengthInhouseCable&gt;&#13;&#10;          &lt;!--connectionBuildingentryBep is optional--&gt;&#13;&#10;          &lt;connectionBuildingentryBep&gt;w77fD&lt;/connectionBuildingentryBep&gt;&#13;&#10;          &lt;!--trayEquipmentBep is optional--&gt;&#13;&#10;          &lt;trayEquipmentBep&gt;Nlcr7kGr&lt;/trayEquipmentBep&gt;&#13;&#10;          &lt;!--connectionBepVerticalShaft is optional--&gt;&#13;&#10;          &lt;connectionBepVerticalShaft&gt;RTqasAB&lt;/connectionBepVerticalShaft&gt;&#13;&#10;          &lt;!--infrastructureVerticalShaft is optional--&gt;&#13;&#10;          &lt;infrastructureVerticalShaft&gt;46SL1S7&lt;/infrastructureVerticalShaft&gt;&#13;&#10;          &lt;!--jumperVerticalShaft is optional--&gt;&#13;&#10;          &lt;jumperVerticalShaft&gt;6sklhd&lt;/jumperVerticalShaft&gt;&#13;&#10;          &lt;!--infrastructureFlat is optional--&gt;&#13;&#10;          &lt;infrastructureFlat&gt;dt4hV&lt;/infrastructureFlat&gt;&#13;&#10;          &lt;!--connectionVerticalShaftOto is optional--&gt;&#13;&#10;          &lt;connectionVerticalShaftOto&gt;x3h0gK8qI2j&lt;/connectionVerticalShaftOto&gt;&#13;&#10;          &lt;!--endpointFlat is optional--&gt;&#13;&#10;          &lt;endpointFlat&gt;AiTw58h&lt;/endpointFlat&gt;&#13;&#10;          &lt;!--commentPartner is optional--&gt;&#13;&#10;          &lt;commentPartner&gt;3Ld8vGLqf1&lt;/commentPartner&gt;&#13;&#10;        &lt;/inventory&gt;&#13;&#10;      &lt;/reportData&gt;&#13;&#10;      &lt;!--workPackage is optional, but can have an unlimited number of instances--&gt;&#13;&#10;      &lt;workPackage&gt;&#13;&#10;        &lt;workPackageCode&gt;1&lt;/workPackageCode&gt;&#13;&#10;        &lt;quantity&gt;1&lt;/quantity&gt;&#13;&#10;      &lt;/workPackage&gt;&#13;&#10;    &lt;/koPaStateFio&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://sg2110p.corproot.net:8080/axis/services/KopaWfmSOAP</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.logobject.ch/ns/KopaWfm/koPaStateFio&quot;</p>
+<p n="Content-Length">4318</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;koPaStateFio xmlns=&quot;http://www.logobject.ch/ns/KopaWfm/&quot;&gt;&#13;&#10;      &lt;taskHeader&gt;&#13;&#10;        &lt;fioId&gt;akeA8&lt;/fioId&gt;&#13;&#10;        &lt;fioKoPaId&gt;IDDTu7e&lt;/fioKoPaId&gt;&#13;&#10;        &lt;koPaId&gt;5TtA7&lt;/koPaId&gt;&#13;&#10;        &lt;timestamp&gt;2000-01-01T00:00:00&lt;/timestamp&gt;&#13;&#10;        &lt;!--requestId is optional--&gt;&#13;&#10;        &lt;requestId&gt;bu2jyC8b50Rab&lt;/requestId&gt;&#13;&#10;        &lt;sourceApplicationId&gt;ma58P&lt;/sourceApplicationId&gt;&#13;&#10;        &lt;!--appId is optional--&gt;&#13;&#10;        &lt;appId&gt;mr7528M&lt;/appId&gt;&#13;&#10;        &lt;!--appStartDate is optional--&gt;&#13;&#10;        &lt;appStartDate&gt;2000-01-01T00:00:00&lt;/appStartDate&gt;&#13;&#10;        &lt;!--appEndDate is optional--&gt;&#13;&#10;        &lt;appEndDate&gt;2000-01-01T00:00:00&lt;/appEndDate&gt;&#13;&#10;        &lt;!--integrationId is optional--&gt;&#13;&#10;        &lt;integrationId&gt;tCufo16281&lt;/integrationId&gt;&#13;&#10;        &lt;!--outOfSla is optional--&gt;&#13;&#10;        &lt;outOfSla&gt;0&lt;/outOfSla&gt;&#13;&#10;        &lt;!--outOfSlaReason is optional--&gt;&#13;&#10;        &lt;outOfSlaReason&gt;1&lt;/outOfSlaReason&gt;&#13;&#10;        &lt;!--comment is optional--&gt;&#13;&#10;        &lt;comment&gt;iiK1eGn77n&lt;/comment&gt;&#13;&#10;      &lt;/taskHeader&gt;&#13;&#10;      &lt;koPaState&gt;&#13;&#10;        &lt;text&gt;8R8cB07iEJ5t20&lt;/text&gt;&#13;&#10;        &lt;code&gt;1&lt;/code&gt;&#13;&#10;        &lt;date&gt;2000-01-01T00:00:00&lt;/date&gt;&#13;&#10;      &lt;/koPaState&gt;&#13;&#10;      &lt;!--workInfo is optional--&gt;&#13;&#10;      &lt;workInfo&gt;&#13;&#10;        &lt;infoText&gt;w7Emfy&lt;/infoText&gt;&#13;&#10;        &lt;infoCode&gt;1&lt;/infoCode&gt;&#13;&#10;        &lt;infoComment&gt;bS6wqO&lt;/infoComment&gt;&#13;&#10;      &lt;/workInfo&gt;&#13;&#10;      &lt;!--ipData is optional--&gt;&#13;&#10;      &lt;ipData&gt;&#13;&#10;        &lt;!--ipCompany is optional--&gt;&#13;&#10;        &lt;ipCompany&gt;OfQ6Ui&lt;/ipCompany&gt;&#13;&#10;        &lt;!--ipFirstName is optional--&gt;&#13;&#10;        &lt;ipFirstName&gt;rw62y&lt;/ipFirstName&gt;&#13;&#10;        &lt;!--ipLastName is optional--&gt;&#13;&#10;        &lt;ipLastName&gt;2al3e&lt;/ipLastName&gt;&#13;&#10;        &lt;!--ipPhone is optional--&gt;&#13;&#10;        &lt;ipPhone&gt;m8bX55&lt;/ipPhone&gt;&#13;&#10;      &lt;/ipData&gt;&#13;&#10;      &lt;!--reportData is optional--&gt;&#13;&#10;      &lt;reportData&gt;&#13;&#10;        &lt;orderCompletionCode&gt;1&lt;/orderCompletionCode&gt;&#13;&#10;        &lt;orderCompletionText&gt;XuNjEo&lt;/orderCompletionText&gt;&#13;&#10;        &lt;!--installationComment is optional--&gt;&#13;&#10;        &lt;installationComment&gt;qnK52&lt;/installationComment&gt;&#13;&#10;        &lt;!--inventory is optional--&gt;&#13;&#10;        &lt;inventory&gt;&#13;&#10;          &lt;otoKey&gt;Dk7J7&lt;/otoKey&gt;&#13;&#10;          &lt;!--otoType is optional--&gt;&#13;&#10;          &lt;otoType&gt;07UjJjmOhNPWUA0&lt;/otoType&gt;&#13;&#10;          &lt;!--otoOnly is optional--&gt;&#13;&#10;          &lt;otoOnly&gt;1&lt;/otoOnly&gt;&#13;&#10;          &lt;!--partnerLabel is optional--&gt;&#13;&#10;          &lt;partnerLabel&gt;Og757&lt;/partnerLabel&gt;&#13;&#10;          &lt;!--installationDate is optional--&gt;&#13;&#10;          &lt;installationDate&gt;2000-01-01T00:00:00&lt;/installationDate&gt;&#13;&#10;          &lt;!--flatId is optional--&gt;&#13;&#10;          &lt;flatId&gt;xAVf42&lt;/flatId&gt;&#13;&#10;          &lt;!--flatMemo is optional--&gt;&#13;&#10;          &lt;flatMemo&gt;4EGQ3&lt;/flatMemo&gt;&#13;&#10;          &lt;!--installationPartner is optional--&gt;&#13;&#10;          &lt;installationPartner&gt;b44576&lt;/installationPartner&gt;&#13;&#10;          &lt;!--lengthInhouseCable is optional--&gt;&#13;&#10;          &lt;lengthInhouseCable&gt;Yi8ir&lt;/lengthInhouseCable&gt;&#13;&#10;          &lt;!--connectionBuildingentryBep is optional--&gt;&#13;&#10;          &lt;connectionBuildingentryBep&gt;w77fD&lt;/connectionBuildingentryBep&gt;&#13;&#10;          &lt;!--trayEquipmentBep is optional--&gt;&#13;&#10;          &lt;trayEquipmentBep&gt;Nlcr7kGr&lt;/trayEquipmentBep&gt;&#13;&#10;          &lt;!--connectionBepVerticalShaft is optional--&gt;&#13;&#10;          &lt;connectionBepVerticalShaft&gt;RTqasAB&lt;/connectionBepVerticalShaft&gt;&#13;&#10;          &lt;!--infrastructureVerticalShaft is optional--&gt;&#13;&#10;          &lt;infrastructureVerticalShaft&gt;46SL1S7&lt;/infrastructureVerticalShaft&gt;&#13;&#10;          &lt;!--jumperVerticalShaft is optional--&gt;&#13;&#10;          &lt;jumperVerticalShaft&gt;6sklhd&lt;/jumperVerticalShaft&gt;&#13;&#10;          &lt;!--infrastructureFlat is optional--&gt;&#13;&#10;          &lt;infrastructureFlat&gt;dt4hV&lt;/infrastructureFlat&gt;&#13;&#10;          &lt;!--connectionVerticalShaftOto is optional--&gt;&#13;&#10;          &lt;connectionVerticalShaftOto&gt;x3h0gK8qI2j&lt;/connectionVerticalShaftOto&gt;&#13;&#10;          &lt;!--endpointFlat is optional--&gt;&#13;&#10;          &lt;endpointFlat&gt;AiTw58h&lt;/endpointFlat&gt;&#13;&#10;          &lt;!--commentPartner is optional--&gt;&#13;&#10;          &lt;commentPartner&gt;3Ld8vGLqf1&lt;/commentPartner&gt;&#13;&#10;        &lt;/inventory&gt;&#13;&#10;      &lt;/reportData&gt;&#13;&#10;      &lt;!--workPackage is optional, but can have an unlimited number of instances--&gt;&#13;&#10;      &lt;workPackage&gt;&#13;&#10;        &lt;workPackageCode&gt;1&lt;/workPackageCode&gt;&#13;&#10;        &lt;quantity&gt;1&lt;/quantity&gt;&#13;&#10;      &lt;/workPackage&gt;&#13;&#10;    &lt;/koPaStateFio&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="75" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;koPaStateFioResponse xmlns=&quot;http://www.logobject.ch/ns/KopaWfm/&quot;&gt;&#13;&#10;      &lt;out&gt;&#13;&#10;        &lt;errorStatus&gt;&#13;&#10;          &lt;errorCode&gt;{{=[:errorCode:1]}}&lt;/errorCode&gt;&#13;&#10;          &lt;errorText&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/errorText&gt;&#13;&#10;        &lt;/errorStatus&gt;&#13;&#10;        &lt;integrationHeader&gt;&#13;&#10;          &lt;!--geId is optional--&gt;&#13;&#10;          &lt;geId&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/geId&gt;&#13;&#10;        &lt;/integrationHeader&gt;&#13;&#10;      &lt;/out&gt;&#13;&#10;    &lt;/koPaStateFioResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="70" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="69" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

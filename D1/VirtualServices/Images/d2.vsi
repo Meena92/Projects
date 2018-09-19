@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="18" name="d2" created="2017-09-27.16:32:21.274" lastModified="2017-09-28.10:03:07.926" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="17" nd="true">
+<sp>
+<t id="21">
+<rq id="22" op="bookAppointment" tl="EXACT">
+<ag>
+<p n="geId" t="arg:EQUALS;false;;;;">1845446504221697539432552871293144075394</p>
+<p n="sourceApplicationId" t="arg:EQUALS;false;;;;">SBL</p>
+<p n="syncId" t="arg:EQUALS;false;;;;">5-5JBDJ1IL</p>
+<p n="selectedSlot_id" t="arg:EQUALS;false;;;;">12788648</p>
+</ag>
+<at>
+<p n="xmlns:ns0">aps.mLogistics.appBooking.v2</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;ns0:bookAppointment xmlns:ns0=&quot;aps.mLogistics.appBooking.v2&quot;&gt;&#13;&#10;   &lt;ns0:geId&gt;1845446504221697539432552871293144075394&lt;/ns0:geId&gt;&#13;&#10;   &lt;ns0:sourceApplicationId&gt;SBL&lt;/ns0:sourceApplicationId&gt;&#13;&#10;   &lt;ns0:syncId&gt;5-5JBDJ1IL&lt;/ns0:syncId&gt;&#13;&#10;   &lt;ns0:selectedSlot&gt;&#13;&#10;      &lt;ns0:id&gt;12788648&lt;/ns0:id&gt;&#13;&#10;   &lt;/ns0:selectedSlot&gt;&#13;&#10;&lt;/ns0:bookAppointment&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;ns0:bookAppointment xmlns:ns0=&quot;aps.mLogistics.appBooking.v2&quot;&gt;&#13;&#10;   &lt;ns0:geId&gt;1845446504221697539432552871293144075394&lt;/ns0:geId&gt;&#13;&#10;   &lt;ns0:sourceApplicationId&gt;SBL&lt;/ns0:sourceApplicationId&gt;&#13;&#10;   &lt;ns0:syncId&gt;5-5JBDJ1IL&lt;/ns0:syncId&gt;&#13;&#10;   &lt;ns0:selectedSlot&gt;&#13;&#10;      &lt;ns0:id&gt;12788648&lt;/ns0:id&gt;&#13;&#10;   &lt;/ns0:selectedSlot&gt;&#13;&#10;&lt;/ns0:bookAppointment&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="23" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;aps:bookAppointmentResponse xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#13;&#10;                             xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#13;&#10;                             xmlns:aps=&quot;aps.mLogistics.appBooking.v2&quot;&gt;&#13;&#10;   &lt;aps:envelope&gt;&#13;&#10;      &lt;aps:appointment&gt;&#13;&#10;         &lt;aps:id&gt;100299&lt;/aps:id&gt;&#13;&#10;         &lt;aps:businessLine&gt;30&lt;/aps:businessLine&gt;&#13;&#10;         &lt;aps:serviceType&gt;OSI-Appointment&lt;/aps:serviceType&gt;&#13;&#10;         &lt;aps:expirationDateTime&gt;2016-12-22T17:43:53+01:00&lt;/aps:expirationDateTime&gt;&#13;&#10;      &lt;/aps:appointment&gt;&#13;&#10;      &lt;aps:responseStatus&gt;&#13;&#10;         &lt;aps:code&gt;0&lt;/aps:code&gt;&#13;&#10;         &lt;aps:text&gt;success&lt;/aps:text&gt;&#13;&#10;      &lt;/aps:responseStatus&gt;&#13;&#10;   &lt;/aps:envelope&gt;&#13;&#10;&lt;/aps:bookAppointmentResponse&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="24" op="bookAppointment" tl="SIGNATURE">
+<ag>
+<p n="geId" t="arg:EQUALS;false;;;;">1845446504221697539432552871293144075394</p>
+<p n="sourceApplicationId" t="arg:EQUALS;false;;;;">SBL</p>
+<p n="syncId" t="arg:EQUALS;false;;;;">5-5JBDJ1IL</p>
+<p n="selectedSlot_id" t="arg:EQUALS;false;;;;">12788648</p>
+</ag>
+<at>
+<p n="xmlns:ns0">aps.mLogistics.appBooking.v2</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;ns0:bookAppointment xmlns:ns0=&quot;aps.mLogistics.appBooking.v2&quot;&gt;&#13;&#10;   &lt;ns0:geId&gt;1845446504221697539432552871293144075394&lt;/ns0:geId&gt;&#13;&#10;   &lt;ns0:sourceApplicationId&gt;SBL&lt;/ns0:sourceApplicationId&gt;&#13;&#10;   &lt;ns0:syncId&gt;5-5JBDJ1IL&lt;/ns0:syncId&gt;&#13;&#10;   &lt;ns0:selectedSlot&gt;&#13;&#10;      &lt;ns0:id&gt;12788648&lt;/ns0:id&gt;&#13;&#10;   &lt;/ns0:selectedSlot&gt;&#13;&#10;&lt;/ns0:bookAppointment&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;ns0:bookAppointment xmlns:ns0=&quot;aps.mLogistics.appBooking.v2&quot;&gt;&#13;&#10;   &lt;ns0:geId&gt;1845446504221697539432552871293144075394&lt;/ns0:geId&gt;&#13;&#10;   &lt;ns0:sourceApplicationId&gt;SBL&lt;/ns0:sourceApplicationId&gt;&#13;&#10;   &lt;ns0:syncId&gt;5-5JBDJ1IL&lt;/ns0:syncId&gt;&#13;&#10;   &lt;ns0:selectedSlot&gt;&#13;&#10;      &lt;ns0:id&gt;12788648&lt;/ns0:id&gt;&#13;&#10;   &lt;/ns0:selectedSlot&gt;&#13;&#10;&lt;/ns0:bookAppointment&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="25" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;aps:bookAppointmentResponse xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#13;&#10;                             xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&#13;&#10;                             xmlns:aps=&quot;aps.mLogistics.appBooking.v2&quot;&gt;&#13;&#10;   &lt;aps:envelope&gt;&#13;&#10;      &lt;aps:appointment&gt;&#13;&#10;         &lt;aps:id&gt;100299&lt;/aps:id&gt;&#13;&#10;         &lt;aps:businessLine&gt;30&lt;/aps:businessLine&gt;&#13;&#10;         &lt;aps:serviceType&gt;OSI-Appointment&lt;/aps:serviceType&gt;&#13;&#10;         &lt;aps:expirationDateTime&gt;2016-12-22T17:43:53+01:00&lt;/aps:expirationDateTime&gt;&#13;&#10;      &lt;/aps:appointment&gt;&#13;&#10;      &lt;aps:responseStatus&gt;&#13;&#10;         &lt;aps:code&gt;0&lt;/aps:code&gt;&#13;&#10;         &lt;aps:text&gt;success&lt;/aps:text&gt;&#13;&#10;      &lt;/aps:responseStatus&gt;&#13;&#10;   &lt;/aps:envelope&gt;&#13;&#10;&lt;/aps:bookAppointmentResponse&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="27" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="26" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

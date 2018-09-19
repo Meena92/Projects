@@ -1,0 +1,92 @@
+{
+    "modifyDate": "2018-02-05T14:42:06+05:30",
+    "description": "Item_Creation",
+    "appliedDPH": [
+        {
+            "isRequest": true,
+            "isResponse": false,
+            "name": "Web Services (SOAP)",
+            "className": "com.itko.lisa.vse.stateful.protocol.ws.WSSOAPProtocolHandler",
+            "id": "E57C6CA60A5311E89E387446A0C104D6",
+            "config": {},
+            "userConfigured": true
+        },
+        {
+            "isRequest": true,
+            "isResponse": false,
+            "name": "XML Data Protocol",
+            "className": "com.itko.lisa.vse.stateful.protocol.xml.XMLDataProtocol",
+            "id": "EE03A6E70A5311E89E387446A0C104D6",
+            "config": {},
+            "userConfigured": true
+        }
+    ],
+    "artifactGeneration": {
+        "exportFile": "C:\\CA\\DevTest\\vseRecording\\VSE_2013\\958981330A5311E89E387446A0C104D6\\Project\\Data\\Item_creation.xml",
+        "allowDupSpecificTxns": false,
+        "basePath": "/",
+        "defaultNonLeafNavigation": "WIDE",
+        "defaultLeafNavigation": "LOOSE",
+        "vsmStyle": "EFFICIENT"
+    },
+    "statusDescription": "Saved",
+    "transportProtocol": {
+        "protocolId": "HTTP_GATEWAY",
+        "statelessTxns": false,
+        "deidentifyTxn": false,
+        "protocolConfig": {
+            "allowModifyHostHeader": false,
+            "targetEndpoint": {
+                "sslConfig": {
+                    "aliasPassword": "",
+                    "password": "",
+                    "filename": "",
+                    "bytes": "",
+                    "alias": "",
+                    "hash": 0
+                },
+                "port": 0,
+                "host": "",
+                "hash": 0,
+                "useSSL": false
+            },
+            "recordingEndpoint": {
+                "sslConfig": {
+                    "aliasPassword": "",
+                    "password": "",
+                    "filename": "",
+                    "bytes": "",
+                    "alias": "",
+                    "hash": 0
+                },
+                "port": 17728,
+                "host": "",
+                "hash": 0,
+                "useSSL": false
+            }
+        },
+        "protocolVersion": "1.0"
+    },
+    "name": "Item_creation",
+    "saveVsConfig": {
+        "concurrentCapacity": 1,
+        "thinkTime": 100,
+        "groupTag": "",
+        "saveOption": "saveEditVs",
+        "leafNavigation": "Loose",
+        "allowDupSpecific": false,
+        "defaultNavigation": "Wide",
+        "createBaseline": false,
+        "vsmStyle": "efficient"
+    },
+    "bundleIds": ["11kRbiXTb2hOdPl9tMW1pe"],
+    "validationMsgs": [{
+        "level": "WARNING",
+        "category": "targetURLValidation",
+        "message": "unspecified targetHost or targetPort"
+    }],
+    "id": "958981330A5311E89E387446A0C104D6",
+    "detectedDPH": [],
+    "status": 9,
+    "createDate": "2018-02-05T14:34:34+05:30"
+}

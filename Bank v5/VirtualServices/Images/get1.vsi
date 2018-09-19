@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="2" name="get1" created="2017-11-14.14:12:57.563" lastModified="2017-11-14.14:13:27.660" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="1" nd="true">
+<sp>
+<t id="5">
+<rq id="6" op="GET /v1/messages/inbox/" tl="EXACT">
+<at>
+<p n="HTTP-Segment-Attr-0">v1</p>
+<p n="HTTP-Segment-Attr-1">messages</p>
+<p n="HTTP-Segment-Attr-2">inbox</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">https://api.schoology.com/v1/messages/inbox</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Authorization">[OAuth header]</p>
+<p n="Accept">text/xml;q=1.0,application/json;q=0.0;application/php;q=0.0</p>
+<p n="Host">localhost:8080</p>
+<p n="Content-Type">text/xml</p>
+</m>
+</rq>
+<rs>
+<rp id="7" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;&#13;&#10;&lt;result&gt;&#13;&#10; &lt;message&gt;&#13;&#10;  &lt;id&gt;4458&lt;/id&gt;&#13;&#10;  &lt;subject&gt;Hi there&lt;/subject&gt;&#13;&#10;  &lt;recipient_ids&gt;3&lt;/recipient_ids&gt;&#13;&#10;  &lt;last_updated&gt;1288992445&lt;/last_updated&gt;&#13;&#10;  &lt;author_id&gt;5&lt;/author_id&gt;&#13;&#10;  &lt;message_status&gt;read&lt;/message_status&gt;&#13;&#10;  &lt;message&gt;Hey there, how are you doing these days? How about that weather!&lt;/message&gt;&#13;&#10;  &lt;links&gt;&#13;&#10;    &lt;self&gt;https://api.schoology.com/v1/messages/inbox/4458&lt;/self&gt;&#13;&#10;  &lt;/links&gt;&#13;&#10; &lt;/message&gt;&#13;&#10; &lt;message&gt;&#13;&#10;  &lt;id&gt;4455&lt;/id&gt;&#13;&#10;  &lt;subject&gt;What&apos;s up?&lt;/subject&gt;&#13;&#10;  &lt;recipient_ids&gt;3,6&lt;/recipient_ids&gt;&#13;&#10;  &lt;last_updated&gt;1287605544&lt;/last_updated&gt;&#13;&#10;  &lt;author_id&gt;7&lt;/author_id&gt;&#13;&#10;  &lt;message_status&gt;unread&lt;/message_status&gt;&#13;&#10;  &lt;message&gt;Don&apos;t forget about me!&lt;/message&gt;&#13;&#10;  &lt;links&gt;&#13;&#10;    &lt;self&gt;https://api.schoology.com/v1/messages/inbox/4455&lt;/self&gt;&#13;&#10;  &lt;/links&gt;&#13;&#10; &lt;/message&gt;&#13;&#10;&lt;/result&gt;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="8" op="GET /v1/messages/inbox/" tl="SIGNATURE">
+<at>
+<p n="HTTP-Segment-Attr-0">v1</p>
+<p n="HTTP-Segment-Attr-1">messages</p>
+<p n="HTTP-Segment-Attr-2">inbox</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">https://api.schoology.com/v1/messages/inbox</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Authorization">[OAuth header]</p>
+<p n="Accept">text/xml;q=1.0,application/json;q=0.0;application/php;q=0.0</p>
+<p n="Host">localhost:8080</p>
+<p n="Content-Type">text/xml</p>
+</m>
+</rq>
+<rs>
+<rp id="9" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;&#13;&#10;&lt;result&gt;&#13;&#10; &lt;message&gt;&#13;&#10;  &lt;id&gt;4458&lt;/id&gt;&#13;&#10;  &lt;subject&gt;Hi there&lt;/subject&gt;&#13;&#10;  &lt;recipient_ids&gt;3&lt;/recipient_ids&gt;&#13;&#10;  &lt;last_updated&gt;1288992445&lt;/last_updated&gt;&#13;&#10;  &lt;author_id&gt;5&lt;/author_id&gt;&#13;&#10;  &lt;message_status&gt;read&lt;/message_status&gt;&#13;&#10;  &lt;message&gt;Hey there, how are you doing these days? How about that weather!&lt;/message&gt;&#13;&#10;  &lt;links&gt;&#13;&#10;    &lt;self&gt;https://api.schoology.com/v1/messages/inbox/4458&lt;/self&gt;&#13;&#10;  &lt;/links&gt;&#13;&#10; &lt;/message&gt;&#13;&#10; &lt;message&gt;&#13;&#10;  &lt;id&gt;4455&lt;/id&gt;&#13;&#10;  &lt;subject&gt;What&apos;s up?&lt;/subject&gt;&#13;&#10;  &lt;recipient_ids&gt;3,6&lt;/recipient_ids&gt;&#13;&#10;  &lt;last_updated&gt;1287605544&lt;/last_updated&gt;&#13;&#10;  &lt;author_id&gt;7&lt;/author_id&gt;&#13;&#10;  &lt;message_status&gt;unread&lt;/message_status&gt;&#13;&#10;  &lt;message&gt;Don&apos;t forget about me!&lt;/message&gt;&#13;&#10;  &lt;links&gt;&#13;&#10;    &lt;self&gt;https://api.schoology.com/v1/messages/inbox/4455&lt;/self&gt;&#13;&#10;  &lt;/links&gt;&#13;&#10; &lt;/message&gt;&#13;&#10;&lt;/result&gt;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="4" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="3" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

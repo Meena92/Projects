@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceImage buildNumber="10.0.0.431" created="2018-02-26.15:01:20.649" id="129" lastModified="2018-02-26.15:10:14.498" name="CopyOfRd45" version="10.0.0">
+<st>
+<t id="128" nd="true">
+<sp>
+<t id="132">
+<rq id="133" op="GET /api/v1/books/id/{URLPARAM0}/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;false;;;;">24</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+<p n="HTTP-Segment-Attr-3">id</p>
+<p n="HTTP-Segment-Attr-4">24</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/api/v1/books/id/24</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="134" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#xd;
+  "data": [{&#xd;
+  "id": "24",&#xd;
+  "title": "Behavior-Driven Development",&#xd;
+  "author": "Viktor Farcic"&#xd;
+},&#xd;
+{&#xd;
+  "title": "Behavior-Driven Development",&#xd;
+  "author": "Viktor Farcic"&#xd;
+}]&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+<t id="39">
+<rq id="137" op="GET /api/v1/books/id/{URLPARAM0}/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;false;;;;">5</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+<p n="HTTP-Segment-Attr-3">id</p>
+<p n="HTTP-Segment-Attr-4">5</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/api/v1/books/id/5</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="138" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#xd;
+  "data" : [ {&#xd;
+    "author" : "Emmalee",&#xd;
+    "id" : "",&#xd;
+    "title" : "EXPRESS LONELY"&#xd;
+  }, { } ]&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+<t id="41">
+<rq id="139" op="GET /api/v1/books/id/{URLPARAM0}/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;false;;;;">6</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+<p n="HTTP-Segment-Attr-3">id</p>
+<p n="HTTP-Segment-Attr-4">6</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/api/v1/books/id/6</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="140" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#xd;
+  "data" : [ {&#xd;
+    "author" : "Kaitlin",&#xd;
+    "id" : "",&#xd;
+    "title" : "MIXED DOORS"&#xd;
+  }, { } ]&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+<t id="43">
+<rq id="141" op="GET /api/v1/books/id/{URLPARAM0}/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;false;;;;">7</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+<p n="HTTP-Segment-Attr-3">id</p>
+<p n="HTTP-Segment-Attr-4">7</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/api/v1/books/id/7</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="142" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#xd;
+  "data" : [ {&#xd;
+    "author" : "Eames",&#xd;
+    "id" : "",&#xd;
+    "title" : "DRIFTER COMMANDMENTS"&#xd;
+  }, { } ]&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="135" op="GET /api/v1/books/id/{URLPARAM0}/" tl="SIGNATURE">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;false;;;;">24</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+<p n="HTTP-Segment-Attr-3">id</p>
+<p n="HTTP-Segment-Attr-4">24</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/api/v1/books/id/24</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="136" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#xd;
+  "data": [{&#xd;
+  "id": "24",&#xd;
+  "title": "Behavior-Driven Development",&#xd;
+  "author": "Viktor Farcic"&#xd;
+},&#xd;
+{&#xd;
+  "title": "Behavior-Driven Development",&#xd;
+  "author": "Viktor Farcic"&#xd;
+}]&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="131" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;
+    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Not Found&lt;/h1&gt;
+        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
+        &lt;hr/&gt;
+        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;
+        &lt;br/&gt;&lt;font size="-2"&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="130" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;
+    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Not Found&lt;/h1&gt;
+        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
+        &lt;hr/&gt;
+        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;
+        &lt;br/&gt;&lt;font size="-2"&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</bd>
+</rp>
+</usrr>
+</serviceImage>

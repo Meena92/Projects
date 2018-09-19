@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="121" name="n1" created="2017-11-30.09:43:18.935" lastModified="2017-11-30.09:47:46.727" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="120" nd="true">
+<sp>
+<t id="124">
+<rq id="125" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">60532</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60532&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60532&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="126" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;   &lt;soap:Body&gt;&#13;&#10;      &lt;GetSupplierByZipCodeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;         &lt;GetSupplierByZipCodeResult&gt;true&lt;/GetSupplierByZipCodeResult&gt;&#13;&#10;         &lt;SupplierDataLists&gt;&#13;&#10;            &lt;SupplierDatas&gt;&#13;&#10;               &lt;SupplierData&gt;&#13;&#10;                  &lt;SupplierNumber&gt;0194080005&lt;/SupplierNumber&gt;&#13;&#10;                  &lt;CompanyName&gt;DOCS DRUGS LTD&lt;/CompanyName&gt;&#13;&#10;                  &lt;Address1&gt;1020 MAPLE AVE&lt;/Address1&gt;&#13;&#10;                  &lt;Address2/&gt;&#13;&#10;                  &lt;City&gt;LISLE&lt;/City&gt;&#13;&#10;                  &lt;Zip&gt;{{=request_zip;/*60532*/}}&lt;/Zip&gt;&#13;&#10;                  &lt;ZipPlus4&gt;IL&lt;/ZipPlus4&gt;&#13;&#10;                  &lt;Telephone&gt;2329&lt;/Telephone&gt;&#13;&#10;                  &lt;Description&gt;(630)968-4165&lt;/Description&gt;&#13;&#10;                  &lt;IsSupplierParticipating&gt;04&lt;/IsSupplierParticipating&gt;&#13;&#10;               &lt;/SupplierData&gt;&#13;&#10;             &lt;/SupplierDatas&gt;&#13;&#10;            &lt;TotalRecords&gt;1&lt;/TotalRecords&gt;&#13;&#10;         &lt;/SupplierDataLists&gt;&#13;&#10;      &lt;/GetSupplierByZipCodeResponse&gt;&#13;&#10;   &lt;/soap:Body&gt;&#13;&#10;&lt;/soap:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="127" op="GetSupplierByZipCode" tl="SIGNATURE">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">60532</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60532&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</p>
+</at>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;    &lt;SOAP-ENV11:Header/&gt;&#13;&#10;    &lt;SOAP-ENV11:Body&gt;&#13;&#10;        &lt;tdsns0:GetSupplierByZipCode&gt;&#13;&#10;            &lt;tdsns0:zip&gt;60532&lt;/tdsns0:zip&gt;&#13;&#10;        &lt;/tdsns0:GetSupplierByZipCode&gt;&#13;&#10;    &lt;/SOAP-ENV11:Body&gt;&#13;&#10;&lt;/SOAP-ENV11:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="128" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;   &lt;soap:Body&gt;&#13;&#10;      &lt;GetSupplierByZipCodeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;         &lt;GetSupplierByZipCodeResult&gt;true&lt;/GetSupplierByZipCodeResult&gt;&#13;&#10;         &lt;SupplierDataLists&gt;&#13;&#10;            &lt;SupplierDatas&gt;&#13;&#10;               &lt;SupplierData&gt;&#13;&#10;                  &lt;SupplierNumber&gt;0194080005&lt;/SupplierNumber&gt;&#13;&#10;                  &lt;CompanyName&gt;DOCS DRUGS LTD&lt;/CompanyName&gt;&#13;&#10;                  &lt;Address1&gt;1020 MAPLE AVE&lt;/Address1&gt;&#13;&#10;                  &lt;Address2/&gt;&#13;&#10;                  &lt;City&gt;LISLE&lt;/City&gt;&#13;&#10;                  &lt;Zip&gt;{{=request_zip;/*60532*/}}&lt;/Zip&gt;&#13;&#10;                  &lt;ZipPlus4&gt;IL&lt;/ZipPlus4&gt;&#13;&#10;                  &lt;Telephone&gt;2329&lt;/Telephone&gt;&#13;&#10;                  &lt;Description&gt;(630)968-4165&lt;/Description&gt;&#13;&#10;                  &lt;IsSupplierParticipating&gt;04&lt;/IsSupplierParticipating&gt;&#13;&#10;               &lt;/SupplierData&gt;&#13;&#10;             &lt;/SupplierDatas&gt;&#13;&#10;            &lt;TotalRecords&gt;1&lt;/TotalRecords&gt;&#13;&#10;         &lt;/SupplierDataLists&gt;&#13;&#10;      &lt;/GetSupplierByZipCodeResponse&gt;&#13;&#10;   &lt;/soap:Body&gt;&#13;&#10;&lt;/soap:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="123" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="122" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

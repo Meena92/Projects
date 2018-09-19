@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceImage buildNumber="10.0.0.431" created="2018-02-20.19:00:21.840" id="53" lastModified="2018-02-20.20:27:22.344" name="carDemo8" version="10.0.0">
+<st>
+<t id="40" nd="true">
+<sp>
+<t id="56">
+<rq id="57" op="GET /inventory/carMake/index.json/" tl="EXACT">
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carMake</p>
+<p n="HTTP-Segment-Attr-2">index.json</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carMake/index.json</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="58" t="293">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNWU1YTUwZjItMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[  &#xd;
+   {  &#xd;
+      "class":"com.ca.lisa.demo.CarMake",&#xd;
+      "id":1,&#xd;
+      "name":"Acura"&#xd;
+   },&#xd;
+   {  &#xd;
+      "class":"com.ca.lisa.demo.CarMake",&#xd;
+      "id":2,&#xd;
+      "name":"Audi"&#xd;
+   }&#xd;
+]</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="59" op="GET /inventory/carMake/index.json/" tl="SIGNATURE">
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carMake</p>
+<p n="HTTP-Segment-Attr-2">index.json</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carMake/index.json</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="60" t="293">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNWU1YTUwZjItMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},{"class":"com.ca.lisa.demo.CarMake","id":2,"name":"Audi"},{"class":"com.ca.lisa.demo.CarMake","id":3,"name":"BMW"},{"class":"com.ca.lisa.demo.CarMake","id":4,"name":"Buick"},{"class":"com.ca.lisa.demo.CarMake","id":5,"name":"Infiniti"},{"class":"com.ca.lisa.demo.CarMake","id":6,"name":"Land Rover"},{"class":"com.ca.lisa.demo.CarMake","id":7,"name":"Lexus"},{"class":"com.ca.lisa.demo.CarMake","id":8,"name":"Lincoln"},{"class":"com.ca.lisa.demo.CarMake","id":9,"name":"Volvo"}]</bd>
+</rp>
+</rs>
+</t>
+<t id="41" nd="true">
+<sp>
+<t id="61">
+<rq id="62" op="GET /inventory/cars/" tl="EXACT">
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">cars</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/cars</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="63" t="294">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNWU1YTUwZjQtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[  &#xd;
+   {  &#xd;
+      "class":"com.ca.lisa.demo.CarInventory",&#xd;
+      "id":1,&#xd;
+      "carTrim":"Premium Plus",&#xd;
+      "color":"Silver",&#xd;
+      "dealer":{  &#xd;
+         "class":"com.ca.lisa.demo.CarDealer",&#xd;
+         "id":2,&#xd;
+         "address":"3800 Motor City Dr",&#xd;
+         "city":"Denver",&#xd;
+         "name":"Mountain Motors Inc",&#xd;
+         "state":"CO",&#xd;
+         "telephone":"303-222-8766",&#xd;
+         "website":"www.mmdenver.com",&#xd;
+         "zip":"80202"&#xd;
+      },&#xd;
+      "engine":"2.7 V6",&#xd;
+      "image1":"inventory1.jpg",&#xd;
+      "image2":"cars/interior1.jpg",&#xd;
+      "makeid":2,&#xd;
+      "milage":138560,&#xd;
+      "model":{  &#xd;
+         "class":"com.ca.lisa.demo.CarModel",&#xd;
+         "id":10,&#xd;
+         "fuelType":"Gas",&#xd;
+         "make":{  &#xd;
+            "class":"com.ca.lisa.demo.CarMake",&#xd;
+            "id":2,&#xd;
+            "name":"Audi"&#xd;
+         },&#xd;
+         "modelYear":1996,&#xd;
+         "name":"A4-B",&#xd;
+         "subName":"Base",&#xd;
+         "type":{  &#xd;
+            "class":"com.ca.lisa.demo.CarType",&#xd;
+            "id":7,&#xd;
+            "name":"Sedan"&#xd;
+         }&#xd;
+      },&#xd;
+      "modelYear":2011,&#xd;
+      "modelid":10,&#xd;
+      "options":"Leather, Navigation, Rear Air",&#xd;
+      "owners":6,&#xd;
+      "price":3995.0,&#xd;
+      "stockNumber":"NAD8989",&#xd;
+      "transmission":"Auto",&#xd;
+      "vin":"2T1KR32E37C639014"&#xd;
+   },&#xd;
+   {  &#xd;
+      "class":"com.ca.lisa.demo.CarInventory",&#xd;
+      "id":2,&#xd;
+      "carTrim":"Technology",&#xd;
+      "color":"Black",&#xd;
+      "dealer":{  &#xd;
+         "class":"com.ca.lisa.demo.CarDealer",&#xd;
+         "id":2,&#xd;
+         "address":"3800 Motor City Dr",&#xd;
+         "city":"Denver",&#xd;
+         "name":"Mountain Motors Inc",&#xd;
+         "state":"CO",&#xd;
+         "telephone":"303-222-8766",&#xd;
+         "website":"www.mmdenver.com",&#xd;
+         "zip":"80202"&#xd;
+      },&#xd;
+      "engine":"3.2 V6",&#xd;
+      "image1":"inventory2.jpg",&#xd;
+      "image2":"cars/interior2.jpg",&#xd;
+      "makeid":1,&#xd;
+      "milage":30650,&#xd;
+      "model":{  &#xd;
+         "class":"com.ca.lisa.demo.CarModel",&#xd;
+         "id":2,&#xd;
+         "fuelType":"Gas",&#xd;
+         "make":{  &#xd;
+            "class":"com.ca.lisa.demo.CarMake",&#xd;
+            "id":1,&#xd;
+            "name":"Acura"&#xd;
+         },&#xd;
+         "modelYear":2013,&#xd;
+         "name":"RLX-AWD",&#xd;
+         "subName":"AWD",&#xd;
+         "type":{  &#xd;
+            "class":"com.ca.lisa.demo.CarType",&#xd;
+            "id":7,&#xd;
+            "name":"Sedan"&#xd;
+         }&#xd;
+      },&#xd;
+      "modelYear":2013,&#xd;
+      "modelid":2,&#xd;
+      "options":"Leather, Navigation, Ski/BikeRack",&#xd;
+      "owners":2,&#xd;
+      "price":30995.0,&#xd;
+      "stockNumber":"RA2356/1",&#xd;
+      "transmission":"Auto",&#xd;
+      "vin":"1ZVBP8AM1D5256900"&#xd;
+   }&#xd;
+   &#xd;
+]</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="64" op="GET /inventory/cars/" tl="SIGNATURE">
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">cars</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/cars</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="65" t="294">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNWU1YTUwZjQtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[{"class":"com.ca.lisa.demo.CarInventory","id":1,"carTrim":"Premium Plus","color":"Silver","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":2,"address":"3800 Motor City Dr","city":"Denver","name":"Mountain Motors Inc","state":"CO","telephone":"303-222-8766","website":"www.mmdenver.com","zip":"80202"},"engine":"2.7 V6","image1":"inventory1.jpg","image2":"cars/interior1.jpg","makeid":2,"milage":138560,"model":{"class":"com.ca.lisa.demo.CarModel","id":10,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":2,"name":"Audi"},"modelYear":1996,"name":"A4-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2011,"modelid":10,"options":"Leather, Navigation, Rear Air","owners":6,"price":3995.0,"stockNumber":"NAD8989","transmission":"Auto","vin":"2T1KR32E37C639014"},{"class":"com.ca.lisa.demo.CarInventory","id":2,"carTrim":"Technology","color":"Black","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":2,"address":"3800 Motor City Dr","city":"Denver","name":"Mountain Motors Inc","state":"CO","telephone":"303-222-8766","website":"www.mmdenver.com","zip":"80202"},"engine":"3.2 V6","image1":"inventory2.jpg","image2":"cars/interior2.jpg","makeid":1,"milage":30650,"model":{"class":"com.ca.lisa.demo.CarModel","id":2,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"RLX-AWD","subName":"AWD","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2013,"modelid":2,"options":"Leather, Navigation, Ski/BikeRack","owners":2,"price":30995.0,"stockNumber":"RA2356/1","transmission":"Auto","vin":"1ZVBP8AM1D5256900"},{"class":"com.ca.lisa.demo.CarInventory","id":3,"carTrim":"Premium","color":"Black","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":4,"address":"1673 Blake Rd","city":"Aurora","name":"Aurora Acura","state":"CO","telephone":"303-955-0134","website":"www.aurora_acura.com","zip":"80203"},"engine":"3.5 V6","image1":"inventory3.jpg","image2":"cars/interior3.jpg","makeid":1,"milage":54650,"model":{"class":"com.ca.lisa.demo.CarModel","id":2,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"RLX-AWD","subName":"AWD","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2012,"modelid":2,"options":"Leather, Navigation, Backup Camera","owners":2,"price":30995.0,"stockNumber":"BN12560","transmission":"Auto","vin":"3N1CB51D35l458771"},{"class":"com.ca.lisa.demo.CarInventory","id":4,"carTrim":"Sport","color":"Silver","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":4,"address":"1673 Blake Rd","city":"Aurora","name":"Aurora Acura","state":"CO","telephone":"303-955-0134","website":"www.aurora_acura.com","zip":"80203"},"engine":"3.5 V6","image1":"inventory4.jpg","image2":"cars/interior4.jpg","makeid":1,"milage":78400,"model":{"class":"com.ca.lisa.demo.CarModel","id":2,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"RLX-AWD","subName":"AWD","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2010,"modelid":2,"options":"Ski Rack, Tow kit","owners":4,"price":21405.0,"stockNumber":"BN13456","transmission":"Auto","vin":"2T1KR32E37C639012"},{"class":"com.ca.lisa.demo.CarInventory","id":5,"carTrim":"Sport","color":"Red","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":4,"address":"1673 Blake Rd","city":"Aurora","name":"Aurora Acura","state":"CO","telephone":"303-955-0134","website":"www.aurora_acura.com","zip":"80203"},"engine":"1.8T","image1":"inventory5.jpg","image2":"cars/interior5.jpg","makeid":2,"milage":98145,"model":{"class":"com.ca.lisa.demo.CarModel","id":11,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":2,"name":"Audi"},"modelYear":1996,"name":"S4-S","subName":"Sport","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2008,"modelid":11,"options":"Leather, Dual Air, 6 Speed","owners":4,"price":7800.0,"stockNumber":"BN13467","transmission":"Manual","vin":"3N1CB51D35l458773"},{"class":"com.ca.lisa.demo.CarInventory","id":6,"carTrim":"xDrivePlus","color":"Black","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":5,"address":"126 Rte 76","city":"Fort Collins","name":"Hilton Honda","state":"CO","telephone":"303-123-6789","website":"www.hiltonhonda.com","zip":"80503"},"engine":"3.5L","image1":"inventory6.jpg","image2":"cars/interior6.jpg","makeid":3,"milage":75350,"model":{"class":"com.ca.lisa.demo.CarModel","id":27,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":3,"name":"BMW"},"modelYear":1990,"name":"7-Series-P","subName":"Premium","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2010,"modelid":27,"options":"Leather, Navigation, Rear Air","owners":1,"price":34500.0,"stockNumber":"N2367J6","transmission":"Auto","vin":"3N1CB51D35l458774"},{"class":"com.ca.lisa.demo.CarInventory","id":7,"carTrim":"Base","color":"Blue","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":6,"address":"570 Lane St","city":"Englewood","name":"Terrys VW","state":"CO","telephone":"303- 560-3412","website":"www.terry_vag.com","zip":"80205"},"engine":"2.0T","image1":"inventory7.jpg","image2":"cars/interior7.jpg","makeid":2,"milage":104300,"model":{"class":"com.ca.lisa.demo.CarModel","id":10,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":2,"name":"Audi"},"modelYear":1996,"name":"A4-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2008,"modelid":10,"options":"Premium Audio Upgrade","owners":1,"price":10750.0,"stockNumber":"ASN29001","transmission":"Auto","vin":"2T1KR32E37C639015"},{"class":"com.ca.lisa.demo.CarInventory","id":8,"carTrim":"Premium","color":"Silver","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":6,"address":"570 Lane St","city":"Englewood","name":"Terrys VW","state":"CO","telephone":"303- 560-3412","website":"www.terry_vag.com","zip":"80205"},"engine":"2.0T","image1":"inventory8.jpg","image2":"cars/interior8.jpg","makeid":2,"milage":62000,"model":{"class":"com.ca.lisa.demo.CarModel","id":10,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":2,"name":"Audi"},"modelYear":1996,"name":"A4-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2012,"modelid":10,"options":"Leather, Navigation, Bluetooth","owners":3,"price":20400.0,"stockNumber":"ASN34501","transmission":"Auto","vin":"1ZVBP8AM1D5256906"},{"class":"com.ca.lisa.demo.CarInventory","id":9,"carTrim":"Base","color":"Silver","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":6,"address":"570 Lane St","city":"Englewood","name":"Terrys VW","state":"CO","telephone":"303- 560-3412","website":"www.terry_vag.com","zip":"80205"},"engine":"3.0L","image1":"inventory9.jpg","image2":"cars/interior9.jpg","makeid":3,"milage":58900,"model":{"class":"com.ca.lisa.demo.CarModel","id":27,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":3,"name":"BMW"},"modelYear":1990,"name":"7-Series-P","subName":"Premium","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2009,"modelid":27,"options":"Leather, Navigation, Rear Air","owners":2,"price":32295.0,"stockNumber":"ASN90845","transmission":"Auto","vin":"1ZVBP8AM1D5256907"},{"class":"com.ca.lisa.demo.CarInventory","id":10,"carTrim":"Technology Plus","color":"Black","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":5,"address":"126 Rte 76","city":"Fort Collins","name":"Hilton Honda","state":"CO","telephone":"303-123-6789","website":"www.hiltonhonda.com","zip":"80503"},"engine":"3.5 V6","image1":"inventory10.jpg","image2":"cars/interior10.jpg","makeid":1,"milage":54650,"model":{"class":"com.ca.lisa.demo.CarModel","id":1,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"RLX-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2012,"modelid":1,"options":"Leather, Navigation, Backup Camera","owners":2,"price":30995.0,"stockNumber":"245980A","transmission":"Auto","vin":"3N1CB51D35l458778"},{"class":"com.ca.lisa.demo.CarInventory","id":11,"carTrim":"Technology Plus","color":"Green","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":5,"address":"126 Rte 76","city":"Fort Collins","name":"Hilton Honda","state":"CO","telephone":"303-123-6789","website":"www.hiltonhonda.com","zip":"80503"},"engine":"3.5 V8","image1":"inventory11.jpg","image2":"cars/interior11.jpg","makeid":1,"milage":74850,"model":{"class":"com.ca.lisa.demo.CarModel","id":1,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"RLX-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2011,"modelid":1,"options":"Leather, Navigation","owners":1,"price":20995.0,"stockNumber":"245180A","transmission":"Auto","vin":"3N1CB41D32l458778"},{"class":"com.ca.lisa.demo.CarInventory","id":12,"carTrim":"Luxury","color":"Black","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":5,"address":"126 Rte 76","city":"Fort Collins","name":"Hilton Honda","state":"CO","telephone":"303-123-6789","website":"www.hiltonhonda.com","zip":"80503"},"engine":"3.0 V6","image1":"inventory22.jpg","image2":"cars/interior21.jpg","makeid":2,"milage":24650,"model":{"class":"com.ca.lisa.demo.CarModel","id":12,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":2,"name":"Audi"},"modelYear":1996,"name":"A4-C","subName":"Convertible","type":{"class":"com.ca.lisa.demo.CarType","id":1,"name":"Convertible"}},"modelYear":2012,"modelid":12,"options":"Leather","owners":2,"price":11995.0,"stockNumber":"246987A","transmission":"Auto","vin":"3H1CB51D35l453773"},{"class":"com.ca.lisa.demo.CarInventory","id":13,"carTrim":"Base","color":"Black","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":6,"address":"570 Lane St","city":"Englewood","name":"Terrys VW","state":"CO","telephone":"303- 560-3412","website":"www.terry_vag.com","zip":"80205"},"engine":"3.0L","image1":"inventory23.jpg","image2":"cars/interior23.jpg","makeid":3,"milage":58900,"model":{"class":"com.ca.lisa.demo.CarModel","id":23,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":3,"name":"BMW"},"modelYear":1990,"name":"3-Series-S","subName":"Sedan","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2011,"modelid":23,"options":"Leather, Navigation","owners":2,"price":12295.0,"stockNumber":"ASN90856","transmission":"Auto","vin":"1XCBP8AM1D5256909"},{"class":"com.ca.lisa.demo.CarInventory","id":14,"carTrim":"Base","color":"Black","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":6,"address":"570 Lane St","city":"Englewood","name":"Terrys VW","state":"CO","telephone":"303- 560-3412","website":"www.terry_vag.com","zip":"80205"},"engine":"3.5L","image1":"inventory24.jpg","image2":"cars/interior24.jpg","makeid":3,"milage":68900,"model":{"class":"com.ca.lisa.demo.CarModel","id":26,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":3,"name":"BMW"},"modelYear":1990,"name":"5-Series-S","subName":"Sedan","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2009,"modelid":26,"options":"Leather, Navigation","owners":1,"price":35295.0,"stockNumber":"ASN70851","transmission":"Auto","vin":"7XCBP8AM1D5256910"}]</bd>
+</rp>
+</rs>
+</t>
+<t id="43" nd="true">
+<sp>
+<t id="66">
+<rq id="67" op="GET /inventory/carDealer/index/" tl="EXACT">
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carDealer</p>
+<p n="HTTP-Segment-Attr-2">index</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carDealer/index</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="68" t="291">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNjkxYTE2MTEtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[{"class":"com.ca.lisa.demo.CarDealer","id":1,"address":"1070 Corzon St","city":"Longmont","name":"XYZ Motors Inc","state":"CO","telephone":"303-555-1234","website":"www.xyzmotorsco.com","zip":"80501"},{"class":"com.ca.lisa.demo.CarDealer","id":2,"address":"3800 Motor City Dr","city":"Denver","name":"Mountain Motors Inc","state":"CO","telephone":"303-222-8766","website":"www.mmdenver.com","zip":"80202"},{"class":"com.ca.lisa.demo.CarDealer","id":3,"address":"235 Spine Rd","city":"Boulder","name":"Blanes GMC","state":"CO","telephone":"303-456-9090","website":"www.blanemotors.com","zip":"80202"},{"class":"com.ca.lisa.demo.CarDealer","id":4,"address":"1673 Blake Rd","city":"Aurora","name":"Aurora Acura","state":"CO","telephone":"303-955-0134","website":"www.aurora_acura.com","zip":"80203"},{"class":"com.ca.lisa.demo.CarDealer","id":5,"address":"126 Rte 76","city":"Fort Collins","name":"Hilton Honda","state":"CO","telephone":"303-123-6789","website":"www.hiltonhonda.com","zip":"80503"},{"class":"com.ca.lisa.demo.CarDealer","id":6,"address":"570 Lane St","city":"Englewood","name":"Terrys VW","state":"CO","telephone":"303- 560-3412","website":"www.terry_vag.com","zip":"80205"},{"class":"com.ca.lisa.demo.CarDealer","id":7,"address":"3556 Motor City Dr","city":"Denver","name":"Blanes Toyota","state":"CO","telephone":"303-100-2310","website":"www.blanemotors.com","zip":"80201"},{"class":"com.ca.lisa.demo.CarDealer","id":8,"address":"4100 Motor City Dr","city":"Denver","name":"Denver Subaru","state":"CO","telephone":"303-670-1402","website":"www.milehighsubaru.com","zip":"80201"},{"class":"com.ca.lisa.demo.CarDealer","id":9,"address":"100 Lisle Ave","city":"Aurora","name":"Capital Ford","state":"CO","telephone":"303-555-1200","website":"www.capitalford.com","zip":"80503"},{"class":"com.ca.lisa.demo.CarDealer","id":10,"address":"1050 University Dr","city":"Boulder","name":"Boulder Chrysler Group","state":"CO","telephone":"303-204-8720","website":"www.jeep_boulder.com","zip":"80503"}]</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="69" op="GET /inventory/carDealer/index/" tl="SIGNATURE">
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carDealer</p>
+<p n="HTTP-Segment-Attr-2">index</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carDealer/index</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="70" t="291">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNjkxYTE2MTEtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[{"class":"com.ca.lisa.demo.CarDealer","id":1,"address":"1070 Corzon St","city":"Longmont","name":"XYZ Motors Inc","state":"CO","telephone":"303-555-1234","website":"www.xyzmotorsco.com","zip":"80501"},{"class":"com.ca.lisa.demo.CarDealer","id":2,"address":"3800 Motor City Dr","city":"Denver","name":"Mountain Motors Inc","state":"CO","telephone":"303-222-8766","website":"www.mmdenver.com","zip":"80202"},{"class":"com.ca.lisa.demo.CarDealer","id":3,"address":"235 Spine Rd","city":"Boulder","name":"Blanes GMC","state":"CO","telephone":"303-456-9090","website":"www.blanemotors.com","zip":"80202"},{"class":"com.ca.lisa.demo.CarDealer","id":4,"address":"1673 Blake Rd","city":"Aurora","name":"Aurora Acura","state":"CO","telephone":"303-955-0134","website":"www.aurora_acura.com","zip":"80203"},{"class":"com.ca.lisa.demo.CarDealer","id":5,"address":"126 Rte 76","city":"Fort Collins","name":"Hilton Honda","state":"CO","telephone":"303-123-6789","website":"www.hiltonhonda.com","zip":"80503"},{"class":"com.ca.lisa.demo.CarDealer","id":6,"address":"570 Lane St","city":"Englewood","name":"Terrys VW","state":"CO","telephone":"303- 560-3412","website":"www.terry_vag.com","zip":"80205"},{"class":"com.ca.lisa.demo.CarDealer","id":7,"address":"3556 Motor City Dr","city":"Denver","name":"Blanes Toyota","state":"CO","telephone":"303-100-2310","website":"www.blanemotors.com","zip":"80201"},{"class":"com.ca.lisa.demo.CarDealer","id":8,"address":"4100 Motor City Dr","city":"Denver","name":"Denver Subaru","state":"CO","telephone":"303-670-1402","website":"www.milehighsubaru.com","zip":"80201"},{"class":"com.ca.lisa.demo.CarDealer","id":9,"address":"100 Lisle Ave","city":"Aurora","name":"Capital Ford","state":"CO","telephone":"303-555-1200","website":"www.capitalford.com","zip":"80503"},{"class":"com.ca.lisa.demo.CarDealer","id":10,"address":"1050 University Dr","city":"Boulder","name":"Boulder Chrysler Group","state":"CO","telephone":"303-204-8720","website":"www.jeep_boulder.com","zip":"80503"}]</bd>
+</rp>
+</rs>
+</t>
+<t id="44" nd="true">
+<sp>
+<t id="71">
+<rq id="72" op="GET /inventory/carInventory/{URLPARAM0}/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;true;;;;">2T1KR32E37C639014</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carInventory</p>
+<p n="HTTP-Segment-Attr-2">2T1KR32E37C639014</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carInventory/2T1KR32E37C639014</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="73" t="298">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNjkzNzNiMDEtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">{  &#xd;
+   "class":"com.ca.lisa.demo.CarInventory",&#xd;
+   "id":1,&#xd;
+   "carTrim":"Premium Plus",&#xd;
+   "color":"Silver",&#xd;
+   "dealer":{  &#xd;
+      "class":"com.ca.lisa.demo.CarDealer",&#xd;
+      "id":2,&#xd;
+      "address":"3800 Motor City Dr",&#xd;
+      "city":"Denver",&#xd;
+      "name":"Mountain Motors Inc",&#xd;
+      "state":"CO",&#xd;
+      "telephone":"303-222-8766",&#xd;
+      "website":"www.mmdenver.com",&#xd;
+      "zip":"80202"&#xd;
+   },&#xd;
+   "engine":"2.7 V6",&#xd;
+   "image1":"inventory1.jpg",&#xd;
+   "image2":"cars/interior1.jpg",&#xd;
+   "makeid":2,&#xd;
+   "milage":138560,&#xd;
+   "model":{  &#xd;
+      "class":"com.ca.lisa.demo.CarModel",&#xd;
+      "id":10,&#xd;
+      "fuelType":"Gas",&#xd;
+      "make":{  &#xd;
+         "class":"com.ca.lisa.demo.CarMake",&#xd;
+         "id":2,&#xd;
+         "name":"Audi"&#xd;
+      },&#xd;
+      "modelYear":1996,&#xd;
+      "name":"A4-B",&#xd;
+      "subName":"Base",&#xd;
+      "type":{  &#xd;
+         "class":"com.ca.lisa.demo.CarType",&#xd;
+         "id":7,&#xd;
+         "name":"Sedan"&#xd;
+      }&#xd;
+   },&#xd;
+   "modelYear":2011,&#xd;
+   "modelid":10,&#xd;
+   "options":"Leather, Navigation, Rear Air",&#xd;
+   "owners":6,&#xd;
+   "price":3995.0,&#xd;
+   "stockNumber":"NAD8989",&#xd;
+   "transmission":"Auto",&#xd;
+   "vin":"{{=request_URLPARAM0;/*2T1KR32E37C639014*/}}"&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+<t id="52">
+<rq id="74" op="GET /inventory/carInventory/{URLPARAM0}/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;true;;;;">1ZVBP8AM1D5256900</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carInventory</p>
+<p n="HTTP-Segment-Attr-2">1ZVBP8AM1D5256900</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carInventory/1ZVBP8AM1D5256900</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="75" t="83">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkODMxY2I3NzEtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">{  &#xd;
+   "class":"com.ca.lisa.demo.CarInventory",&#xd;
+   "id":2,&#xd;
+   "carTrim":"Technology",&#xd;
+   "color":"Black",&#xd;
+   "dealer":{  &#xd;
+      "class":"com.ca.lisa.demo.CarDealer",&#xd;
+      "id":2,&#xd;
+      "address":"3800 Motor City Dr",&#xd;
+      "city":"Denver",&#xd;
+      "name":"Mountain Motors Inc",&#xd;
+      "state":"CO",&#xd;
+      "telephone":"303-222-8766",&#xd;
+      "website":"www.mmdenver.com",&#xd;
+      "zip":"80202"&#xd;
+   },&#xd;
+   "engine":"3.2 V6",&#xd;
+   "image1":"inventory2.jpg",&#xd;
+   "image2":"cars/interior2.jpg",&#xd;
+   "makeid":1,&#xd;
+   "milage":30650,&#xd;
+   "model":{  &#xd;
+      "class":"com.ca.lisa.demo.CarModel",&#xd;
+      "id":2,&#xd;
+      "fuelType":"Gas",&#xd;
+      "make":{  &#xd;
+         "class":"com.ca.lisa.demo.CarMake",&#xd;
+         "id":1,&#xd;
+         "name":"Acura"&#xd;
+      },&#xd;
+      "modelYear":2013,&#xd;
+      "name":"RLX-AWD",&#xd;
+      "subName":"AWD",&#xd;
+      "type":{  &#xd;
+         "class":"com.ca.lisa.demo.CarType",&#xd;
+         "id":7,&#xd;
+         "name":"Sedan"&#xd;
+      }&#xd;
+   },&#xd;
+   "modelYear":2013,&#xd;
+   "modelid":2,&#xd;
+   "options":"Leather, Navigation, Ski/BikeRack",&#xd;
+   "owners":2,&#xd;
+   "price":30995.0,&#xd;
+   "stockNumber":"RA2356/1",&#xd;
+   "transmission":"Auto",&#xd;
+   "vin":"{{=request_URLPARAM0;/*1ZVBP8AM1D5256900*/}}"&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="76" op="GET /inventory/carInventory/{URLPARAM0}/" tl="SIGNATURE">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;true;;;;">2T1KR32E37C639014</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carInventory</p>
+<p n="HTTP-Segment-Attr-2">2T1KR32E37C639014</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carInventory/2T1KR32E37C639014</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="77" t="298">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNjkzNzNiMDEtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">{"class":"com.ca.lisa.demo.CarInventory","id":1,"carTrim":"Premium Plus","color":"Silver","dealer":{"class":"com.ca.lisa.demo.CarDealer","id":2,"address":"3800 Motor City Dr","city":"Denver","name":"Mountain Motors Inc","state":"CO","telephone":"303-222-8766","website":"www.mmdenver.com","zip":"80202"},"engine":"2.7 V6","image1":"inventory1.jpg","image2":"cars/interior1.jpg","makeid":2,"milage":138560,"model":{"class":"com.ca.lisa.demo.CarModel","id":10,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":2,"name":"Audi"},"modelYear":1996,"name":"A4-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},"modelYear":2011,"modelid":10,"options":"Leather, Navigation, Rear Air","owners":6,"price":3995.0,"stockNumber":"NAD8989","transmission":"Auto","vin":"{{=request_URLPARAM0;/*2T1KR32E37C639014*/}}"}</bd>
+</rp>
+</rs>
+</t>
+<t id="45" nd="true">
+<sp>
+<t id="78">
+<rq id="79" op="GET /inventory/carMake/{URLPARAM0}/models.json/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;false;;;;">1</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carMake</p>
+<p n="HTTP-Segment-Attr-2">1</p>
+<p n="HTTP-Segment-Attr-3">models.json</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carMake/1/models.json</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="80" t="213">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNjk1YmIyZjAtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[   &#xd;
+   {  &#xd;
+      "class":"com.ca.lisa.demo.CarModel",&#xd;
+      "id":2,&#xd;
+      "fuelType":"Gas",&#xd;
+      "make":{  &#xd;
+         "class":"com.ca.lisa.demo.CarMake",&#xd;
+         "id":1,&#xd;
+         "name":"Acura"&#xd;
+      },&#xd;
+      "modelYear":2013,&#xd;
+      "name":"RLX-AWD",&#xd;
+      "subName":"AWD",&#xd;
+      "type":{  &#xd;
+         "class":"com.ca.lisa.demo.CarType",&#xd;
+         "id":7,&#xd;
+         "name":"Sedan"&#xd;
+      }&#xd;
+     }&#xd;
+]</bd>
+</rp>
+</rs>
+</t>
+<t id="46">
+<rq id="81" op="GET /inventory/carMake/{URLPARAM0}/models.json/" tl="EXACT">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;false;;;;">2</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carMake</p>
+<p n="HTTP-Segment-Attr-2">2</p>
+<p n="HTTP-Segment-Attr-3">models.json</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carMake/2/models.json</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="82" t="46">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNjlmYWQ5MjEtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[  &#xd;
+      {  &#xd;
+      "class":"com.ca.lisa.demo.CarModel",&#xd;
+      "id":10,&#xd;
+      "fuelType":"Gas",&#xd;
+      "make":{  &#xd;
+         "class":"com.ca.lisa.demo.CarMake",&#xd;
+         "id":2,&#xd;
+         "name":"Audi"&#xd;
+      },&#xd;
+      "modelYear":1996,&#xd;
+      "name":"A4-B",&#xd;
+      "subName":"Base",&#xd;
+      "type":{  &#xd;
+         "class":"com.ca.lisa.demo.CarType",&#xd;
+         "id":7,&#xd;
+         "name":"Sedan"&#xd;
+      }&#xd;
+   }&#xd;
+]</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="83" op="GET /inventory/carMake/{URLPARAM0}/models.json/" tl="SIGNATURE">
+<ag>
+<p n="URLPARAM0" t="arg:EQUALS;false;;;;">1</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carMake</p>
+<p n="HTTP-Segment-Attr-2">1</p>
+<p n="HTTP-Segment-Attr-3">models.json</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carMake/1/models.json</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="User-Agent">Java/1.8.0_102</p>
+<p n="Host">localhost:7000</p>
+<p n="Accept">text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2</p>
+</m>
+</rq>
+<rs>
+<rp id="84" t="213">
+<m>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Content-Type">application/json;charset=UTF-8</p>
+<p n="Server">Mule Core/3.7.0</p>
+<p n="X-MULE_SESSION">rO0ABXNyACNvcmcubXVsZS5zZXNzaW9uLkRlZmF1bHRNdWxlU2Vzc2lvbi7rdtEW7GGKAwAFWgAFdmFsaWRMAA1mbG93Q29uc3RydWN0dAAmTG9yZy9tdWxlL2FwaS9jb25zdHJ1Y3QvRmxvd0NvbnN0cnVjdDtMAAJpZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnByb3BlcnRpZXN0AA9MamF2YS91dGlsL01hcDtMAA9zZWN1cml0eUNvbnRleHR0ACdMb3JnL211bGUvYXBpL3NlY3VyaXR5L1NlY3VyaXR5Q29udGV4dDt4cAFwdAAkNjk1YmIyZjAtMTY0Mi0xMWU4LWJjZTQtODQzNDk3MjI1ZWRhc3IAJWphdmEudXRpbC5Db2xsZWN0aW9ucyRTeW5jaHJvbml6ZWRNYXAbc/kJS0s5ewMAAkwAAW1xAH4AA0wABW11dGV4dAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgAkb3JnLm11bGUudXRpbC5DYXNlSW5zZW5zaXRpdmVIYXNoTWFwndHZ72dFzgADAAB4cHcMP0AAAAAAABAAAAAAeHEAfgAJeHB4</p>
+<p n="Access-Control-Allow-Origin">*</p>
+<p n="Date">{{=httpNow()}}</p>
+</m>
+<bd chs="UTF-8">[{"class":"com.ca.lisa.demo.CarModel","id":1,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"RLX-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},{"class":"com.ca.lisa.demo.CarModel","id":2,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"RLX-AWD","subName":"AWD","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},{"class":"com.ca.lisa.demo.CarModel","id":3,"fuelType":"Hybrid","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"RLX-H","subName":"Hybrid","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},{"class":"com.ca.lisa.demo.CarModel","id":4,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":1996,"name":"TL-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},{"class":"com.ca.lisa.demo.CarModel","id":5,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":1996,"name":"TL-AWD","subName":"SH-AWD","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},{"class":"com.ca.lisa.demo.CarModel","id":6,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":1996,"name":"TL-S","subName":"Sport","type":{"class":"com.ca.lisa.demo.CarType","id":7,"name":"Sedan"}},{"class":"com.ca.lisa.demo.CarModel","id":7,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2000,"name":"MDX-B","subName":"Base","type":{"class":"com.ca.lisa.demo.CarType","id":9,"name":"SUV"}},{"class":"com.ca.lisa.demo.CarModel","id":8,"fuelType":"Gas","make":{"class":"com.ca.lisa.demo.CarMake","id":1,"name":"Acura"},"modelYear":2013,"name":"MDX-AWD","subName":"SH-AWD","type":{"class":"com.ca.lisa.demo.CarType","id":9,"name":"SUV"}}]</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="55" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;
+    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Not Found&lt;/h1&gt;
+        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
+        &lt;hr/&gt;
+        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;
+        &lt;br/&gt;&lt;font size="-2"&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="54" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;
+    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Not Found&lt;/h1&gt;
+        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
+        &lt;hr/&gt;
+        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;
+        &lt;br/&gt;&lt;font size="-2"&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</bd>
+</rp>
+</usrr>
+</serviceImage>

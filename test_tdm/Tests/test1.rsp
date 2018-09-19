@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Fri Oct 27 12:26:49 IST 2017 -->
+
+
+<Results name="test1">
+
+
+    <Result node="Web Service">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.gui.XMLResultsCache>
+  <Sxml>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#xd;
+&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#xd;
+    &lt;SOAP-ENV11:Body&gt;&#xd;
+        &lt;tdsns0:GetSupplierByZipCodeResponse&gt;&#xd;
+            &lt;tdsns0:GetSupplierByZipCodeResult&gt;true&lt;/tdsns0:GetSupplierByZipCodeResult&gt;&#xd;
+            &lt;tdsns0:SupplierDataLists&gt;&#xd;
+                &lt;tdsns0:SupplierDatas&gt;&#xd;
+                    &lt;tdsns0:SupplierData&gt;&#xd;
+                        &lt;tdsns0:SupplierNumber&gt;13321-634-003&lt;/tdsns0:SupplierNumber&gt;&#xd;
+                        &lt;tdsns0:CompanyName&gt;Volkswagen United Kingdom LTD&lt;/tdsns0:CompanyName&gt;&#xd;
+                        &lt;tdsns0:Address1&gt;CARR  SAN JOSE 87-1&lt;/tdsns0:Address1&gt;&#xd;
+                        &lt;tdsns0:Address2/&gt;&#xd;
+                        &lt;tdsns0:City&gt;Herndon&lt;/tdsns0:City&gt;&#xd;
+                        &lt;tdsns0:Zip&gt;70394&lt;/tdsns0:Zip&gt;&#xd;
+                        &lt;tdsns0:ZipPlus4&gt;VA&lt;/tdsns0:ZipPlus4&gt;&#xd;
+                        &lt;tdsns0:Telephone&gt;8531&lt;/tdsns0:Telephone&gt;&#xd;
+                        &lt;tdsns0:Description&gt;(886)578-1927&lt;/tdsns0:Description&gt;&#xd;
+                        &lt;tdsns0:IsSupplierParticipating&gt;04&lt;/tdsns0:IsSupplierParticipating&gt;&#xd;
+                    &lt;/tdsns0:SupplierData&gt;&#xd;
+                &lt;/tdsns0:SupplierDatas&gt;&#xd;
+                &lt;tdsns0:TotalRecords&gt;1&lt;/tdsns0:TotalRecords&gt;&#xd;
+            &lt;/tdsns0:SupplierDataLists&gt;&#xd;
+        &lt;/tdsns0:GetSupplierByZipCodeResponse&gt;&#xd;
+    &lt;/SOAP-ENV11:Body&gt;&#xd;
+&lt;/SOAP-ENV11:Envelope&gt;&#xd;
+</Sxml>
+  <headers>HTTP/1.1 200 OK&#xd;
+Server: LISA/Virtual-Environment-Server&#xd;
+Date: Fri, 27 Oct 2017 10:39:42 IST&#xd;
+X-Powered-By: LISA/10.0.0 (10.0.0.431)&#xd;
+Content-Type: text/xml&#xd;
+Content-Length: 1474&#xd;
+</headers>
+  <attachments/>
+</com.itko.lisa.gui.XMLResultsCache>]]></content>
+    </Result>
+
+
+</Results>

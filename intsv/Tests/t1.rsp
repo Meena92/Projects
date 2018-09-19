@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Wed Oct 25 17:14:44 IST 2017 -->
+
+
+<Results name="t1">
+
+
+    <Result node="Web Service">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.gui.XMLResultsCache>
+  <Sxml>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#xd;
+&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xd;
+   &lt;soap:Body&gt;&#xd;
+      &lt;GetSupplierByZipCodeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#xd;
+         &lt;GetSupplierByZipCodeResult&gt;true&lt;/GetSupplierByZipCodeResult&gt;&#xd;
+         &lt;SupplierDataLists&gt;&#xd;
+            &lt;SupplierDatas&gt;&#xd;
+               &lt;SupplierData&gt;&#xd;
+                  &lt;SupplierNumber&gt;0194080005&lt;/SupplierNumber&gt;&#xd;
+                  &lt;CompanyName&gt;DOCS DRUGS LTD&lt;/CompanyName&gt;&#xd;
+                  &lt;Address1&gt;1020 MAPLE AVE&lt;/Address1&gt;&#xd;
+                  &lt;Address2/&gt;&#xd;
+                  &lt;City&gt;LISLE&lt;/City&gt;&#xd;
+                  &lt;Zip&gt;60532&lt;/Zip&gt;&#xd;
+                  &lt;ZipPlus4&gt;IL&lt;/ZipPlus4&gt;&#xd;
+                  &lt;Telephone&gt;2329&lt;/Telephone&gt;&#xd;
+                  &lt;Description&gt;(630)968-4165&lt;/Description&gt;&#xd;
+                  &lt;IsSupplierParticipating&gt;04&lt;/IsSupplierParticipating&gt;&#xd;
+               &lt;/SupplierData&gt;&#xd;
+             &lt;/SupplierDatas&gt;&#xd;
+            &lt;TotalRecords&gt;1&lt;/TotalRecords&gt;&#xd;
+         &lt;/SupplierDataLists&gt;&#xd;
+      &lt;/GetSupplierByZipCodeResponse&gt;&#xd;
+   &lt;/soap:Body&gt;&#xd;
+&lt;/soap:Envelope&gt;</Sxml>
+  <headers>HTTP/1.1 200 OK&#xd;
+Server: DevTest/Virtual-Environment-Server&#xd;
+Date: Wed, 25 Oct 2017 12:34:49 IST&#xd;
+X-Powered-By: DevTest/10.0.0 (10.0.0.431); CA, Inc.&#xd;
+Content-Type: text/xml&#xd;
+Content-Length: 1196&#xd;
+</headers>
+  <attachments/>
+</com.itko.lisa.gui.XMLResultsCache>]]></content>
+    </Result>
+
+
+</Results>

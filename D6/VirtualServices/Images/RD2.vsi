@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="2" name="RD2" created="2018-02-26.12:03:13.949" lastModified="2018-02-26.12:52:23.595" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="1" nd="true">
+<sp>
+<t id="5">
+<rq id="6" op="GET /api/v1/books/" tl="EXACT">
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/api/v1/books</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="7" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;   &quot;meta&quot;: {&#13;&#10;    &quot;error&quot;: 789,&#13;&#10;    &quot;message&quot;: &quot;Title field is required&quot;&#13;&#10;  },&#13;&#10;  &quot;data&quot;: [{&#13;&#10;    &quot;id&quot;: 24,&#13;&#10;    &quot;title&quot;: &quot;Behavior-Driven Development&quot;,&#13;&#10;    &quot;author&quot;: &quot;Viktor Farcic&quot;&#13;&#10;  }, {&#13;&#10;    &quot;id&quot;: 25,&#13;&#10;    &quot;title&quot;: &quot;Continuous Integration&quot;,&#13;&#10;    &quot;author&quot;: &quot;Viktor Farcic&quot;&#13;&#10;  }]&#13;&#10;}</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="8" op="GET /api/v1/books/" tl="SIGNATURE">
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/api/v1/books</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="9" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;   &quot;meta&quot;: {&#13;&#10;    &quot;error&quot;: 789,&#13;&#10;    &quot;message&quot;: &quot;Title field is required&quot;&#13;&#10;  },&#13;&#10;  &quot;data&quot;: [{&#13;&#10;    &quot;id&quot;: 24,&#13;&#10;    &quot;title&quot;: &quot;Behavior-Driven Development&quot;,&#13;&#10;    &quot;author&quot;: &quot;Viktor Farcic&quot;&#13;&#10;  }, {&#13;&#10;    &quot;id&quot;: 25,&#13;&#10;    &quot;title&quot;: &quot;Continuous Integration&quot;,&#13;&#10;    &quot;author&quot;: &quot;Viktor Farcic&quot;&#13;&#10;  }]&#13;&#10;}</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="4" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="3" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

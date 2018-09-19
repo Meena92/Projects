@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="2" name="rest" created="2017-09-28.11:15:52.111" lastModified="2017-09-28.11:15:52.529" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="1" nd="true">
+<sp>
+<t id="5">
+<rq id="6" op="GET /fulfillment-order-services/resources/item/pick/validate" tl="EXACT">
+<ag>
+<p n="userId" t="arg:EQUALS;false;;;;">user</p>
+<p n="nodeId" t="arg:EQUALS;true;;;;">5578</p>
+<p n="countryCode" t="arg:EQUALS;false;;;;">US</p>
+<p n="upc" t="arg:EQUALS;false;;;;">123</p>
+<p n="pickUpcNbr" t="arg:EQUALS;true;;;;">60958523083</p>
+<p n="pickUpcType" t="arg:EQUALS;false;;;;">substitute</p>
+<p n="serialNbr" t="arg:EQUALS;true;;;;">1234</p>
+<p n="serialNbrFmt" t="arg:EQUALS;false;;;;">23234</p>
+<p n="fulfillOrderId" t="arg:EQUALS;false;;;;">2402</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">fulfillment-order-services</p>
+<p n="HTTP-Segment-Attr-1">resources</p>
+<p n="HTTP-Segment-Attr-2">item</p>
+<p n="HTTP-Segment-Attr-3">pick</p>
+<p n="HTTP-Segment-Attr-4">validate</p>
+<p n="recorded_raw_request_bytes">DQo=</p>
+<p n="recorded_raw_request">&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/fulfillment-order-services/resources/item/pick/validate?userId=user&amp;nodeId=5578&amp;countryCode=US&amp;upc=123&amp;pickUpcNbr=60958523083&amp;pickUpcType=substitute&amp;serialNbr=1234&amp;serialNbrFmt=23234&amp;fulfillOrderId=2402</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="7" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;    &quot;document&quot;: {&#13;&#10;        &quot;type&quot;: &quot;instance&quot;,&#13;&#10;&quot;namespace&quot;: &quot;fulfillment.order.services&quot;,&#13;&#10;        &quot;id&quot;: &quot;item.pick.validate&quot;,&#13;&#10;&quot;version&quot;: &quot;1.0&quot;&#13;&#10;    },&#13;&#10;    &quot;node&quot;: {&#13;&#10;&quot;nodeId&quot;: {{=request_nodeId;/*5578*/}},&#13;&#10;&quot;countryCode&quot;: &quot;US&quot;&#13;&#10;    },&#13;&#10;    &quot;validationResponse&quot;: [&#13;&#10;        {&#13;&#10;&quot;value&quot;: &quot;{{=request_serialNbr;/*1234*/}}&quot;,&#13;&#10;&quot;type&quot;: &quot;serial Number&quot;,&#13;&#10;&quot;result&quot;: &quot;FAILURE&quot;&#13;&#10;        },&#13;&#10;        {&#13;&#10;&quot;value&quot;: &quot;{{=request_pickUpcNbr;/*60958523083*/}}&quot;,&#13;&#10;&quot;type&quot;: &quot;override upc&quot;,&#13;&#10;&quot;result&quot;: &quot;FAILURE&quot;&#13;&#10;        }&#13;&#10;    ]&#13;&#10;}</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="8" op="GET /fulfillment-order-services/resources/item/pick/validate" tl="SIGNATURE">
+<ag>
+<p n="userId" t="arg:EQUALS;false;;;;">user</p>
+<p n="nodeId" t="arg:EQUALS;true;;;;">5578</p>
+<p n="countryCode" t="arg:EQUALS;false;;;;">US</p>
+<p n="upc" t="arg:EQUALS;false;;;;">123</p>
+<p n="pickUpcNbr" t="arg:EQUALS;true;;;;">60958523083</p>
+<p n="pickUpcType" t="arg:EQUALS;false;;;;">substitute</p>
+<p n="serialNbr" t="arg:EQUALS;true;;;;">1234</p>
+<p n="serialNbrFmt" t="arg:EQUALS;false;;;;">23234</p>
+<p n="fulfillOrderId" t="arg:EQUALS;false;;;;">2402</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">fulfillment-order-services</p>
+<p n="HTTP-Segment-Attr-1">resources</p>
+<p n="HTTP-Segment-Attr-2">item</p>
+<p n="HTTP-Segment-Attr-3">pick</p>
+<p n="HTTP-Segment-Attr-4">validate</p>
+<p n="recorded_raw_request_bytes">DQo=</p>
+<p n="recorded_raw_request">&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/fulfillment-order-services/resources/item/pick/validate?userId=user&amp;nodeId=5578&amp;countryCode=US&amp;upc=123&amp;pickUpcNbr=60958523083&amp;pickUpcType=substitute&amp;serialNbr=1234&amp;serialNbrFmt=23234&amp;fulfillOrderId=2402</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="9" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;    &quot;document&quot;: {&#13;&#10;        &quot;type&quot;: &quot;instance&quot;,&#13;&#10;&quot;namespace&quot;: &quot;fulfillment.order.services&quot;,&#13;&#10;        &quot;id&quot;: &quot;item.pick.validate&quot;,&#13;&#10;&quot;version&quot;: &quot;1.0&quot;&#13;&#10;    },&#13;&#10;    &quot;node&quot;: {&#13;&#10;&quot;nodeId&quot;: {{=request_nodeId;/*5578*/}},&#13;&#10;&quot;countryCode&quot;: &quot;US&quot;&#13;&#10;    },&#13;&#10;    &quot;validationResponse&quot;: [&#13;&#10;        {&#13;&#10;&quot;value&quot;: &quot;{{=request_serialNbr;/*1234*/}}&quot;,&#13;&#10;&quot;type&quot;: &quot;serial Number&quot;,&#13;&#10;&quot;result&quot;: &quot;FAILURE&quot;&#13;&#10;        },&#13;&#10;        {&#13;&#10;&quot;value&quot;: &quot;{{=request_pickUpcNbr;/*60958523083*/}}&quot;,&#13;&#10;&quot;type&quot;: &quot;override upc&quot;,&#13;&#10;&quot;result&quot;: &quot;FAILURE&quot;&#13;&#10;        }&#13;&#10;    ]&#13;&#10;}</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="4" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="3" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

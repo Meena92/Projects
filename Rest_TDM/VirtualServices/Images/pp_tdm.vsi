@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="65" name="pp_tdm" created="2017-11-15.15:14:01.797" lastModified="2017-11-15.15:15:37.661" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="64" nd="true">
+<sp>
+<t id="68">
+<rq id="69" op="POST /api/v1/books/" tl="EXACT">
+<ag>
+<p n="author" t="arg:EQUALS;false;;;;">Viktor Farcic</p>
+<p n="id" t="arg:EQUALS;false;;;;">24</p>
+<p n="title" t="arg:EQUALS;false;;;;">Behavior-Driven Development</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+<p n="recorded_raw_request_bytes">ew0KICAiaWQiOiAiMjQiLA0KICAidGl0bGUiOiAiQmVoYXZpb3ItRHJpdmVuIERldmVsb3BtZW50IiwNCiAgImF1dGhvciI6ICJWaWt0b3IgRmFyY2ljIg0KfQ==</p>
+<p n="recorded_raw_request">{&#13;&#10;  &quot;id&quot;: &quot;24&quot;,&#13;&#10;  &quot;title&quot;: &quot;Behavior-Driven Development&quot;,&#13;&#10;  &quot;author&quot;: &quot;Viktor Farcic&quot;&#13;&#10;}</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">/api/v1/books</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="accept">application/json</p>
+<p n="content-Type">application/json</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;  &quot;id&quot;: &quot;24&quot;,&#13;&#10;  &quot;title&quot;: &quot;Behavior-Driven Development&quot;,&#13;&#10;  &quot;author&quot;: &quot;Viktor Farcic&quot;&#13;&#10;}</bd>
+</rq>
+<rs>
+<rp id="70" t="10">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+<bd chs="UTF-8">{&quot;data&quot;:{&quot;uri&quot;:&quot;/api/v1/books/id/24&quot;}}</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="71" op="POST /api/v1/books/" tl="SIGNATURE">
+<ag>
+<p n="author" t="arg:EQUALS;false;;;;">Viktor Farcic</p>
+<p n="id" t="arg:EQUALS;false;;;;">24</p>
+<p n="title" t="arg:EQUALS;false;;;;">Behavior-Driven Development</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">v1</p>
+<p n="HTTP-Segment-Attr-2">books</p>
+<p n="recorded_raw_request_bytes">ew0KICAiaWQiOiAiMjQiLA0KICAidGl0bGUiOiAiQmVoYXZpb3ItRHJpdmVuIERldmVsb3BtZW50IiwNCiAgImF1dGhvciI6ICJWaWt0b3IgRmFyY2ljIg0KfQ==</p>
+<p n="recorded_raw_request">{&#13;&#10;  &quot;id&quot;: &quot;24&quot;,&#13;&#10;  &quot;title&quot;: &quot;Behavior-Driven Development&quot;,&#13;&#10;  &quot;author&quot;: &quot;Viktor Farcic&quot;&#13;&#10;}</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">/api/v1/books</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="accept">application/json</p>
+<p n="content-Type">application/json</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;  &quot;id&quot;: &quot;24&quot;,&#13;&#10;  &quot;title&quot;: &quot;Behavior-Driven Development&quot;,&#13;&#10;  &quot;author&quot;: &quot;Viktor Farcic&quot;&#13;&#10;}</bd>
+</rq>
+<rs>
+<rp id="72" t="10">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+<bd chs="UTF-8">{&quot;data&quot;:{&quot;uri&quot;:&quot;/api/v1/books/id/24&quot;}}</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="67" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="66" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

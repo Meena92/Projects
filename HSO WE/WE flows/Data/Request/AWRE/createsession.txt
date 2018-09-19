@@ -1,0 +1,29 @@
+{
+  "createSessionRequest": {
+    "serviceTransactionId": "{{serviceTransactionId}}",
+    "header": {
+      "sender": {
+        "senderId": "{{senderId}}",
+        "channelId": "{{channelId}}",
+        "applicationId": "{{applicationId}}",
+        "applicationUserId": "{{applicationUserId}}",
+        "timestamp": "{{timestamp}}",
+        "storeId": "{{storeId}}",
+        "dealerCode": "{{dealerCode}}"
+      },
+      "target": {
+        "targetSystemId": {
+          "systemId": "{{systemId}}",
+          "userId": "{{userId}}"
+        },
+        "userCompanyId": "{{userCompanyId}}",
+        "customerCompanyId": "{{customerCompanyId}}",
+        "servicePartnerId": "{{servicePartnerId}}",
+        "transactionType": "{{transactionType}}"
+      }
+    },
+    "userId": "{{userId}}",
+    "password": "{{password}}",
+    "authenticationRequired": "{{authenticationRequired}}"
+  }
+}

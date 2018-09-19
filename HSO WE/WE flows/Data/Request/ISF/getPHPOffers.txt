@@ -1,0 +1,1 @@
+{"MSISDN":"{{MSISDN}}","SKU":"{{sku}}","accountType":"{{accountType}}","accountSubType":"{{accountSubType}}","billingState":"{{billingState}}","isPRCustomer":{{isPRCustomer}}}

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<Project>
+<Name>MyTCP-example</Name>
+<Version>V2</Version>
+<Notes></Notes>
+<ActiveConfig>{{LISA_RELATIVE_PROJ_ROOT}}/Configs/project.config</ActiveConfig>
+<ProjectPrefs>
+<Pref>
+<Key>rh.proj.info</Key>
+<Value>&lt;com.ca.lisa.core.project.ProjectService_-ResourceInfoMapImpl resolves-to=&quot;com.ca.lisa.core.project.ProjectService$ResourceInfoMapImpl$SProxy&quot;&gt;&#10;  &lt;projectResources&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;MyTCP-example\MyTCP-example\VirtualServices\MyTcp-example.vsm&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;bM53upcCtBGcymUk&lt;/id&gt;&#10;        &lt;providerKey&gt;MyTCP-example\MyTCP-example\VirtualServices\MyTcp-example.vsm&lt;/providerKey&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;  &lt;/projectResources&gt;&#10;  &lt;idsToKeys&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;bM53upcCtBGcymUk&lt;/string&gt;&#10;      &lt;string&gt;MyTCP-example\MyTCP-example\VirtualServices\MyTcp-example.vsm&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;  &lt;/idsToKeys&gt;&#10;&lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfoMapImpl&gt;</Value>
+</Pref>
+</ProjectPrefs>
+</Project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Thu Apr 05 14:04:38 IST 2018 -->
+
+
+<Results name="rr1">
+
+
+    <Result node="http GET /tpmRest/v1/participants/enabledProtocolPropertyValues/123">
+      <content type="com.itko.lisa.http.html.HtmlResponseWrapper" charset="UTF-8"><![CDATA[SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IExJU0EvVmlydHVhbC1FbnZpcm9ubWVudC1TZXJ2ZXINCkRhdGU6IFRodSwgMDUgQXByIDIwMTggMTI6Mjc6MTAgSVNUDQpYLVBvd2VyZWQtQnk6IExJU0EvMTAuMC4wICgxMC4wLjAuNDMxKQ0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uDQpDb250ZW50LUxlbmd0aDogNTh7DQoiTmFtZSI6IkFCQyIsDQoiSUQiOiIxMjMiLA0KIkVtYWlsIjoiYWJjQGRvbWFpbi5jb20iDQp9]]></content>
+    </Result>
+
+
+</Results>

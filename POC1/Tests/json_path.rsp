@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Sat Feb 03 17:10:15 IST 2018 -->
+
+
+<Results name="json_path">
+
+
+    <Result node="Parse Text as Response">
+      <content type="java.lang.String" charset="UTF-8"><![CDATA[ew0KInVzZXIiOnsNCiJlbWFpbEFkZHJlc3MiOiJhYmNAdGVzdC5jb20iLA0KImZpcnN0TmFtZSI6IkFiYyIsDQoibGFzdE5hbWUiOiJjZGUiLA0KInBhc3N3b3JkIjoiYmJiYiIsDQoidXNlcm5hbWUiOiJhYmNfY2RlIg0KfQ0KfQ==]]></content>
+    </Result>
+
+
+</Results>

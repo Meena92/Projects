@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceImage buildNumber="8.3.0.241" created="2015-07-30.15:07:55.165" id="1" lastModified="2015-09-09.08:19:50.103" name="TransformationService-v3" version="8.3.0">
+<st>
+<t id="4" nd="true">
+<sp>
+<t id="5">
+<rq id="6" op="Request" tl="EXACT">
+<ag>
+<p n="PANNO" t="arg:ANY;false;;;CASE_INSENSITIVE;">Abcde4567A</p>
+<p n="ACCOUNTNO" t="arg:ANY;false;;;CASE_INSENSITIVE;">123456789012</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webreceiver/"&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+    &lt;Request&gt;&#xd;
+            &lt;PANNO&gt;Abcde4567A&lt;/PANNO&gt;&#xd;
+            &lt;ACCOUNTNO&gt;123456789012&lt;/ACCOUNTNO&gt;&#xd;
+	&lt;/Request&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</p>
+</at>
+<ms>import java.util.regex.Matcher;&#xd;
+&#xd;
+String response = null;&#xd;
+String regexPANNO = "[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}";&#xd;
+String regexACCOUNTNO = "[0-9]{12}";&#xd;
+String paramPANNO = "{{request_PANNO}}";&#xd;
+String paramACCOUNTNO = "{{request_ACCOUNTNO}}";&#xd;
+&#xd;
+if(!paramPANNO.isEmpty() &amp;&amp; paramPANNO.matches(regexPANNO) &amp;&amp; !paramACCOUNTNO.isEmpty() &amp;&amp; paramACCOUNTNO.matches(regexACCOUNTNO)){&#xd;
+&#xd;
+    response = "Valid Input";&#xd;
+    testExec.setStateValue("response_Message", response);&#xd;
+}&#xd;
+else if(!paramPANNO.isEmpty() &amp;&amp; paramPANNO.matches(regexPANNO) &amp;&amp; !paramACCOUNTNO.isEmpty() &amp;&amp; !paramACCOUNTNO.matches(regexACCOUNTNO)){&#xd;
+&#xd;
+    response = "Invalid Account No.";&#xd;
+    testExec.setStateValue("response_Message", response);&#xd;
+&#xd;
+}else if(!paramPANNO.isEmpty() &amp;&amp; !paramPANNO.matches(regexPANNO) &amp;&amp; !paramACCOUNTNO.isEmpty() &amp;&amp; paramACCOUNTNO.matches(regexACCOUNTNO)){&#xd;
+&#xd;
+    response = "Invalid PAN No.";&#xd;
+    testExec.setStateValue("response_Message", response);&#xd;
+&#xd;
+}else if(!paramPANNO.isEmpty() &amp;&amp; !paramPANNO.matches(regexPANNO) &amp;&amp; !paramACCOUNTNO.isEmpty() &amp;&amp; !paramACCOUNTNO.matches(regexACCOUNTNO)){&#xd;
+&#xd;
+    response = "Invalid Account No. and PAN No.";&#xd;
+    testExec.setStateValue("response_Message", response);&#xd;
+}&#xd;
+else{&#xd;
+&#xd;
+    response = "Invalid request";&#xd;
+    testExec.setStateValue("response_Message", response);&#xd;
+}</ms>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webreceiver/"&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+    &lt;Request&gt;&#xd;
+			&lt;field1&gt;1000&lt;/field1&gt;&#xd;
+	&lt;/Request&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="7" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webreceiver/"&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+    &lt;Response&gt;&#xd;
+			&lt;Message&gt;{{response_Message}}&lt;/Message&gt;&#xd;
+	&lt;/Response&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="8" op="Request" tl="SIGNATURE">
+<ag>
+<p n="PANNO" t="arg:EQUALS;false;;;;"/>
+<p n="ACCOUNTNO" t="arg:EQUALS;false;;;;"/>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webreceiver/"&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+    &lt;Request&gt;&#xd;
+			&lt;field1&gt;1000&lt;/field1&gt;&#xd;
+	&lt;/Request&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</p>
+</at>
+<ms>// Right-click to insert a sample match script&#xd;
+// Right-click to insert a sample match script&#xd;
+/*if("{{req_field1}}" == "1000"){&#xd;
+    testExec.setStateValue("Response_field1","state1");&#xd;
+    testExec.setStateValue("Response_field2","country1");&#xd;
+}&#xd;
+else if("{{req_field1}}" == "2000"){&#xd;
+    testExec.setStateValue("Response_field1","state2");&#xd;
+    testExec.setStateValue("Response_field2","country2");&#xd;
+&#xd;
+}else{&#xd;
+    testExec.setStateValue("Response_field1","defaultState");&#xd;
+    testExec.setStateValue("Response_field2","defaultCountry");   &#xd;
+}*/&#xd;
+static String inverter2(String param){&#xd;
+		int randomIndex = 0;&#xd;
+		int count=0;&#xd;
+		String newParam = param;&#xd;
+		String alphabet="abcdefghijklmnopqrstuvwxyz";&#xd;
+		if(param != null &amp;&amp; !param.isEmpty()){&#xd;
+			for(int i=0; i&lt;param.length(); i++){&#xd;
+				System.out.println(param);&#xd;
+				if(Character.isLowerCase(param.charAt(i))){&#xd;
+					randomIndex = (int)(Math.random()*26);&#xd;
+					newParam = newParam.replace(newParam.charAt(i), alphabet.charAt(randomIndex));&#xd;
+				}&#xd;
+				else if(Character.isDigit(param.charAt(i))){&#xd;
+					continue;&#xd;
+				}&#xd;
+			}&#xd;
+		}&#xd;
+		Matcher matcher = Pattern.compile("\\d+").matcher(newParam);&#xd;
+	    // fetch the position of the next sequence of digits&#xd;
+	    if (!matcher.find()) {&#xd;
+	        return newParam; // no more digits&#xd;
+	    }&#xd;
+	    // keep everything before the number&#xd;
+	    String pre = newParam.substring(0, matcher.start());&#xd;
+	    // take the number and reverse it&#xd;
+	    String number = matcher.group();&#xd;
+	    number = new StringBuilder(number).reverse().toString();&#xd;
+		return pre + number + reverseDigits(newParam.substring(matcher.end()));&#xd;
+		&#xd;
+	}&#xd;
+if("{{req_field1}}" == "12345"){&#xd;
+    String sample = inverter2("{{req_field1}}");&#xd;
+    testExec.setStateValue("Response_field2",sample);&#xd;
+}</ms>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webreceiver/"&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+    &lt;Request&gt;&#xd;
+			&lt;field1&gt;1000&lt;/field1&gt;&#xd;
+	&lt;/Request&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="9" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://webreceiver/"&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+    &lt;Response&gt;&#xd;
+			&lt;Message&gt;{{response_Message}}&lt;/Message&gt;&#xd;
+	&lt;/Response&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="3" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;S:Body&gt;
+    &lt;S:Fault xmlns:ns3="http://www.w3.org/2003/05/soap-envelope"&gt;
+      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;
+      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;
+      &lt;detail&gt;
+        &lt;ns2:exception xmlns:ns2="http://jax-ws.dev.java.net/" class="java.lang.Exception"&gt;
+          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;
+          &lt;ns2:stackTrace&gt;
+          &lt;/ns2:stackTrace&gt;
+        &lt;/ns2:exception&gt;
+      &lt;/detail&gt;
+    &lt;/S:Fault&gt;
+  &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="2" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;S:Body&gt;
+    &lt;S:Fault xmlns:ns3="http://www.w3.org/2003/05/soap-envelope"&gt;
+      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;
+      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;
+      &lt;detail&gt;
+        &lt;ns2:exception xmlns:ns2="http://jax-ws.dev.java.net/" class="java.lang.Exception"&gt;
+          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;
+          &lt;ns2:stackTrace&gt;
+          &lt;/ns2:stackTrace&gt;
+        &lt;/ns2:exception&gt;
+      &lt;/detail&gt;
+    &lt;/S:Fault&gt;
+  &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;</bd>
+</rp>
+</usrr>
+</serviceImage>

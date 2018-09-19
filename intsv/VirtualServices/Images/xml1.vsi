@@ -1,0 +1,184 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="17" name="xml1" created="2017-11-02.11:46:40.740" lastModified="2017-11-02.11:47:12.300" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="12" nd="true">
+<sp>
+<t id="20">
+<rq id="21" op="GetSizeByKeyItemRequest" tl="EXACT">
+<ag>
+<p n="deptNumber" t="arg:EQUALS;true;;;;">123</p>
+<p n="keyItemNumber" t="arg:EQUALS;false;;;;">44</p>
+</ag>
+<at>
+<p n="version">1.0</p>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="22" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;Body xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;      &lt;GetSizeByKeyItemResponse version=&quot;1.0&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:ns1=&quot;http://anfcorp.com/service/schema/ki/messages/&quot; xmlns:tns=&quot;http://anfcorp.com/rms/KeyItem/definitions&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; xmlns=&quot;&quot;&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0031&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0032&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0033&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0034&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0035&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;      &lt;/GetSizeByKeyItemResponse&gt;&#13;&#10;   &lt;/Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+<t id="13">
+<rq id="23" op="GetSizeByKeyItemRequest" tl="EXACT">
+<ag>
+<p n="deptNumber" t="arg:EQUALS;true;;;;">123</p>
+<p n="keyItemNumber" t="arg:EQUALS;false;;;;">45</p>
+</ag>
+<at>
+<p n="version">1.0</p>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;45&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;45&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="24" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;Body xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;      &lt;GetSizeByKeyItemResponse version=&quot;1.0&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:ns1=&quot;http://anfcorp.com/service/schema/ki/messages/&quot; xmlns:tns=&quot;http://anfcorp.com/rms/KeyItem/definitions&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; xmlns=&quot;&quot;&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;45&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0031&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;45&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0032&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;45&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0033&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;45&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0034&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;45&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0035&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;      &lt;/GetSizeByKeyItemResponse&gt;&#13;&#10;   &lt;/Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+<t id="14">
+<rq id="25" op="GetSizeByKeyItemRequest" tl="EXACT">
+<ag>
+<p n="deptNumber" t="arg:EQUALS;true;;;;">123</p>
+<p n="keyItemNumber" t="arg:EQUALS;false;;;;">46</p>
+</ag>
+<at>
+<p n="version">1.0</p>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;46&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;46&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="26" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;Body xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;      &lt;GetSizeByKeyItemResponse version=&quot;1.0&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:ns1=&quot;http://anfcorp.com/service/schema/ki/messages/&quot; xmlns:tns=&quot;http://anfcorp.com/rms/KeyItem/definitions&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; xmlns=&quot;&quot;&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;46&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0031&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;46&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0032&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;46&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0033&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;46&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0034&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;46&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0035&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;      &lt;/GetSizeByKeyItemResponse&gt;&#13;&#10;   &lt;/Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+<t id="15">
+<rq id="27" op="GetSizeByKeyItemRequest" tl="EXACT">
+<ag>
+<p n="deptNumber" t="arg:EQUALS;false;;;;">123</p>
+<p n="keyItemNumber" t="arg:EQUALS;false;;;;">47</p>
+</ag>
+<at>
+<p n="version">1.0</p>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;47&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;47&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="28" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;Body xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;      &lt;soapenv:Fault&gt;&#13;&#10;         &lt;faultcode xmlns=&quot;&quot;&gt;soapenv:Server&lt;/faultcode&gt;&#13;&#10;         &lt;faultstring xmlns=&quot;&quot;/&gt;&#13;&#10;         &lt;detail xmlns=&quot;&quot;&gt;&#13;&#10;            &lt;ns0:FaultMessage xmlns:ns0=&quot;http://www.abercrombie.com/ns/Schemas/Fault/2&quot;&gt;&#13;&#10;               &lt;ns0:Faultcode&gt;ANF-000&lt;/ns0:Faultcode&gt;&#13;&#10;               &lt;ns0:FaultDescription&gt;No records found.&lt;/ns0:FaultDescription&gt;&#13;&#10;               &lt;ns0:Detail/&gt;&#13;&#10;            &lt;/ns0:FaultMessage&gt;&#13;&#10;         &lt;/detail&gt;&#13;&#10;      &lt;/soapenv:Fault&gt;&#13;&#10;   &lt;/Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+<t id="16">
+<rq id="29" op="GetSizeByKeyItemRequest" tl="EXACT">
+<ag>
+<p n="deptNumber" t="arg:EQUALS;true;;;;">123</p>
+<p n="keyItemNumber" t="arg:EQUALS;false;;;;">48</p>
+</ag>
+<at>
+<p n="version">1.0</p>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;48&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;48&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="30" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;Body xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;      &lt;GetSizeByKeyItemResponse version=&quot;1.0&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:ns1=&quot;http://anfcorp.com/service/schema/ki/messages/&quot; xmlns:tns=&quot;http://anfcorp.com/rms/KeyItem/definitions&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; xmlns=&quot;&quot;&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;48&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0031&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;48&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0032&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;48&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0033&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;48&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0034&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;48&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0035&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;      &lt;/GetSizeByKeyItemResponse&gt;&#13;&#10;   &lt;/Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="31" op="GetSizeByKeyItemRequest" tl="SIGNATURE">
+<ag>
+<p n="deptNumber" t="arg:EQUALS;true;;;;">123</p>
+<p n="keyItemNumber" t="arg:EQUALS;false;;;;">44</p>
+</ag>
+<at>
+<p n="version">1.0</p>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;soapenv:Body&gt;&#13;&#10;      &lt;GetSizeByKeyItemRequest version=&quot;1.0&quot;&gt;&#13;&#10;         &lt;deptNumber&gt;123&lt;/deptNumber&gt;&#13;&#10;         &lt;!--1 or more repetitions:--&gt;&#13;&#10;         &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;      &lt;/GetSizeByKeyItemRequest&gt;&#13;&#10;   &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="32" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;   &lt;soapenv:Header/&gt;&#13;&#10;   &lt;Body xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#13;&#10;      &lt;GetSizeByKeyItemResponse version=&quot;1.0&quot; xmlns:wsdl=&quot;http://schemas.xmlsoap.org/wsdl/&quot; xmlns:ns1=&quot;http://anfcorp.com/service/schema/ki/messages/&quot; xmlns:tns=&quot;http://anfcorp.com/rms/KeyItem/definitions&quot; xmlns:soap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; xmlns=&quot;&quot;&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0031&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0032&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0033&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0034&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;         &lt;keyItemSize&gt;&#13;&#10;            &lt;deptNumber&gt;{{=request_deptNumber;/*123*/}}&lt;/deptNumber&gt;&#13;&#10;            &lt;keyItemNumber&gt;44&lt;/keyItemNumber&gt;&#13;&#10;            &lt;sizeCode&gt;0035&lt;/sizeCode&gt;&#13;&#10;            &lt;sizeBucketGID&gt;333&lt;/sizeBucketGID&gt;&#13;&#10;            &lt;sizeBucketGID1/&gt;&#13;&#10;         &lt;/keyItemSize&gt;&#13;&#10;      &lt;/GetSizeByKeyItemResponse&gt;&#13;&#10;   &lt;/Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="19" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="18" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

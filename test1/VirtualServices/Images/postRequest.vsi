@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceImage buildNumber="10.0.0.431" created="2018-02-27.16:29:53.951" id="3" lastModified="2018-03-01.13:40:31.110" name="postRequest" version="10.0.0">
+<st>
+<t id="1" nd="true">
+<sp>
+<t id="6">
+<rq id="7" op="IsPostcodePAFValid" tl="EXACT">
+<ag>
+<p n="Request_Postcode" t="arg:EQUALS;false;;;;">56607</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+   &lt;soapenv:Header/&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+      &lt;nam:IsPostcodePAFValid&gt;&#xd;
+            &lt;nam:Request&gt;&#xd;
+            &lt;nam:Postcode&gt;56607&lt;/nam:Postcode&gt;&#xd;
+         &lt;/nam:Request&gt;&#xd;
+      &lt;/nam:IsPostcodePAFValid&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+   &lt;soapenv:Header/&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+      &lt;nam:IsPostcodePAFValid&gt;&#xd;
+            &lt;nam:Request&gt;&#xd;
+            &lt;nam:Postcode&gt;WA2 0NS&lt;/nam:Postcode&gt;&#xd;
+         &lt;/nam:Request&gt;&#xd;
+      &lt;/nam:IsPostcodePAFValid&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="8" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&#xd;
+   &lt;soap:Body&gt;&#xd;
+      &lt;IsPostcodePAFValidResponse xmlns="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+         &lt;IsPostcodePAFValidResult&gt;&#xd;
+            &lt;Status&gt;&#xd;
+               &lt;HasErrors&gt;true&lt;/HasErrors&gt;&#xd;
+               &lt;Errors/&gt;&#xd;
+            &lt;/Status&gt;&#xd;
+            &lt;Valid&gt;true&lt;/Valid&gt;&#xd;
+         &lt;/IsPostcodePAFValidResult&gt;&#xd;
+      &lt;/IsPostcodePAFValidResponse&gt;&#xd;
+   &lt;/soap:Body&gt;&#xd;
+&lt;/soap:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+<t id="2">
+<rq id="9" op="IsPostcodePAFValid" tl="EXACT">
+<ag>
+<p n="Request_Postcode" t="arg:EQUALS;false;;;;">6547</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+   &lt;soapenv:Header/&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+      &lt;nam:IsPostcodePAFValid&gt;&#xd;
+            &lt;nam:Request&gt;&#xd;
+            &lt;nam:Postcode&gt;6547&lt;/nam:Postcode&gt;&#xd;
+         &lt;/nam:Request&gt;&#xd;
+      &lt;/nam:IsPostcodePAFValid&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+   &lt;soapenv:Header/&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+      &lt;nam:IsPostcodePAFValid&gt;&#xd;
+            &lt;nam:Request&gt;&#xd;
+            &lt;nam:Postcode&gt;WA2 0NS111&lt;/nam:Postcode&gt;&#xd;
+         &lt;/nam:Request&gt;&#xd;
+      &lt;/nam:IsPostcodePAFValid&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="10" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&#xd;
+   &lt;soap:Body&gt;&#xd;
+      &lt;IsPostcodePAFValidResponse xmlns="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+         &lt;IsPostcodePAFValidResult&gt;&#xd;
+            &lt;Status&gt;&#xd;
+               &lt;HasErrors&gt;false&lt;/HasErrors&gt;&#xd;
+               &lt;Errors/&gt;&#xd;
+            &lt;/Status&gt;&#xd;
+            &lt;Valid&gt;false&lt;/Valid&gt;&#xd;
+         &lt;/IsPostcodePAFValidResult&gt;&#xd;
+      &lt;/IsPostcodePAFValidResponse&gt;&#xd;
+   &lt;/soap:Body&gt;&#xd;
+&lt;/soap:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+<t id="13">
+<rq id="14" op="IsPostcodePAFValid" tl="EXACT">
+<ag>
+<p n="Request_Postcode" t="arg:EQUALS;false;;;;"/>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+   &lt;soapenv:Header/&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+      &lt;nam:IsPostcodePAFValid&gt;&#xd;
+            &lt;nam:Request&gt;&#xd;
+            &lt;nam:Postcode&gt;&lt;/nam:Postcode&gt;&#xd;
+         &lt;/nam:Request&gt;&#xd;
+      &lt;/nam:IsPostcodePAFValid&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+   &lt;soapenv:Header/&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+      &lt;nam:IsPostcodePAFValid&gt;&#xd;
+            &lt;nam:Request&gt;&#xd;
+            &lt;nam:Postcode&gt;WA2 0NS111&lt;/nam:Postcode&gt;&#xd;
+         &lt;/nam:Request&gt;&#xd;
+      &lt;/nam:IsPostcodePAFValid&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="15" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&#xd;
+   &lt;soap:Body&gt;&#xd;
+      &lt;IsPostcodePAFValidResponse xmlns="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+         &lt;IsPostcodePAFValidResult&gt;&#xd;
+            &lt;Status&gt;&#xd;
+               &lt;HasErrors&gt;false&lt;/HasErrors&gt;&#xd;
+               &lt;Errors/&gt;&#xd;
+            &lt;/Status&gt;&#xd;
+            &lt;Valid&gt;false&lt;/Valid&gt;&#xd;
+         &lt;/IsPostcodePAFValidResult&gt;&#xd;
+      &lt;/IsPostcodePAFValidResponse&gt;&#xd;
+   &lt;/soap:Body&gt;&#xd;
+&lt;/soap:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="11" op="IsPostcodePAFValid" tl="SIGNATURE">
+<ag>
+<p n="Request_Postcode" t="arg:EQUALS;false;;;;">WA2 0NS</p>
+</ag>
+<at>
+<p n="recorded_raw_request">&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+   &lt;soapenv:Header/&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+      &lt;nam:IsPostcodePAFValid&gt;&#xd;
+            &lt;nam:Request&gt;&#xd;
+            &lt;nam:Postcode&gt;WA2 0NS&lt;/nam:Postcode&gt;&#xd;
+         &lt;/nam:Request&gt;&#xd;
+      &lt;/nam:IsPostcodePAFValid&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</p>
+</at>
+<bd chs="UTF-8">&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nam="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+   &lt;soapenv:Header/&gt;&#xd;
+   &lt;soapenv:Body&gt;&#xd;
+      &lt;nam:IsPostcodePAFValid&gt;&#xd;
+            &lt;nam:Request&gt;&#xd;
+            &lt;nam:Postcode&gt;WA2 0NS&lt;/nam:Postcode&gt;&#xd;
+         &lt;/nam:Request&gt;&#xd;
+      &lt;/nam:IsPostcodePAFValid&gt;&#xd;
+   &lt;/soapenv:Body&gt;&#xd;
+&lt;/soapenv:Envelope&gt;</bd>
+</rq>
+<rs>
+<rp id="12" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">&lt;soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&#xd;
+   &lt;soap:Body&gt;&#xd;
+      &lt;IsPostcodePAFValidResponse xmlns="http://webservices.opalonline.co.uk/NameAddressValidationWS/"&gt;&#xd;
+         &lt;IsPostcodePAFValidResult&gt;&#xd;
+            &lt;Status&gt;&#xd;
+               &lt;HasErrors&gt;True&lt;/HasErrors&gt;&#xd;
+               &lt;Errors/&gt;&#xd;
+            &lt;/Status&gt;&#xd;
+            &lt;Valid&gt;True&lt;/Valid&gt;&#xd;
+         &lt;/IsPostcodePAFValidResult&gt;&#xd;
+      &lt;/IsPostcodePAFValidResponse&gt;&#xd;
+   &lt;/soap:Body&gt;&#xd;
+&lt;/soap:Envelope&gt;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="5" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;S:Body&gt;
+    &lt;S:Fault xmlns:ns3="http://www.w3.org/2003/05/soap-envelope"&gt;
+      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;
+      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;
+      &lt;detail&gt;
+        &lt;ns2:exception xmlns:ns2="http://jax-ws.dev.java.net/" class="java.lang.Exception"&gt;
+          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;
+          &lt;ns2:stackTrace&gt;
+          &lt;/ns2:stackTrace&gt;
+        &lt;/ns2:exception&gt;
+      &lt;/detail&gt;
+    &lt;/S:Fault&gt;
+  &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+
+</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="4" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;S:Body&gt;
+    &lt;S:Fault xmlns:ns3="http://www.w3.org/2003/05/soap-envelope"&gt;
+      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;
+      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;
+      &lt;detail&gt;
+        &lt;ns2:exception xmlns:ns2="http://jax-ws.dev.java.net/" class="java.lang.Exception"&gt;
+          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;
+          &lt;ns2:stackTrace&gt;
+          &lt;/ns2:stackTrace&gt;
+        &lt;/ns2:exception&gt;
+      &lt;/detail&gt;
+    &lt;/S:Fault&gt;
+  &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+
+</bd>
+</rp>
+</usrr>
+</serviceImage>

@@ -1,0 +1,236 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="4" name="t1" created="2017-10-23.11:53:36.124" lastModified="2017-10-23.11:54:05.708" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="1" nd="true">
+<sp>
+<t id="7">
+<rq id="8" op="GetSupplierByZipCode" tl="EXACT">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">Xxtx2H</p>
+</ag>
+<at>
+<p n="xmlns">http://www.webservicex.net/</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByZipCode xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--zip is optional--&gt;&#13;&#10;      &lt;zip&gt;Xxtx2H&lt;/zip&gt;&#13;&#10;    &lt;/GetSupplierByZipCode&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://www.webservicex.net/medicareSupplier.asmx</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.webservicex.net/GetSupplierByZipCode&quot;</p>
+<p n="Content-Length">366</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByZipCode xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--zip is optional--&gt;&#13;&#10;      &lt;zip&gt;Xxtx2H&lt;/zip&gt;&#13;&#10;    &lt;/GetSupplierByZipCode&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="9" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByZipCodeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;GetSupplierByZipCodeResult&gt;{{=[:GetSupplierByZipCodeResult:[1,0]]}}&lt;/GetSupplierByZipCodeResult&gt;&#13;&#10;      &lt;SupplierDataLists&gt;&#13;&#10;        &lt;!--SupplierDatas is optional--&gt;&#13;&#10;        &lt;SupplierDatas&gt;&#13;&#10;          &lt;!--SupplierData is optional, but can have an unlimited number of instances--&gt;&#13;&#10;          &lt;SupplierData&gt;&#13;&#10;            &lt;!--SupplierNumber is optional--&gt;&#13;&#10;            &lt;SupplierNumber&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/SupplierNumber&gt;&#13;&#10;            &lt;!--CompanyName is optional--&gt;&#13;&#10;            &lt;CompanyName&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/CompanyName&gt;&#13;&#10;            &lt;!--Address1 is optional--&gt;&#13;&#10;            &lt;Address1&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address1&gt;&#13;&#10;            &lt;!--Address2 is optional--&gt;&#13;&#10;            &lt;Address2&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address2&gt;&#13;&#10;            &lt;!--City is optional--&gt;&#13;&#10;            &lt;City&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/City&gt;&#13;&#10;            &lt;!--State is optional--&gt;&#13;&#10;            &lt;State&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/State&gt;&#13;&#10;            &lt;!--Zip is optional--&gt;&#13;&#10;            &lt;Zip&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Zip&gt;&#13;&#10;            &lt;!--ZipPlus4 is optional--&gt;&#13;&#10;            &lt;ZipPlus4&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/ZipPlus4&gt;&#13;&#10;            &lt;!--Telephone is optional--&gt;&#13;&#10;            &lt;Telephone&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Telephone&gt;&#13;&#10;            &lt;!--Description is optional--&gt;&#13;&#10;            &lt;Description&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Description&gt;&#13;&#10;            &lt;!--IsSupplierParticipating is optional--&gt;&#13;&#10;            &lt;IsSupplierParticipating&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/IsSupplierParticipating&gt;&#13;&#10;          &lt;/SupplierData&gt;&#13;&#10;        &lt;/SupplierDatas&gt;&#13;&#10;        &lt;TotalRecords&gt;{{=[:TotalRecords:1]}}&lt;/TotalRecords&gt;&#13;&#10;      &lt;/SupplierDataLists&gt;&#13;&#10;    &lt;/GetSupplierByZipCodeResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="10" op="GetSupplierByZipCode" tl="SIGNATURE">
+<ag>
+<p n="zip" t="arg:EQUALS;false;;;;">Xxtx2H</p>
+</ag>
+<at>
+<p n="xmlns">http://www.webservicex.net/</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByZipCode xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--zip is optional--&gt;&#13;&#10;      &lt;zip&gt;Xxtx2H&lt;/zip&gt;&#13;&#10;    &lt;/GetSupplierByZipCode&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://www.webservicex.net/medicareSupplier.asmx</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.webservicex.net/GetSupplierByZipCode&quot;</p>
+<p n="Content-Length">366</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByZipCode xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--zip is optional--&gt;&#13;&#10;      &lt;zip&gt;Xxtx2H&lt;/zip&gt;&#13;&#10;    &lt;/GetSupplierByZipCode&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="11" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByZipCodeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;GetSupplierByZipCodeResult&gt;{{=[:GetSupplierByZipCodeResult:[1,0]]}}&lt;/GetSupplierByZipCodeResult&gt;&#13;&#10;      &lt;SupplierDataLists&gt;&#13;&#10;        &lt;!--SupplierDatas is optional--&gt;&#13;&#10;        &lt;SupplierDatas&gt;&#13;&#10;          &lt;!--SupplierData is optional, but can have an unlimited number of instances--&gt;&#13;&#10;          &lt;SupplierData&gt;&#13;&#10;            &lt;!--SupplierNumber is optional--&gt;&#13;&#10;            &lt;SupplierNumber&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/SupplierNumber&gt;&#13;&#10;            &lt;!--CompanyName is optional--&gt;&#13;&#10;            &lt;CompanyName&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/CompanyName&gt;&#13;&#10;            &lt;!--Address1 is optional--&gt;&#13;&#10;            &lt;Address1&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address1&gt;&#13;&#10;            &lt;!--Address2 is optional--&gt;&#13;&#10;            &lt;Address2&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address2&gt;&#13;&#10;            &lt;!--City is optional--&gt;&#13;&#10;            &lt;City&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/City&gt;&#13;&#10;            &lt;!--State is optional--&gt;&#13;&#10;            &lt;State&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/State&gt;&#13;&#10;            &lt;!--Zip is optional--&gt;&#13;&#10;            &lt;Zip&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Zip&gt;&#13;&#10;            &lt;!--ZipPlus4 is optional--&gt;&#13;&#10;            &lt;ZipPlus4&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/ZipPlus4&gt;&#13;&#10;            &lt;!--Telephone is optional--&gt;&#13;&#10;            &lt;Telephone&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Telephone&gt;&#13;&#10;            &lt;!--Description is optional--&gt;&#13;&#10;            &lt;Description&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Description&gt;&#13;&#10;            &lt;!--IsSupplierParticipating is optional--&gt;&#13;&#10;            &lt;IsSupplierParticipating&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/IsSupplierParticipating&gt;&#13;&#10;          &lt;/SupplierData&gt;&#13;&#10;        &lt;/SupplierDatas&gt;&#13;&#10;        &lt;TotalRecords&gt;{{=[:TotalRecords:1]}}&lt;/TotalRecords&gt;&#13;&#10;      &lt;/SupplierDataLists&gt;&#13;&#10;    &lt;/GetSupplierByZipCodeResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+<t id="2" nd="true">
+<sp>
+<t id="12">
+<rq id="13" op="GetSupplierByCity" tl="EXACT">
+<ag>
+<p n="City" t="arg:EQUALS;false;;;;">bOdUpT</p>
+</ag>
+<at>
+<p n="xmlns">http://www.webservicex.net/</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByCity xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--City is optional--&gt;&#13;&#10;      &lt;City&gt;bOdUpT&lt;/City&gt;&#13;&#10;    &lt;/GetSupplierByCity&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://www.webservicex.net/medicareSupplier.asmx</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.webservicex.net/GetSupplierByCity&quot;</p>
+<p n="Content-Length">363</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByCity xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--City is optional--&gt;&#13;&#10;      &lt;City&gt;bOdUpT&lt;/City&gt;&#13;&#10;    &lt;/GetSupplierByCity&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="14" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByCityResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;GetSupplierByCityResult&gt;{{=[:GetSupplierByCityResult:[1,0]]}}&lt;/GetSupplierByCityResult&gt;&#13;&#10;      &lt;SupplierDataLists&gt;&#13;&#10;        &lt;!--SupplierDatas is optional--&gt;&#13;&#10;        &lt;SupplierDatas&gt;&#13;&#10;          &lt;!--SupplierData is optional, but can have an unlimited number of instances--&gt;&#13;&#10;          &lt;SupplierData&gt;&#13;&#10;            &lt;!--SupplierNumber is optional--&gt;&#13;&#10;            &lt;SupplierNumber&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/SupplierNumber&gt;&#13;&#10;            &lt;!--CompanyName is optional--&gt;&#13;&#10;            &lt;CompanyName&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/CompanyName&gt;&#13;&#10;            &lt;!--Address1 is optional--&gt;&#13;&#10;            &lt;Address1&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address1&gt;&#13;&#10;            &lt;!--Address2 is optional--&gt;&#13;&#10;            &lt;Address2&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address2&gt;&#13;&#10;            &lt;!--City is optional--&gt;&#13;&#10;            &lt;City&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/City&gt;&#13;&#10;            &lt;!--State is optional--&gt;&#13;&#10;            &lt;State&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/State&gt;&#13;&#10;            &lt;!--Zip is optional--&gt;&#13;&#10;            &lt;Zip&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Zip&gt;&#13;&#10;            &lt;!--ZipPlus4 is optional--&gt;&#13;&#10;            &lt;ZipPlus4&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/ZipPlus4&gt;&#13;&#10;            &lt;!--Telephone is optional--&gt;&#13;&#10;            &lt;Telephone&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Telephone&gt;&#13;&#10;            &lt;!--Description is optional--&gt;&#13;&#10;            &lt;Description&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Description&gt;&#13;&#10;            &lt;!--IsSupplierParticipating is optional--&gt;&#13;&#10;            &lt;IsSupplierParticipating&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/IsSupplierParticipating&gt;&#13;&#10;          &lt;/SupplierData&gt;&#13;&#10;        &lt;/SupplierDatas&gt;&#13;&#10;        &lt;TotalRecords&gt;{{=[:TotalRecords:1]}}&lt;/TotalRecords&gt;&#13;&#10;      &lt;/SupplierDataLists&gt;&#13;&#10;    &lt;/GetSupplierByCityResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="15" op="GetSupplierByCity" tl="SIGNATURE">
+<ag>
+<p n="City" t="arg:EQUALS;false;;;;">bOdUpT</p>
+</ag>
+<at>
+<p n="xmlns">http://www.webservicex.net/</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByCity xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--City is optional--&gt;&#13;&#10;      &lt;City&gt;bOdUpT&lt;/City&gt;&#13;&#10;    &lt;/GetSupplierByCity&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://www.webservicex.net/medicareSupplier.asmx</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.webservicex.net/GetSupplierByCity&quot;</p>
+<p n="Content-Length">363</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByCity xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--City is optional--&gt;&#13;&#10;      &lt;City&gt;bOdUpT&lt;/City&gt;&#13;&#10;    &lt;/GetSupplierByCity&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="16" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierByCityResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;GetSupplierByCityResult&gt;{{=[:GetSupplierByCityResult:[1,0]]}}&lt;/GetSupplierByCityResult&gt;&#13;&#10;      &lt;SupplierDataLists&gt;&#13;&#10;        &lt;!--SupplierDatas is optional--&gt;&#13;&#10;        &lt;SupplierDatas&gt;&#13;&#10;          &lt;!--SupplierData is optional, but can have an unlimited number of instances--&gt;&#13;&#10;          &lt;SupplierData&gt;&#13;&#10;            &lt;!--SupplierNumber is optional--&gt;&#13;&#10;            &lt;SupplierNumber&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/SupplierNumber&gt;&#13;&#10;            &lt;!--CompanyName is optional--&gt;&#13;&#10;            &lt;CompanyName&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/CompanyName&gt;&#13;&#10;            &lt;!--Address1 is optional--&gt;&#13;&#10;            &lt;Address1&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address1&gt;&#13;&#10;            &lt;!--Address2 is optional--&gt;&#13;&#10;            &lt;Address2&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address2&gt;&#13;&#10;            &lt;!--City is optional--&gt;&#13;&#10;            &lt;City&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/City&gt;&#13;&#10;            &lt;!--State is optional--&gt;&#13;&#10;            &lt;State&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/State&gt;&#13;&#10;            &lt;!--Zip is optional--&gt;&#13;&#10;            &lt;Zip&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Zip&gt;&#13;&#10;            &lt;!--ZipPlus4 is optional--&gt;&#13;&#10;            &lt;ZipPlus4&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/ZipPlus4&gt;&#13;&#10;            &lt;!--Telephone is optional--&gt;&#13;&#10;            &lt;Telephone&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Telephone&gt;&#13;&#10;            &lt;!--Description is optional--&gt;&#13;&#10;            &lt;Description&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Description&gt;&#13;&#10;            &lt;!--IsSupplierParticipating is optional--&gt;&#13;&#10;            &lt;IsSupplierParticipating&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/IsSupplierParticipating&gt;&#13;&#10;          &lt;/SupplierData&gt;&#13;&#10;        &lt;/SupplierDatas&gt;&#13;&#10;        &lt;TotalRecords&gt;{{=[:TotalRecords:1]}}&lt;/TotalRecords&gt;&#13;&#10;      &lt;/SupplierDataLists&gt;&#13;&#10;    &lt;/GetSupplierByCityResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+<t id="3" nd="true">
+<sp>
+<t id="17">
+<rq id="18" op="GetSupplierBySupplyType" tl="EXACT">
+<ag>
+<p n="description" t="arg:EQUALS;false;;;;">DBQVak8</p>
+</ag>
+<at>
+<p n="xmlns">http://www.webservicex.net/</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierBySupplyType xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--description is optional--&gt;&#13;&#10;      &lt;description&gt;DBQVak8&lt;/description&gt;&#13;&#10;    &lt;/GetSupplierBySupplyType&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://www.webservicex.net/medicareSupplier.asmx</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.webservicex.net/GetSupplierBySupplyType&quot;</p>
+<p n="Content-Length">397</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierBySupplyType xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--description is optional--&gt;&#13;&#10;      &lt;description&gt;DBQVak8&lt;/description&gt;&#13;&#10;    &lt;/GetSupplierBySupplyType&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="19" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierBySupplyTypeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;GetSupplierBySupplyTypeResult&gt;{{=[:GetSupplierBySupplyTypeResult:[1,0]]}}&lt;/GetSupplierBySupplyTypeResult&gt;&#13;&#10;      &lt;SupplierDataLists&gt;&#13;&#10;        &lt;!--SupplierDatas is optional--&gt;&#13;&#10;        &lt;SupplierDatas&gt;&#13;&#10;          &lt;!--SupplierData is optional, but can have an unlimited number of instances--&gt;&#13;&#10;          &lt;SupplierData&gt;&#13;&#10;            &lt;!--SupplierNumber is optional--&gt;&#13;&#10;            &lt;SupplierNumber&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/SupplierNumber&gt;&#13;&#10;            &lt;!--CompanyName is optional--&gt;&#13;&#10;            &lt;CompanyName&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/CompanyName&gt;&#13;&#10;            &lt;!--Address1 is optional--&gt;&#13;&#10;            &lt;Address1&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address1&gt;&#13;&#10;            &lt;!--Address2 is optional--&gt;&#13;&#10;            &lt;Address2&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address2&gt;&#13;&#10;            &lt;!--City is optional--&gt;&#13;&#10;            &lt;City&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/City&gt;&#13;&#10;            &lt;!--State is optional--&gt;&#13;&#10;            &lt;State&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/State&gt;&#13;&#10;            &lt;!--Zip is optional--&gt;&#13;&#10;            &lt;Zip&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Zip&gt;&#13;&#10;            &lt;!--ZipPlus4 is optional--&gt;&#13;&#10;            &lt;ZipPlus4&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/ZipPlus4&gt;&#13;&#10;            &lt;!--Telephone is optional--&gt;&#13;&#10;            &lt;Telephone&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Telephone&gt;&#13;&#10;            &lt;!--Description is optional--&gt;&#13;&#10;            &lt;Description&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Description&gt;&#13;&#10;            &lt;!--IsSupplierParticipating is optional--&gt;&#13;&#10;            &lt;IsSupplierParticipating&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/IsSupplierParticipating&gt;&#13;&#10;          &lt;/SupplierData&gt;&#13;&#10;        &lt;/SupplierDatas&gt;&#13;&#10;        &lt;TotalRecords&gt;{{=[:TotalRecords:1]}}&lt;/TotalRecords&gt;&#13;&#10;      &lt;/SupplierDataLists&gt;&#13;&#10;    &lt;/GetSupplierBySupplyTypeResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="20" op="GetSupplierBySupplyType" tl="SIGNATURE">
+<ag>
+<p n="description" t="arg:EQUALS;false;;;;">DBQVak8</p>
+</ag>
+<at>
+<p n="xmlns">http://www.webservicex.net/</p>
+<p n="recorded_raw_request">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierBySupplyType xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--description is optional--&gt;&#13;&#10;      &lt;description&gt;DBQVak8&lt;/description&gt;&#13;&#10;    &lt;/GetSupplierBySupplyType&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">http://www.webservicex.net/medicareSupplier.asmx</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+<p n="SOAPAction">&quot;http://www.webservicex.net/GetSupplierBySupplyType&quot;</p>
+<p n="Content-Length">397</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierBySupplyType xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;!--description is optional--&gt;&#13;&#10;      &lt;description&gt;DBQVak8&lt;/description&gt;&#13;&#10;    &lt;/GetSupplierBySupplyType&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rq>
+<rs>
+<rp id="21" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml; charset=utf-8</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#13;&#10;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://www.w3.org/2003/05/soap-envelope&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#13;&#10;  &lt;soapenv:Body&gt;&#13;&#10;    &lt;GetSupplierBySupplyTypeResponse xmlns=&quot;http://www.webservicex.net/&quot;&gt;&#13;&#10;      &lt;GetSupplierBySupplyTypeResult&gt;{{=[:GetSupplierBySupplyTypeResult:[1,0]]}}&lt;/GetSupplierBySupplyTypeResult&gt;&#13;&#10;      &lt;SupplierDataLists&gt;&#13;&#10;        &lt;!--SupplierDatas is optional--&gt;&#13;&#10;        &lt;SupplierDatas&gt;&#13;&#10;          &lt;!--SupplierData is optional, but can have an unlimited number of instances--&gt;&#13;&#10;          &lt;SupplierData&gt;&#13;&#10;            &lt;!--SupplierNumber is optional--&gt;&#13;&#10;            &lt;SupplierNumber&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/SupplierNumber&gt;&#13;&#10;            &lt;!--CompanyName is optional--&gt;&#13;&#10;            &lt;CompanyName&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/CompanyName&gt;&#13;&#10;            &lt;!--Address1 is optional--&gt;&#13;&#10;            &lt;Address1&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address1&gt;&#13;&#10;            &lt;!--Address2 is optional--&gt;&#13;&#10;            &lt;Address2&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Address2&gt;&#13;&#10;            &lt;!--City is optional--&gt;&#13;&#10;            &lt;City&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/City&gt;&#13;&#10;            &lt;!--State is optional--&gt;&#13;&#10;            &lt;State&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/State&gt;&#13;&#10;            &lt;!--Zip is optional--&gt;&#13;&#10;            &lt;Zip&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Zip&gt;&#13;&#10;            &lt;!--ZipPlus4 is optional--&gt;&#13;&#10;            &lt;ZipPlus4&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/ZipPlus4&gt;&#13;&#10;            &lt;!--Telephone is optional--&gt;&#13;&#10;            &lt;Telephone&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Telephone&gt;&#13;&#10;            &lt;!--Description is optional--&gt;&#13;&#10;            &lt;Description&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/Description&gt;&#13;&#10;            &lt;!--IsSupplierParticipating is optional--&gt;&#13;&#10;            &lt;IsSupplierParticipating&gt;{{=%beanshell% com.ca.sv.devtest.util.GenerateString.forRegex(&quot;[A-Za-z0-9]{5,15}&quot;);}}&lt;/IsSupplierParticipating&gt;&#13;&#10;          &lt;/SupplierData&gt;&#13;&#10;        &lt;/SupplierDatas&gt;&#13;&#10;        &lt;TotalRecords&gt;{{=[:TotalRecords:1]}}&lt;/TotalRecords&gt;&#13;&#10;      &lt;/SupplierDataLists&gt;&#13;&#10;    &lt;/GetSupplierBySupplyTypeResponse&gt;&#13;&#10;  &lt;/soapenv:Body&gt;&#13;&#10;&lt;/soapenv:Envelope&gt;&#13;&#10;</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="6" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="5" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;S:Envelope xmlns:S=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&#10;  &lt;S:Body&gt;&#10;    &lt;S:Fault xmlns:ns3=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;&#10;      &lt;faultcode&gt;S:Server&lt;/faultcode&gt;&#10;      &lt;faultstring&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/faultstring&gt;&#10;      &lt;detail&gt;&#10;        &lt;ns2:exception xmlns:ns2=&quot;http://jax-ws.dev.java.net/&quot; class=&quot;java.lang.Exception&quot;&gt;&#10;          &lt;message&gt;The LISA VSE service could not match your request to a recorded request. Consider expanding your service image.&lt;/message&gt;&#10;          &lt;ns2:stackTrace&gt;&#10;          &lt;/ns2:stackTrace&gt;&#10;        &lt;/ns2:exception&gt;&#10;      &lt;/detail&gt;&#10;    &lt;/S:Fault&gt;&#10;  &lt;/S:Body&gt;&#10;&lt;/S:Envelope&gt;&#10;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

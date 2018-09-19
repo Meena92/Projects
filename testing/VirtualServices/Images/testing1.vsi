@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="23" name="testing1" created="2018-03-20.11:59:16.445" lastModified="2018-03-22.12:07:50.427" version="10.0.0" buildNumber="10.0.0.431">
+<st>
+<t id="22" nd="true">
+<sp>
+<t id="26">
+<rq id="27" op="POST /api/Accounts/Dna/" tl="SIGNATURE">
+<ag>
+<p n="ClientPlatform_Channel" t="arg:EQUALS;true;;;;">CustomerMobile10</p>
+<p n="ClientPlatform_ClientSWVersion" t="arg:EQUALS;false;;;;">0.1.53.0006</p>
+<p n="ClientPlatform_ConnectionType" t="arg:EQUALS;false;;;;">LAN</p>
+<p n="ClientPlatform_FormFactor" t="arg:EQUALS;true;;;;">Phone</p>
+<p n="ClientPlatform_Identifier" t="arg:EQUALS;false;;;;">iOS</p>
+<p n="ClientPlatform_IpAddress" t="arg:EQUALS;false;;;;">0.0.0.0</p>
+<p n="ClientPlatform_Model" t="arg:EQUALS;false;;;;">iPhone7,2</p>
+<p n="ClientPlatform_UUID" t="arg:EQUALS;false;;;;">7CFF33F8-BA01-4767-8978-390540CFEA77</p>
+<p n="ClientPlatform_Version" t="arg:EQUALS;false;;;;">9.3.2</p>
+<p n="Uri" t="arg:EQUALS;false;;;;">/api/Accounts/Dna</p>
+<p n="authorization" t="arg:EQUALS;false;;;;">Basic MC4wLjAuMDptb2JpbGVfZGVtbzFAbDMuY29tOkFiYzEyMzQ1Njc4</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">Accounts</p>
+<p n="HTTP-Segment-Attr-2">Dna</p>
+<p n="recorded_raw_request_bytes">ew0KICAiQ2xpZW50UGxhdGZvcm0iIDogew0KICAgICJJZGVudGlmaWVyIiA6ICJpT1MiLA0KICAgICJDb25uZWN0aW9uVHlwZSIgOiAiTEFOIiwNCiAgICAiRm9ybUZhY3RvciIgOiAiUGhvbmUiLA0KICAgICJWZXJzaW9uIiA6ICI5LjMuMiIsDQogICAgIkNoYW5uZWwiIDogIkN1c3RvbWVyTW9iaWxlMTAiLA0KICAgICJDbGllbnRTV1ZlcnNpb24iIDogIjAuMS41My4wMDA2IiwNCiAgICAiTW9kZWwiIDogImlQaG9uZTcsMiIsDQogICAgIklwQWRkcmVzcyIgOiAiMC4wLjAuMCIsDQogICAgIlVVSUQiIDogIjdDRkYzM0Y4LUJBMDEtNDc2Ny04OTc4LTM5MDU0MENGRUE3NyINCiAgfSwNCiAgIlVyaSIgOiAiL2FwaS9BY2NvdW50cy9EbmEiDQp9</p>
+<p n="recorded_raw_request">{&#13;&#10;  &quot;ClientPlatform&quot; : {&#13;&#10;    &quot;Identifier&quot; : &quot;iOS&quot;,&#13;&#10;    &quot;ConnectionType&quot; : &quot;LAN&quot;,&#13;&#10;    &quot;FormFactor&quot; : &quot;Phone&quot;,&#13;&#10;    &quot;Version&quot; : &quot;9.3.2&quot;,&#13;&#10;    &quot;Channel&quot; : &quot;CustomerMobile10&quot;,&#13;&#10;    &quot;ClientSWVersion&quot; : &quot;0.1.53.0006&quot;,&#13;&#10;    &quot;Model&quot; : &quot;iPhone7,2&quot;,&#13;&#10;    &quot;IpAddress&quot; : &quot;0.0.0.0&quot;,&#13;&#10;    &quot;UUID&quot; : &quot;7CFF33F8-BA01-4767-8978-390540CFEA77&quot;&#13;&#10;  },&#13;&#10;  &quot;Uri&quot; : &quot;/api/Accounts/Dna&quot;&#13;&#10;}</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">/api/Accounts/Dna</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="content-type">application/json</p>
+<p n="authorization">Basic MC4wLjAuMDptb2JpbGVfZGVtbzFAbDMuY29tOkFiYzEyMzQ1Njc4</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;  &quot;ClientPlatform&quot; : {&#13;&#10;    &quot;Identifier&quot; : &quot;iOS&quot;,&#13;&#10;    &quot;ConnectionType&quot; : &quot;LAN&quot;,&#13;&#10;    &quot;FormFactor&quot; : &quot;Phone&quot;,&#13;&#10;    &quot;Version&quot; : &quot;9.3.2&quot;,&#13;&#10;    &quot;Channel&quot; : &quot;CustomerMobile10&quot;,&#13;&#10;    &quot;ClientSWVersion&quot; : &quot;0.1.53.0006&quot;,&#13;&#10;    &quot;Model&quot; : &quot;iPhone7,2&quot;,&#13;&#10;    &quot;IpAddress&quot; : &quot;0.0.0.0&quot;,&#13;&#10;    &quot;UUID&quot; : &quot;7CFF33F8-BA01-4767-8978-390540CFEA77&quot;&#13;&#10;  },&#13;&#10;  &quot;Uri&quot; : &quot;/api/Accounts/Dna&quot;&#13;&#10;}</bd>
+</rq>
+<rs>
+<rp id="28" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;  &quot;User&quot; : {&#13;&#10;    &quot;VersionId&quot; : &quot;1.0.0.0&quot;,&#13;&#10;    &quot;Ml3pUserName&quot; : &quot;mobile_demo1@l3.com&quot;,&#13;&#10;    &quot;FormFactorId&quot; : &quot;{{=request_ClientPlatform_FormFactor;/*Phone*/}}&quot;,&#13;&#10;    &quot;Ml3pContext&quot; : &quot;11&quot;,&#13;&#10;    &quot;ChannelId&quot; : &quot;{{=request_ClientPlatform_Channel;/*CustomerMobile10*/}}&quot;,&#13;&#10;    &quot;SsoId&quot; : &quot;6d3c4f33-80cc-476c-8c21-4a412fd35dc9&quot;,&#13;&#10;    &quot;IsMimic&quot; : false,&#13;&#10;    &quot;SsoUsername&quot; : &quot;mobile_demo1@l3.com&quot;,&#13;&#10;    &quot;Ml3pPermissions&quot; : [ &quot;L3PP MyChangeRequests&quot;, &quot;L3PP MyServices Enhanced Management&quot;, &quot;L3PP Billing Regular User&quot;, &quot;L3PP APM Manage Monitor&quot;, &quot;L3PP MyServices Dynamic Capacity&quot;, &quot;L3PP Billing Request&quot;, &quot;L3PP Alerts&quot;, &quot;L3PP MyServices&quot;, &quot;L3PP Badge Access&quot;, &quot;L3PP MyBilling Historical&quot;, &quot;L3PP Orders&quot;, &quot;L3PP Toll Free Management&quot;, &quot;L3PP Voice Features&quot;, &quot;L3PP Billing Payments&quot;, &quot;L3PP Access&quot;, &quot;L3PP MyChangeRequests TF And Call Forwarding&quot;, &quot;L3PP Disconnect Requests&quot;, &quot;L3PP MyChangeRequests Caller ID&quot; ],&#13;&#10;    &quot;ErrorCode&quot; : 0,&#13;&#10;    &quot;Id&quot; : 0,&#13;&#10;    &quot;HasError&quot; : false&#13;&#10;  },&#13;&#10;  &quot;ErrorCode&quot; : 0,&#13;&#10;  &quot;HasError&quot; : false&#13;&#10;}</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="29" op="POST /api/Accounts/Dna/" tl="SIGNATURE">
+<ag>
+<p n="ClientPlatform_Channel" t="arg:EQUALS;true;;;;">CustomerMobile10</p>
+<p n="ClientPlatform_ClientSWVersion" t="arg:EQUALS;false;;;;">0.1.53.0006</p>
+<p n="ClientPlatform_ConnectionType" t="arg:EQUALS;false;;;;">LAN</p>
+<p n="ClientPlatform_FormFactor" t="arg:EQUALS;true;;;;">Phone</p>
+<p n="ClientPlatform_Identifier" t="arg:EQUALS;false;;;;">iOS</p>
+<p n="ClientPlatform_IpAddress" t="arg:EQUALS;false;;;;">0.0.0.0</p>
+<p n="ClientPlatform_Model" t="arg:EQUALS;false;;;;">iPhone7,2</p>
+<p n="ClientPlatform_UUID" t="arg:EQUALS;false;;;;">7CFF33F8-BA01-4767-8978-390540CFEA77</p>
+<p n="ClientPlatform_Version" t="arg:EQUALS;false;;;;">9.3.2</p>
+<p n="Uri" t="arg:EQUALS;false;;;;">/api/Accounts/Dna</p>
+<p n="authorization" t="arg:EQUALS;false;;;;">Basic MC4wLjAuMDptb2JpbGVfZGVtbzFAbDMuY29tOkFiYzEyMzQ1Njc4</p>
+</ag>
+<at>
+<p n="HTTP-Segment-Attr-0">api</p>
+<p n="HTTP-Segment-Attr-1">Accounts</p>
+<p n="HTTP-Segment-Attr-2">Dna</p>
+<p n="recorded_raw_request_bytes">ew0KICAiQ2xpZW50UGxhdGZvcm0iIDogew0KICAgICJJZGVudGlmaWVyIiA6ICJpT1MiLA0KICAgICJDb25uZWN0aW9uVHlwZSIgOiAiTEFOIiwNCiAgICAiRm9ybUZhY3RvciIgOiAiUGhvbmUiLA0KICAgICJWZXJzaW9uIiA6ICI5LjMuMiIsDQogICAgIkNoYW5uZWwiIDogIkN1c3RvbWVyTW9iaWxlMTAiLA0KICAgICJDbGllbnRTV1ZlcnNpb24iIDogIjAuMS41My4wMDA2IiwNCiAgICAiTW9kZWwiIDogImlQaG9uZTcsMiIsDQogICAgIklwQWRkcmVzcyIgOiAiMC4wLjAuMCIsDQogICAgIlVVSUQiIDogIjdDRkYzM0Y4LUJBMDEtNDc2Ny04OTc4LTM5MDU0MENGRUE3NyINCiAgfSwNCiAgIlVyaSIgOiAiL2FwaS9BY2NvdW50cy9EbmEiDQp9</p>
+<p n="recorded_raw_request">{&#13;&#10;  &quot;ClientPlatform&quot; : {&#13;&#10;    &quot;Identifier&quot; : &quot;iOS&quot;,&#13;&#10;    &quot;ConnectionType&quot; : &quot;LAN&quot;,&#13;&#10;    &quot;FormFactor&quot; : &quot;Phone&quot;,&#13;&#10;    &quot;Version&quot; : &quot;9.3.2&quot;,&#13;&#10;    &quot;Channel&quot; : &quot;CustomerMobile10&quot;,&#13;&#10;    &quot;ClientSWVersion&quot; : &quot;0.1.53.0006&quot;,&#13;&#10;    &quot;Model&quot; : &quot;iPhone7,2&quot;,&#13;&#10;    &quot;IpAddress&quot; : &quot;0.0.0.0&quot;,&#13;&#10;    &quot;UUID&quot; : &quot;7CFF33F8-BA01-4767-8978-390540CFEA77&quot;&#13;&#10;  },&#13;&#10;  &quot;Uri&quot; : &quot;/api/Accounts/Dna&quot;&#13;&#10;}</p>
+</at>
+<m>
+<p n="HTTP-Method">POST</p>
+<p n="HTTP-URI">/api/Accounts/Dna</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+<p n="content-type">application/json</p>
+<p n="authorization">Basic MC4wLjAuMDptb2JpbGVfZGVtbzFAbDMuY29tOkFiYzEyMzQ1Njc4</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;  &quot;ClientPlatform&quot; : {&#13;&#10;    &quot;Identifier&quot; : &quot;iOS&quot;,&#13;&#10;    &quot;ConnectionType&quot; : &quot;LAN&quot;,&#13;&#10;    &quot;FormFactor&quot; : &quot;Phone&quot;,&#13;&#10;    &quot;Version&quot; : &quot;9.3.2&quot;,&#13;&#10;    &quot;Channel&quot; : &quot;CustomerMobile10&quot;,&#13;&#10;    &quot;ClientSWVersion&quot; : &quot;0.1.53.0006&quot;,&#13;&#10;    &quot;Model&quot; : &quot;iPhone7,2&quot;,&#13;&#10;    &quot;IpAddress&quot; : &quot;0.0.0.0&quot;,&#13;&#10;    &quot;UUID&quot; : &quot;7CFF33F8-BA01-4767-8978-390540CFEA77&quot;&#13;&#10;  },&#13;&#10;  &quot;Uri&quot; : &quot;/api/Accounts/Dna&quot;&#13;&#10;}</bd>
+</rq>
+<rs>
+<rp id="30" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{&#13;&#10;  &quot;User&quot; : {&#13;&#10;    &quot;VersionId&quot; : &quot;1.0.0.0&quot;,&#13;&#10;    &quot;Ml3pUserName&quot; : &quot;mobile_demo1@l3.com&quot;,&#13;&#10;    &quot;FormFactorId&quot; : &quot;{{=request_ClientPlatform_FormFactor;/*Phone*/}}&quot;,&#13;&#10;    &quot;Ml3pContext&quot; : &quot;11&quot;,&#13;&#10;    &quot;ChannelId&quot; : &quot;{{=request_ClientPlatform_Channel;/*CustomerMobile10*/}}&quot;,&#13;&#10;    &quot;SsoId&quot; : &quot;6d3c4f33-80cc-476c-8c21-4a412fd35dc9&quot;,&#13;&#10;    &quot;IsMimic&quot; : false,&#13;&#10;    &quot;SsoUsername&quot; : &quot;mobile_demo1@l3.com&quot;,&#13;&#10;    &quot;Ml3pPermissions&quot; : [ &quot;L3PP MyChangeRequests&quot;, &quot;L3PP MyServices Enhanced Management&quot;, &quot;L3PP Billing Regular User&quot;, &quot;L3PP APM Manage Monitor&quot;, &quot;L3PP MyServices Dynamic Capacity&quot;, &quot;L3PP Billing Request&quot;, &quot;L3PP Alerts&quot;, &quot;L3PP MyServices&quot;, &quot;L3PP Badge Access&quot;, &quot;L3PP MyBilling Historical&quot;, &quot;L3PP Orders&quot;, &quot;L3PP Toll Free Management&quot;, &quot;L3PP Voice Features&quot;, &quot;L3PP Billing Payments&quot;, &quot;L3PP Access&quot;, &quot;L3PP MyChangeRequests TF And Call Forwarding&quot;, &quot;L3PP Disconnect Requests&quot;, &quot;L3PP MyChangeRequests Caller ID&quot; ],&#13;&#10;    &quot;ErrorCode&quot; : 0,&#13;&#10;    &quot;Id&quot; : 0,&#13;&#10;    &quot;HasError&quot; : false&#13;&#10;  },&#13;&#10;  &quot;ErrorCode&quot; : 0,&#13;&#10;  &quot;HasError&quot; : false&#13;&#10;}</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="25" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="24" t="0">
+<m>
+<p n="HTTP-Response-Code">404</p>
+<p n="HTTP-Response-Code-Text">Not Found</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/html</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;&#10;    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Not Found&lt;/h1&gt;&#10;        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;&#10;        &lt;hr/&gt;&#10;        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;&#10;        &lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;&#10;</bd>
+</rp>
+</usrr>
+</serviceImage>

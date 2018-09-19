@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+
+<serviceImage id="1" name="MyTcp-example" created="2015-06-03.11:35:52.604" lastModified="2015-06-03.11:37:36.672" version="7.5.2" buildNumber="7.5.2.235">
+<st>
+<t id="2" nd="true">
+<sp>
+<t id="6">
+<rq id="7" op="REQUEST" tl="EXACT">
+<bd>REQUEST</bd>
+</rq>
+<rs>
+<rp id="8" t="0">
+<bd>Mytest one request 000 response end</bd>
+</rp>
+<rp id="9" t="0">
+<bd>Mytest one request 111 response end</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="3" op="REQUEST" tl="OPERATION">
+<bd>REQUEST</bd>
+</rq>
+<rs>
+<rp id="4" t="0">
+<bd>Mytest one request 000 response end</bd>
+</rp>
+<rp id="5" t="0">
+<bd>Mytest one request 111 response end</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="10" t="0">
+</rp>
+</ucrr>
+<usrr>
+<rp id="11" t="0">
+</rp>
+</usrr>
+</serviceImage>

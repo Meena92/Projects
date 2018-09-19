@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Thu Nov 09 17:07:09 IST 2017 -->
+
+
+<Results name="t3">
+
+
+    <Result node="Web Service">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.gui.XMLResultsCache>
+  <Sxml>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;soapenv:Body&gt;&lt;soapenv:Fault&gt;&lt;faultcode xmlns:ns1=&quot;http://xml.apache.org/axis/&quot;&gt;ns1:HTTP&lt;/faultcode&gt;&lt;faultstring&gt;(404)Not Found&lt;/faultstring&gt;&lt;detail&gt;&lt;string&gt;return code:  404
+&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;404 Not Found&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;h1&amp;gt;Not Found&amp;lt;/h1&amp;gt;The requested URL / was not found on this server.&amp;lt;p&amp;gt;&amp;lt;hr&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&lt;/string&gt;&lt;ns2:HttpErrorCode xmlns:ns2=&quot;http://xml.apache.org/axis/&quot;&gt;404&lt;/ns2:HttpErrorCode&gt;&lt;/detail&gt;&lt;/soapenv:Fault&gt;&lt;/soapenv:Body&gt;&lt;/soapenv:Envelope&gt;</Sxml>
+  <headers>HTTP/1.1 404 Not Found&#xd;
+Connection: close&#xd;
+Content-Type: text/html; charset=US-ASCII&#xd;
+Content-Length: 141&#xd;
+</headers>
+  <attachments/>
+</com.itko.lisa.gui.XMLResultsCache>]]></content>
+    </Result>
+
+
+</Results>

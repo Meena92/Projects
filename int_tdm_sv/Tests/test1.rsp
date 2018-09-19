@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Mon Nov 06 10:21:54 IST 2017 -->
+
+
+<Results name="test1">
+
+
+    <Result node="Web Service">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.gui.XMLResultsCache>
+  <Sxml>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#xd;
+&lt;SOAP-ENV11:Envelope xmlns:SOAP-ENV11=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tdsns0=&quot;http://www.webservicex.net/&quot;&gt;&#xd;
+    &lt;SOAP-ENV11:Body&gt;&#xd;
+        &lt;tdsns0:GetSupplierByZipCodeResponse&gt;&#xd;
+            &lt;tdsns0:GetSupplierByZipCodeResult&gt;true&lt;/tdsns0:GetSupplierByZipCodeResult&gt;&#xd;
+            &lt;tdsns0:SupplierDataLists&gt;&#xd;
+                &lt;tdsns0:SupplierDatas&gt;&#xd;
+                    &lt;tdsns0:SupplierData&gt;&#xd;
+                        &lt;tdsns0:SupplierNumber&gt;19110-689-405&lt;/tdsns0:SupplierNumber&gt;&#xd;
+                        &lt;tdsns0:CompanyName&gt;PepsiCo LTD&lt;/tdsns0:CompanyName&gt;&#xd;
+                        &lt;tdsns0:Address1&gt;HACIENDAS MONTE VERDE&lt;/tdsns0:Address1&gt;&#xd;
+                        &lt;tdsns0:Address2/&gt;&#xd;
+                        &lt;tdsns0:City&gt;Pittsburgh&lt;/tdsns0:City&gt;&#xd;
+                        &lt;tdsns0:Zip&gt;33407&lt;/tdsns0:Zip&gt;&#xd;
+                        &lt;tdsns0:ZipPlus4&gt;PA&lt;/tdsns0:ZipPlus4&gt;&#xd;
+                        &lt;tdsns0:Telephone&gt;7352&lt;/tdsns0:Telephone&gt;&#xd;
+                        &lt;tdsns0:Description&gt;(989)244-1682&lt;/tdsns0:Description&gt;&#xd;
+                        &lt;tdsns0:IsSupplierParticipating&gt;04&lt;/tdsns0:IsSupplierParticipating&gt;&#xd;
+                    &lt;/tdsns0:SupplierData&gt;&#xd;
+                &lt;/tdsns0:SupplierDatas&gt;&#xd;
+                &lt;tdsns0:TotalRecords&gt;1&lt;/tdsns0:TotalRecords&gt;&#xd;
+            &lt;/tdsns0:SupplierDataLists&gt;&#xd;
+        &lt;/tdsns0:GetSupplierByZipCodeResponse&gt;&#xd;
+    &lt;/SOAP-ENV11:Body&gt;&#xd;
+&lt;/SOAP-ENV11:Envelope&gt;&#xd;
+</Sxml>
+  <headers>HTTP/1.1 200 OK&#xd;
+Server: LISA/Virtual-Environment-Server&#xd;
+Date: Mon, 06 Nov 2017 10:21:25 IST&#xd;
+X-Powered-By: LISA/10.0.0 (10.0.0.431)&#xd;
+Content-Type: text/xml&#xd;
+Content-Length: 1461&#xd;
+</headers>
+  <attachments/>
+</com.itko.lisa.gui.XMLResultsCache>]]></content>
+    </Result>
+
+
+</Results>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Sun Aug 20 11:03:57 IST 2017 -->
+
+
+<Results name="test">
+
+
+    <Result node="Web Service CreateDraftOrder">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.gui.XMLResultsCache>
+  <Sxml>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;
+    &lt;SOAP-ENV:Body&gt;
+        &lt;ns0:createDraftOrderResponse xmlns:ns0=&quot;http://esp.t-mobile.com/commercemanagement/order&quot;&gt;
+            &lt;cso:header xmlns=&quot;http://esp.t-mobile.com/commercemanagement/order&quot; xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:ns3=&quot;http://esp.t-mobile.com/cso&quot; xmlns:com=&quot;http://esp.t-mobile.com/cso/commercemanagement&quot; xmlns:ord=&quot;http://esp.t-mobile.com/commercemanagement/order&quot; xmlns:cso=&quot;http://esp.t-mobile.com/cso&quot;&gt;
+                &lt;cso:sender&gt;
+                    &lt;cso:senderId&gt;ACUI&lt;/cso:senderId&gt;
+                    &lt;cso:channelId&gt;RETAIL&lt;/cso:channelId&gt;
+                    &lt;cso:applicationId&gt;ACUI&lt;/cso:applicationId&gt;
+                    &lt;cso:applicationUserId&gt;Superusr&lt;/cso:applicationUserId&gt;
+                    &lt;cso:sessionId&gt;cf36a531d7d9bd2a:-574a9047:15df5aafc18:-32b8&lt;/cso:sessionId&gt;
+                    &lt;cso:storeId&gt;451&lt;/cso:storeId&gt;
+                    &lt;cso:dealerCode&gt;0000002&lt;/cso:dealerCode&gt;
+                &lt;/cso:sender&gt;
+                &lt;cso:target&gt;
+                    &lt;cso:customerCompanyId&gt;TMobileUS&lt;/cso:customerCompanyId&gt;
+                &lt;/cso:target&gt;
+            &lt;/cso:header&gt;
+            &lt;ns1:responseStatus xmlns:ns1=&quot;http://esp.t-mobile.com/cso&quot; code=&quot;100&quot;/&gt;
+            &lt;ns0:orderId&gt;S000102111&lt;/ns0:orderId&gt;
+            &lt;ns0:orderCategory&gt;Sale&lt;/ns0:orderCategory&gt;
+        &lt;/ns0:createDraftOrderResponse&gt;
+    &lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;</Sxml>
+  <headers>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+singularityheader: appId=598*ctrlguid=1502731822*acctguid=6459b496-c3d2-4e90-92ad-e447b1f5d40d*ts=1503206191549*btid=26501*guid=a4759346-14b7-48cd-bd40-20dc03581fb1*exitguid=1|1*unresolvedexitid=34961*tcop=1:328484*cidfrom=3496*etypeorder=HTTP*esubtype=HTTP*cidto={[UNRESOLVED][34961]}*tcop=1:328484&#xd;
+Content-Type: text/xml;charset=utf-8&#xd;
+Content-Length: 1531&#xd;
+Date: Sun, 20 Aug 2017 05:16:36 GMT&#xd;
+</headers>
+  <attachments/>
+</com.itko.lisa.gui.XMLResultsCache>]]></content>
+    </Result>
+
+
+    <Result node="Parse Text as Response">
+      <content type="com.itko.lisa.http.html.HtmlResponseWrapper" charset="UTF-8"><![CDATA[e3tvcmRlcl9yZXExfX0=]]></content>
+    </Result>
+
+
+</Results>

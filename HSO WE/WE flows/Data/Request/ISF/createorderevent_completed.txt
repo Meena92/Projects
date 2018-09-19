@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <soapenv:Body>
+<ns0:CreateOrderEventRequest xmlns:ns0="http://services.tmobile.com/oe" languageCode="en-US">
+			<ns1:EBMHeader xmlns:ns1="http://xmlns.oracle.com/EnterpriseObjects/Core/Common/V2">
+				<ns1:Sender>
+					<ns1:ID>POS</ns1:ID>
+					<ns1:ObjectCrossReference>
+						<ns1:SenderObjectIdentification>
+							<ns1:ApplicationObjectKey>
+								<ns1:ID>f561e9dbca0655b1:-b46a4e0:15dbcd75c61:4fee</ns1:ID>
+							</ns1:ApplicationObjectKey>
+						</ns1:SenderObjectIdentification>
+					</ns1:ObjectCrossReference>
+				</ns1:Sender>
+			</ns1:EBMHeader>
+			<eventSummary xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0="http://services.tmobile.com/oe">
+				<channel>Retail</channel>
+				<eventType>EXCHCompleted</eventType>
+				<eventDateTime>2017-08-07T14:20:54-07:00</eventDateTime>
+			</eventSummary>
+			<orderList xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0="http://services.tmobile.com/oe">
+				<order>
+					<orderSummary>
+						<orderNumber>{{orderId}}</orderNumber>
+						<orderStatus>CL</orderStatus>
+						<orderItem>
+							<lineNumber>1</lineNumber>
+							<transactionId>20170807045164000003</transactionId>
+							<transactionDateTime>2017-08-07T14:21:29-07:00</transactionDateTime>
+						</orderItem>
+						<orderSubStatus>PC</orderSubStatus>
+					</orderSummary>
+				</order>
+			</orderList>
+		</ns0:CreateOrderEventRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

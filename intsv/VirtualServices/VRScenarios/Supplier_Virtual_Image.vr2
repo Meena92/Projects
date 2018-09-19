@@ -1,0 +1,72 @@
+{
+    "modifyDate": "2017-10-23T11:39:33+05:30",
+    "description": "",
+    "artifactGeneration": {
+        "exportFile": "D:\\DevTest\\vseRecording\\VSE_2013\\A2EDAC71B7B811E7B6A1D8CB8A8AB1DA\\Project\\Data\\Supplier_Virtual_Image.xml",
+        "allowDupSpecificTxns": false,
+        "basePath": "/",
+        "defaultNonLeafNavigation": "WIDE",
+        "defaultLeafNavigation": "LOOSE",
+        "vsmStyle": "EFFICIENT"
+    },
+    "statusDescription": "Saved",
+    "transportProtocol": {
+        "protocolId": "HTTP_GATEWAY",
+        "statelessTxns": false,
+        "deidentifyTxn": false,
+        "protocolConfig": {
+            "allowModifyHostHeader": false,
+            "targetEndpoint": {
+                "sslConfig": {
+                    "aliasPassword": "",
+                    "password": "",
+                    "filename": "",
+                    "bytes": "",
+                    "alias": "",
+                    "hash": 0
+                },
+                "port": 0,
+                "host": "",
+                "hash": 0,
+                "useSSL": false
+            },
+            "recordingEndpoint": {
+                "sslConfig": {
+                    "aliasPassword": "",
+                    "password": "",
+                    "filename": "",
+                    "bytes": "",
+                    "alias": "",
+                    "hash": 0
+                },
+                "port": 27338,
+                "host": "",
+                "hash": 0,
+                "useSSL": false
+            }
+        },
+        "protocolVersion": "1.0"
+    },
+    "name": "Supplier_Virtual_Image",
+    "saveVsConfig": {
+        "concurrentCapacity": 1,
+        "thinkTime": 100,
+        "groupTag": "",
+        "saveOption": "saveDeploy",
+        "leafNavigation": "Loose",
+        "allowDupSpecific": false,
+        "defaultNavigation": "Wide",
+        "createBaseline": false,
+        "vsmStyle": "efficient"
+    },
+    "bundleIds": ["_mqakEcn389h6THVq_wuF"],
+    "validationMsgs": [{
+        "level": "WARNING",
+        "category": "targetURLValidation",
+        "message": "unspecified targetHost or targetPort"
+    }],
+    "id": "A2EDAC71B7B811E7B6A1D8CB8A8AB1DA",
+    "detectedDPH": [],
+    "status": 9,
+    "createDate": "2017-10-23T11:38:49+05:30"
+}

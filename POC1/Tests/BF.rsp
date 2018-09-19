@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Sat Feb 03 17:10:14 IST 2018 -->
+
+
+<Results name="BF">
+
+
+    <Result node="Parse Text as Response">
+      <content type="java.lang.String" charset="UTF-8"><![CDATA[PGJyZWFrZmFzdF9tZW51Pg0KPGZvb2Q+DQo8bmFtZT5CZWxnaWFuIFdhZmZsZXM8L25hbWU+DQo8cHJpY2U+JDUuOTU8L3ByaWNlPg0KPGRlc2NyaXB0aW9uPg0KVHdvIG9mIG91ciBmYW1vdXMgQmVsZ2lhbiBXYWZmbGVzIHdpdGggcGxlbnR5IG9mIHJlYWwgbWFwbGUgc3lydXANCjwvZGVzY3JpcHRpb24+DQo8Y2Fsb3JpZXM+NjUwPC9jYWxvcmllcz4NCjwvZm9vZD4NCjxmb29kPg0KPG5hbWU+U3RyYXdiZXJyeSBCZWxnaWFuIFdhZmZsZXM8L25hbWU+DQo8cHJpY2U+JDcuOTU8L3ByaWNlPg0KPGRlc2NyaXB0aW9uPg0KTGlnaHQgQmVsZ2lhbiB3YWZmbGVzIGNvdmVyZWQgd2l0aCBzdHJhd2JlcnJpZXMgYW5kIHdoaXBwZWQgY3JlYW0NCjwvZGVzY3JpcHRpb24+DQo8Y2Fsb3JpZXM+OTAwPC9jYWxvcmllcz4NCjwvZm9vZD4NCjwvYnJlYWtmYXN0X21lbnU+]]></content>
+    </Result>
+
+
+</Results>

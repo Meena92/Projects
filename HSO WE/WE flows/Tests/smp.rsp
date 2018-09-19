@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+
+
+<!-- TestCase Results Document created by LISA Test Editor -->
+<!-- On: Tue Aug 29 14:18:55 IST 2017 -->
+
+
+<Results name="smp">
+
+
+    <Result node="Web Service createOrderEvent[Shipped]">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.gui.XMLResultsCache>
+  <Sxml>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;SOAP-ENV:Body&gt;&lt;SOAP-ENV:Fault&gt;&lt;faultcode xmlns=&quot;&quot;&gt;SOAP-ENV:Server&lt;/faultcode&gt;&lt;faultstring xmlns=&quot;&quot;&gt;This is an operation implementation generated fault&lt;/faultstring&gt;&lt;faultactor xmlns=&quot;&quot;/&gt;&lt;detail xmlns=&quot;&quot;&gt;&lt;ns:Fault xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:ns=&quot;http://xmlns.oracle.com/EnterpriseObjects/Core/Common/V2&quot; xmlns:ns0=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; languageCode=&quot;en-US&quot;&gt;&lt;ns:FaultNotification&gt;&lt;ns:FaultMessage&gt;&lt;ns:Code&gt;BWENGINE-100031&lt;/ns:Code&gt;&lt;ns:Text&gt;Output data invalid&lt;/ns:Text&gt;&lt;/ns:FaultMessage&gt;&lt;/ns:FaultNotification&gt;&lt;/ns:Fault&gt;&lt;/detail&gt;&lt;/SOAP-ENV:Fault&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;</Sxml>
+  <headers>HTTP/1.1 500 Internal Server Error&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/xml;charset=utf-8&#xd;
+Content-Length: 796&#xd;
+Date: Tue, 29 Aug 2017 08:48:15 GMT&#xd;
+Connection: close&#xd;
+</headers>
+  <attachments/>
+</com.itko.lisa.gui.XMLResultsCache>]]></content>
+    </Result>
+
+
+    <Result node="Web Service GetCustomerOrderDetails">
+      <content type="xstream" charset="UTF-8"><![CDATA[<com.itko.lisa.gui.XMLResultsCache>
+  <Sxml>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;
+    &lt;SOAP-ENV:Body&gt;
+        &lt;ns0:esiGetCustomerOrderDetailsResponse xmlns:ns0=&quot;http://www.t-mobile.com/esi/order/getcustomerorderdetails&quot;&gt;
+            &lt;ns1:status xmlns:ns1=&quot;http://www.t-mobile.com/esi/base&quot;&gt;
+                &lt;ns1:statusCode&gt;102&lt;/ns1:statusCode&gt;
+                &lt;ns1:statusMessage&gt;Error&lt;/ns1:statusMessage&gt;
+                &lt;ns1:subStatus&gt;
+                    &lt;ns1:name&gt;HSO&lt;/ns1:name&gt;
+                    &lt;ns1:code&gt;102&lt;/ns1:code&gt;
+                    &lt;ns1:description&gt;Error&lt;/ns1:description&gt;
+                    &lt;ns1:referenceId&gt;S000105496&lt;/ns1:referenceId&gt;
+                &lt;/ns1:subStatus&gt;
+            &lt;/ns1:status&gt;
+        &lt;/ns0:esiGetCustomerOrderDetailsResponse&gt;
+    &lt;/SOAP-ENV:Body&gt;
+&lt;/SOAP-ENV:Envelope&gt;</Sxml>
+  <headers>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+singularityheader: appId=598*ctrlguid=1502731822*acctguid=6459b496-c3d2-4e90-92ad-e447b1f5d40d*ts=1503994592935*btid=26523*guid=0a500f93-1aa3-4c56-bd54-e2bb24ebd373*exitguid=1|1*unresolvedexitid=41590*tcop=1:328484*cidfrom=3496*etypeorder=HTTP*esubtype=HTTP*cidto={[UNRESOLVED][41590]}*tcop=1:328484&#xd;
+Content-Type: text/xml;charset=utf-8&#xd;
+Content-Length: 840&#xd;
+Date: Tue, 29 Aug 2017 08:16:33 GMT&#xd;
+</headers>
+  <attachments/>
+</com.itko.lisa.gui.XMLResultsCache>]]></content>
+    </Result>
+
+
+</Results>

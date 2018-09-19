@@ -1,0 +1,721 @@
+<?xml version="1.0" ?>
+
+<VSModel name="item" version="5">
+
+<meta>
+   <create version="10.0.0" buildNumber="10.0.0.431" author="admin" date="02/05/2018" host="BANTM340003956" />
+   <lastEdited version="10.0.0" buildNumber="10.0.0.431" author="admin" date="02/08/2018" host="inbasdpc10722" />
+</meta>
+
+<id>7E0DC5FD0A6011E8A4FB7446A0C104D6</id>
+<IsInProject>true</IsInProject>
+<sig>ZWQ9NSZ0Y3Y9NSZsaXNhdj0xMC4wLjAgKDEwLjAuMC40MzEpJm5vZGVzPTE4OTM3NzM0OTI=</sig>
+<subprocess>false</subprocess>
+
+<initState>
+</initState>
+
+<resultState>
+</resultState>
+
+<deletedProps>
+</deletedProps>
+
+<associatedResources>
+<file type="rawTransactionStore">{{LISA_RELATIVE_PROJ_ROOT}}/Data/item.vts</file>
+<file type="session">{{LISA_RELATIVE_PROJ_ROOT}}/VirtualServices/VRScenarios/item.vr2</file>
+</associatedResources>
+    <Node name="Virtual HTTPS Listener 8002" log=""
+          type="com.itko.lisa.vse.stateful.protocol.http.HttpListenStep" 
+          version="1" 
+          uid="null" 
+          think="0" 
+          useFilters="true" 
+          quiet="true" 
+          next="Virtual Service Execution Router" > 
+
+
+      <!-- Filters -->
+      <Filter type="com.itko.lisa.vse.stateful.common.DataProtocolFilter">
+        <valueToFilterKey>lisa.vse.request</valueToFilterKey>
+<dataProtocol>com.itko.lisa.vse.stateful.protocol.ws.WSSOAPProtocolHandler</dataProtocol>
+<processRequests>true</processRequests>
+<processResponses>false</processResponses>
+<CustomFilterData>
+</CustomFilterData>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ActionType</tag>
+      <tagn>1</tagn>
+      <prop>ActionType</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>CustomerId</tag>
+      <tagn>1</tagn>
+      <prop>CustomerId</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>CustomerItemNumber</tag>
+      <tagn>1</tagn>
+      <prop>CustomerItemNumber</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>BTItemNumber</tag>
+      <tagn>1</tagn>
+      <prop>BTItemNumber</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ItemName</tag>
+      <tagn>1</tagn>
+      <prop>ItemName</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ItemDesc</tag>
+      <tagn>1</tagn>
+      <prop>ItemDesc</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>CustomerBusinessDivision</tag>
+      <tagn>1</tagn>
+      <prop>CustomerBusinessDivision</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ItemClass</tag>
+      <tagn>1</tagn>
+      <prop>ItemClass</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ProductGroupCode</tag>
+      <tagn>1</tagn>
+      <prop>ProductGroupCode</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ItemUnitOfMeasure</tag>
+      <tagn>1</tagn>
+      <prop>ItemUnitOfMeasure</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>SafetyAndRegulatoryFactors</tag>
+      <tagn>1</tagn>
+      <prop>SafetyAndRegulatoryFactors</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>LifecycleStatus</tag>
+      <tagn>1</tagn>
+      <prop>LifecycleStatus</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>PrimeSupplierID</tag>
+      <tagn>1</tagn>
+      <prop>PrimeSupplierID</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>SerialNumberRequiredFlag</tag>
+      <tagn>1</tagn>
+      <prop>SerialNumberRequiredFlag</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>SerialTraceLevel</tag>
+      <tagn>1</tagn>
+      <prop>SerialTraceLevel</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ManufacturerName</tag>
+      <tagn>1</tagn>
+      <prop>ManufacturerName</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ManufacturerPartNumber</tag>
+      <tagn>1</tagn>
+      <prop>ManufacturerPartNumber</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>ContainsLithiumBatteries</tag>
+      <tagn>1</tagn>
+      <prop>ContainsLithiumBatteries</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>RepairOrScrapIndicator</tag>
+      <tagn>1</tagn>
+      <prop>RepairOrScrapIndicator</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>Consumable</tag>
+      <tagn>1</tagn>
+      <prop>Consumable</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>Returnable</tag>
+      <tagn>1</tagn>
+      <prop>Returnable</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>SpecialHandling</tag>
+      <tagn>1</tagn>
+      <prop>SpecialHandling</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>SpecialHandlingInstructions</tag>
+      <tagn>1</tagn>
+      <prop>SpecialHandlingInstructions</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>RepairAvoidance</tag>
+      <tagn>1</tagn>
+      <prop>RepairAvoidance</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>CustomerOwned</tag>
+      <tagn>1</tagn>
+      <prop>CustomerOwned</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericAttribute1</tag>
+      <tagn>1</tagn>
+      <prop>GenericAttribute1</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericAttribute2</tag>
+      <tagn>1</tagn>
+      <prop>GenericAttribute2</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericAttribute3</tag>
+      <tagn>1</tagn>
+      <prop>GenericAttribute3</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericAttribute4</tag>
+      <tagn>1</tagn>
+      <prop>GenericAttribute4</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericAttribute5</tag>
+      <tagn>1</tagn>
+      <prop>GenericAttribute5</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericFlag1</tag>
+      <tagn>1</tagn>
+      <prop>GenericFlag1</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericFlag2</tag>
+      <tagn>1</tagn>
+      <prop>GenericFlag2</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericFlag3</tag>
+      <tagn>1</tagn>
+      <prop>GenericFlag3</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericFlag4</tag>
+      <tagn>1</tagn>
+      <prop>GenericFlag4</prop>
+      </Filter>
+
+      <Filter type="com.itko.lisa.test.FilterXMLGetChildText">
+        <valueToFilterKey>lisa.Virtual HTTPS Listener 8002.rsp</valueToFilterKey>
+      <tag>GenericFlag5</tag>
+      <tagn>1</tagn>
+      <prop>GenericFlag5</prop>
+      </Filter>
+
+
+      <!-- Assertions -->
+<CheckResult assertTrue="true" name="ADD" type="com.itko.lisa.test.CheckResultContains">
+<log>{{ActionType}}</log>
+<then>Check Item No in db</then>
+<valueToAssertKey></valueToAssertKey>
+        <param>ADD</param>
+</CheckResult>
+
+<CheckResult assertTrue="true" name="UPDATE" type="com.itko.lisa.test.CheckResultContains">
+<log>{{ActionType}}</log>
+<then>Update Check Item No in db</then>
+<valueToAssertKey></valueToAssertKey>
+        <param>UPDATE</param>
+</CheckResult>
+
+<CheckResult assertTrue="true" name="CREATE" type="com.itko.lisa.test.CheckResultContains">
+<log>{{ActionType}}</log>
+<then>VS Image Response Selection</then>
+<valueToAssertKey></valueToAssertKey>
+        <param>CREATE</param>
+</CheckResult>
+
+<outputAsObject>true</outputAsObject>
+<onExceptionStep>abort</onExceptionStep>
+<listenPort>8002</listenPort>
+<basePath>/</basePath>
+<bindOnly>false</bindOnly>
+<useSSL>false</useSSL>
+<sslClientAuthType>none</sslClientAuthType>
+    </Node>
+
+
+    <Node name="Virtual Service Execution Router" log=""
+          type="com.itko.lisa.vse.stateful.VSRouterStep" 
+          version="1" 
+          uid="null" 
+          think="0" 
+          useFilters="true" 
+          quiet="true" 
+          next="VS Image Response Selection" > 
+
+<onerror>abort</onerror>
+<script>// This script must return either an enum entry from ExecutionMode or&#13;&#10;// a string that is the name of an enum entry.  The DYNAMIC entry may&#13;&#10;// not be returned.  It will be executed for DYNAMIC execution mode&#13;&#10;// only.&#13;&#10;import com.itko.lisa.vse.ExecutionMode;&#13;&#10;&#13;&#10;return ExecutionMode.EFFICIENT;&#13;&#10;&#13;&#10;&#13;&#10;/* other values: &#13;&#10;&#9;ExecutionMode.TRACK;&#13;&#10;&#9;ExecutionMode.STAND_IN;&#13;&#10;&#9;ExecutionMode.LIVE;&#13;&#10;&#9;ExecutionMode.FAILOVER;&#13;&#10;&#9;ExecutionMode.VALIDATION;&#13;&#10;&#9;ExecutionMode.LEARNING;&#13;&#10;*/&#13;&#10;</script>
+<supportedModes>
+<mode>LEARNING</mode>
+<mode>TRACK</mode>
+<mode>VALIDATION</mode>
+<mode>DYNAMIC</mode>
+<mode>EFFICIENT</mode>
+<mode>FAILOVER</mode>
+<mode>LIVE</mode>
+<mode>STAND_IN</mode>
+</supportedModes>
+<liveInvocationStep>Virtual HTTPS Live Invocation {{LIVE_INVOCATION_PORT}}</liveInvocationStep>
+    </Node>
+
+
+    <Node name="VS Image Response Selection" log=""
+          type="com.itko.lisa.vse.stateful.ConversationalStep" 
+          version="1" 
+          uid="null" 
+          think="0" 
+          useFilters="true" 
+          quiet="true" 
+          next="Virtual HTTPS Responder" > 
+
+
+      <!-- Assertions -->
+<CheckResult assertTrue="true" name="If validating" type="com.itko.lisa.vse.stateful.AssertOnExecutionMode">
+<log>Current execution mode is Image Validation, branching to Virtual HTTPS Live Invocation {{LIVE_INVOCATION_PORT}}</log>
+<then>Virtual HTTPS Live Invocation {{LIVE_INVOCATION_PORT}}</then>
+<valueToAssertKey></valueToAssertKey>
+        <executionMode>VALIDATION</executionMode>
+</CheckResult>
+
+<CheckResult assertTrue="true" name="If learning" type="com.itko.lisa.vse.stateful.AssertOnExecutionMode">
+<log>Current execution mode is Learning, branching to Virtual HTTPS Live Invocation {{LIVE_INVOCATION_PORT}}</log>
+<then>Virtual HTTPS Live Invocation {{LIVE_INVOCATION_PORT}}</then>
+<valueToAssertKey></valueToAssertKey>
+        <executionMode>LEARNING</executionMode>
+</CheckResult>
+
+<CheckResult assertTrue="true" name="If tracking" type="com.itko.lisa.vse.stateful.AssertOnExecutionMode">
+<log>Current execution mode is Transaction Tracking, branching to Virtual Service Tracking</log>
+<then>Virtual Service Tracking</then>
+<valueToAssertKey></valueToAssertKey>
+        <executionMode>TRACK</executionMode>
+</CheckResult>
+
+<vsiSource>{{LISA_RELATIVE_PROJ_ROOT}}/VirtualServices/Images/item - Copy.vsi</vsiSource>
+<requestPropertyName>lisa.vse.request</requestPropertyName>
+<outputAsObject>true</outputAsObject>
+<liveInvocationStep>Virtual HTTPS Live Invocation {{LIVE_INVOCATION_PORT}}</liveInvocationStep>
+<onExceptionStep>abort</onExceptionStep>
+    </Node>
+
+
+    <Node name="Virtual HTTPS Responder" log=""
+          type="com.itko.lisa.vse.stateful.protocol.http.HttpRespondStep" 
+          version="1" 
+          uid="null" 
+          think="0" 
+          useFilters="true" 
+          quiet="false" 
+          next="Virtual HTTPS Listener 8002" > 
+
+<responseList>lisa.vse.response</responseList>
+<onExceptionStep>abort</onExceptionStep>
+    </Node>
+
+
+    <Node name="Update Check Item No in db" log=""
+          type="com.itko.lisa.jdbc.JDBCNode" 
+          version="1" 
+          uid="252C2A6E0A7611E8BFC77446A0C104D6" 
+          think="500-1S" 
+          useFilters="true" 
+          quiet="false" 
+          next="Update data to DB" > 
+
+
+      <!-- Assertions -->
+<CheckResult assertTrue="true" name="Ensure Result Set Size" type="com.itko.lisa.jdbc.CheckResultJDBCResultSet">
+<log>Assertion name:Ensure Result Set Size</log>
+<then>Update data to DB</then>
+        <hasWarnings>false</hasWarnings>
+        <rowsAtLeast>1</rowsAtLeast>
+        <rowsNoMore>1</rowsNoMore>
+</CheckResult>
+
+<driver>org.apache.derby.jdbc.ClientDriver</driver>
+<dataSourceConnect>false</dataSourceConnect>
+<jndiFactory></jndiFactory>
+<jndiServerURL></jndiServerURL>
+<jndiDataSourceName></jndiDataSourceName>
+<connect>jdbc:derby://localhost:1528/database/lisa.db</connect>
+<user>sa</user>
+<password_enc>lc9c228219d51f26482c9bdf07c6638a621d46f427d3ddc7d5d115ae07444ca704b50</password_enc>
+<onSQLError>continue</onSQLError>
+<resultSet>true</resultSet>
+<maxRows>-1</maxRows>
+<keepOpen>false</keepOpen>
+<usePool>true</usePool>
+<sql>Select CustomerItemNumber from ITEMS_Table where CustomerItemNumber = ?</sql>
+<jdbcParam mode="IN" index="1" type="STRING" value="{{CustomerItemNumber}}"></jdbcParam>
+<IsStoredProc>true</IsStoredProc>
+    </Node>
+
+
+    <Node name="Update data to DB" log=""
+          type="com.itko.lisa.jdbc.JDBCNode" 
+          version="1" 
+          uid="484D6A8D0A7311E8BFC77446A0C104D6" 
+          think="500-1S" 
+          useFilters="true" 
+          quiet="false" 
+          next="VS Image Response Selection" > 
+
+<driver>org.apache.derby.jdbc.ClientDriver</driver>
+<dataSourceConnect>false</dataSourceConnect>
+<jndiFactory></jndiFactory>
+<jndiServerURL></jndiServerURL>
+<jndiDataSourceName></jndiDataSourceName>
+<connect>jdbc:derby://localhost:1528/database/lisa.db</connect>
+<user>sa</user>
+<password_enc>l496d9e1b690ed0a2953cdec4a451ef42944e05d7de187507f2926b2b3012df3a6af8</password_enc>
+<onSQLError>abort</onSQLError>
+<resultSet>false</resultSet>
+<maxRows>-1</maxRows>
+<keepOpen>false</keepOpen>
+<usePool>true</usePool>
+<sql>UPDATE ITEMS_Table &#13;&#10;SET CustomerId=?,ActionType=?,CustomerItemNumber=?,BTItemNumber=?,ItemName=?,ItemDesc=?, CustomerBusinessDivision=?,&#13;&#10;ItemClass=?,ProductGroupCode=?,ItemUnitOfMeasure=?,SafetyAndRegulatoryFactors=?,LifecycleStatus=?,PrimeSupplierID=?,&#13;&#10;SerialNumberRequiredFlag=?,SerialTraceLevel=?,ManufacturerName=?,ManufacturerPartNumber=?,ContainsLithiumBatteries=?,&#13;&#10;RepairOrScrapIndicator=?,Consumable=?,Returnable=?,SpecialHandling=?,SpecialHandlingInstructions=?,RepairAvoidance=?,&#13;&#10;CustomerOwned=?,GenericAttribute1=?,GenericAttribute2=?,GenericAttribute3=?,GenericAttribute4=?,GenericAttribute5=?,&#13;&#10;GenericFlag1=?,GenericFlag2=?,GenericFlag3=?,GenericFlag4=?,GenericFlag5=?&#13;&#10;WHERE CustomerItemNumber = &apos;{{CustomerItemNumber}}&apos; </sql>
+<jdbcParam mode="IN" index="1" type="STRING" value="{{CustomerId}}"></jdbcParam>
+<jdbcParam mode="IN" index="2" type="STRING" value="{{ActionType}}"></jdbcParam>
+<jdbcParam mode="IN" index="3" type="STRING" value="{{CustomerItemNumber}}"></jdbcParam>
+<jdbcParam mode="IN" index="4" type="STRING" value="{{BTItemNumber}}"></jdbcParam>
+<jdbcParam mode="IN" index="5" type="STRING" value="{{ItemName}}"></jdbcParam>
+<jdbcParam mode="IN" index="6" type="STRING" value="{{ItemDesc}}"></jdbcParam>
+<jdbcParam mode="IN" index="7" type="STRING" value="{{CustomerBusinessDivision}}"></jdbcParam>
+<jdbcParam mode="IN" index="8" type="STRING" value="{{ItemClass}}"></jdbcParam>
+<jdbcParam mode="IN" index="9" type="STRING" value="{{ProductGroupCode}}"></jdbcParam>
+<jdbcParam mode="IN" index="10" type="STRING" value="{{ItemUnitOfMeasure}}"></jdbcParam>
+<jdbcParam mode="IN" index="11" type="STRING" value="{{SafetyAndRegulatoryFactors}}"></jdbcParam>
+<jdbcParam mode="IN" index="12" type="STRING" value="{{LifecycleStatus}}"></jdbcParam>
+<jdbcParam mode="IN" index="13" type="STRING" value="{{PrimeSupplierID}}"></jdbcParam>
+<jdbcParam mode="IN" index="14" type="STRING" value="{{SerialNumberRequiredFlag}}"></jdbcParam>
+<jdbcParam mode="IN" index="15" type="STRING" value="{{SerialTraceLevel}}"></jdbcParam>
+<jdbcParam mode="IN" index="16" type="STRING" value="{{ManufacturerName}}"></jdbcParam>
+<jdbcParam mode="IN" index="17" type="STRING" value="{{ManufacturerPartNumber}}"></jdbcParam>
+<jdbcParam mode="IN" index="18" type="STRING" value="{{ContainsLithiumBatteries}}"></jdbcParam>
+<jdbcParam mode="IN" index="19" type="STRING" value="{{RepairOrScrapIndicator}}"></jdbcParam>
+<jdbcParam mode="IN" index="20" type="STRING" value="{{Consumable}}"></jdbcParam>
+<jdbcParam mode="IN" index="21" type="STRING" value="{{Returnable}}"></jdbcParam>
+<jdbcParam mode="IN" index="22" type="STRING" value="{{SpecialHandling}}"></jdbcParam>
+<jdbcParam mode="IN" index="23" type="STRING" value="{{SpecialHandlingInstructions}}"></jdbcParam>
+<jdbcParam mode="IN" index="24" type="STRING" value="{{RepairAvoidance}}"></jdbcParam>
+<jdbcParam mode="IN" index="25" type="STRING" value="{{CustomerOwned}}"></jdbcParam>
+<jdbcParam mode="IN" index="26" type="STRING" value="{{GenericAttribute1}}"></jdbcParam>
+<jdbcParam mode="IN" index="27" type="STRING" value="{{GenericAttribute2}}"></jdbcParam>
+<jdbcParam mode="IN" index="28" type="STRING" value="{{GenericAttribute3}}"></jdbcParam>
+<jdbcParam mode="IN" index="29" type="STRING" value="{{GenericAttribute4}}"></jdbcParam>
+<jdbcParam mode="IN" index="30" type="STRING" value="{{GenericAttribute5}}"></jdbcParam>
+<jdbcParam mode="IN" index="31" type="STRING" value="{{GenericFlag1}}"></jdbcParam>
+<jdbcParam mode="IN" index="32" type="STRING" value="{{GenericFlag2}}"></jdbcParam>
+<jdbcParam mode="IN" index="33" type="STRING" value="{{GenericFlag3}}"></jdbcParam>
+<jdbcParam mode="IN" index="34" type="STRING" value="{{GenericFlag4}}"></jdbcParam>
+<jdbcParam mode="IN" index="35" type="STRING" value="{{GenericFlag5}}"></jdbcParam>
+<IsStoredProc>true</IsStoredProc>
+    </Node>
+
+
+    <Node name="Check Item No in db" log=""
+          type="com.itko.lisa.jdbc.JDBCNode" 
+          version="1" 
+          uid="C55886D30A7311E8BFC77446A0C104D6" 
+          think="500-1S" 
+          useFilters="true" 
+          quiet="false" 
+          next="VS Image Response Selection" > 
+
+
+      <!-- Assertions -->
+<CheckResult assertTrue="true" name="Ensure Result Set Size~1" type="com.itko.lisa.jdbc.CheckResultJDBCResultSet">
+<log>Assertion name: Ensure Result Set Size</log>
+<then>Insert data to DB</then>
+        <hasWarnings>false</hasWarnings>
+        <rowsAtLeast>0</rowsAtLeast>
+        <rowsNoMore>0</rowsNoMore>
+</CheckResult>
+
+<driver>org.apache.derby.jdbc.ClientDriver</driver>
+<dataSourceConnect>false</dataSourceConnect>
+<jndiFactory></jndiFactory>
+<jndiServerURL></jndiServerURL>
+<jndiDataSourceName></jndiDataSourceName>
+<connect>jdbc:derby://localhost:1528/database/lisa.db</connect>
+<user>sa</user>
+<password_enc>l4a7e16ce13831a8db27482d2abb6560f6c4ec0fd9a6648dbf4a23395652214155b00</password_enc>
+<onSQLError>continue</onSQLError>
+<resultSet>true</resultSet>
+<maxRows>-1</maxRows>
+<keepOpen>false</keepOpen>
+<usePool>true</usePool>
+<sql>Select CustomerItemNumber from ITEMS_Table where CustomerItemNumber = ?</sql>
+<jdbcParam mode="IN" index="1" type="STRING" value="{{CustomerItemNumber}}"></jdbcParam>
+<IsStoredProc>true</IsStoredProc>
+    </Node>
+
+
+    <Node name="Virtual HTTPS Live Invocation {{LIVE_INVOCATION_PORT}}" log=""
+          type="com.itko.lisa.vse.stateful.protocol.http.HttpLiveInvocationStep" 
+          version="1" 
+          uid="null" 
+          think="0" 
+          useFilters="true" 
+          quiet="true" 
+          next="Virtual HTTPS Responder" > 
+
+
+      <!-- Assertions -->
+<CheckResult assertTrue="true" name="If validating" type="com.itko.lisa.vse.stateful.AssertOnExecutionMode">
+<log>Current execution mode is Image Validation, branching to Virtual Service Tracking</log>
+<then>Virtual Service Tracking</then>
+<valueToAssertKey></valueToAssertKey>
+        <executionMode>VALIDATION</executionMode>
+</CheckResult>
+
+<CheckResult assertTrue="true" name="If learning" type="com.itko.lisa.vse.stateful.AssertOnExecutionMode">
+<log>Current execution mode is Learning, branching to Virtual Service Tracking</log>
+<then>Virtual Service Tracking</then>
+<valueToAssertKey></valueToAssertKey>
+        <executionMode>LEARNING</executionMode>
+</CheckResult>
+
+<outputAsObject>true</outputAsObject>
+<onExceptionStep>Live System Failure</onExceptionStep>
+<requestPropertyName>lisa.vse.request</requestPropertyName>
+<vseLookupStep>VS Image Response Selection</vseLookupStep>
+<targetServer>{{LIVE_INVOCATION_SERVER}}</targetServer>
+<targetPort>{{LIVE_INVOCATION_PORT}}</targetPort>
+<hostHeaderPassThrough>false</hostHeaderPassThrough>
+<useSSLToServer>false</useSSLToServer>
+<useSSL>false</useSSL>
+    </Node>
+
+
+    <Node name="Virtual Service Tracking" log=""
+          type="com.itko.lisa.vse.stateful.VSTrackingStep" 
+          version="1" 
+          uid="null" 
+          think="0" 
+          useFilters="true" 
+          quiet="true" 
+          next="Virtual HTTPS Responder" > 
+
+<imageResponseProperty>lisa.vse.image.response</imageResponseProperty>
+<liveResponseProperty>lisa.vse.live.response</liveResponseProperty>
+<onExceptionStep>abort</onExceptionStep>
+    </Node>
+
+
+    <Node name="Insert data to DB" log=""
+          type="com.itko.lisa.jdbc.JDBCNode" 
+          version="1" 
+          uid="FF63DF150A6511E8BFC77446A0C104D6" 
+          think="500-1S" 
+          useFilters="true" 
+          quiet="false" 
+          next="VS Image Response Selection" > 
+
+<driver>org.apache.derby.jdbc.ClientDriver</driver>
+<dataSourceConnect>false</dataSourceConnect>
+<jndiFactory></jndiFactory>
+<jndiServerURL></jndiServerURL>
+<jndiDataSourceName></jndiDataSourceName>
+<connect>jdbc:derby://localhost:1528/database/lisa.db</connect>
+<user>sa</user>
+<password_enc>lae68b6c85754f3203fed0062d76758589618d8a9023272e6343d915de0f4feee7982</password_enc>
+<onSQLError>abort</onSQLError>
+<resultSet>false</resultSet>
+<maxRows>-1</maxRows>
+<keepOpen>false</keepOpen>
+<usePool>true</usePool>
+<sql>INSERT into ITEMS_Table&#13;&#10;(CustomerId, ActionType,CustomerItemNumber,BTItemNumber,ItemName,ItemDesc, CustomerBusinessDivision, ItemClass,ProductGroupCode,ItemUnitOfMeasure,SafetyAndRegulatoryFactors,LifecycleStatus,PrimeSupplierID,SerialNumberRequiredFlag,SerialTraceLevel,ManufacturerName,ManufacturerPartNumber,ContainsLithiumBatteries,RepairOrScrapIndicator,Consumable,Returnable,SpecialHandling,SpecialHandlingInstructions,RepairAvoidance,CustomerOwned,GenericAttribute1,GenericAttribute2,GenericAttribute3,GenericAttribute4,GenericAttribute5,GenericFlag1,GenericFlag2,GenericFlag3,GenericFlag4,GenericFlag5) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)</sql>
+<jdbcParam mode="IN" index="1" type="STRING" value="{{CustomerId}}"></jdbcParam>
+<jdbcParam mode="IN" index="2" type="STRING" value="{{ActionType}}"></jdbcParam>
+<jdbcParam mode="IN" index="3" type="STRING" value="{{CustomerItemNumber}}"></jdbcParam>
+<jdbcParam mode="IN" index="4" type="STRING" value="{{BTItemNumber}}"></jdbcParam>
+<jdbcParam mode="IN" index="5" type="STRING" value="{{ItemName}}"></jdbcParam>
+<jdbcParam mode="IN" index="6" type="STRING" value="{{ItemDesc}}"></jdbcParam>
+<jdbcParam mode="IN" index="7" type="STRING" value="{{CustomerBusinessDivision}}"></jdbcParam>
+<jdbcParam mode="IN" index="8" type="STRING" value="{{ItemClass}}"></jdbcParam>
+<jdbcParam mode="IN" index="9" type="STRING" value="{{ProductGroupCode}}"></jdbcParam>
+<jdbcParam mode="IN" index="10" type="STRING" value="{{ItemUnitOfMeasure}}"></jdbcParam>
+<jdbcParam mode="IN" index="11" type="STRING" value="{{SafetyAndRegulatoryFactors}}"></jdbcParam>
+<jdbcParam mode="IN" index="12" type="STRING" value="{{LifecycleStatus}}"></jdbcParam>
+<jdbcParam mode="IN" index="13" type="STRING" value="{{PrimeSupplierID}}"></jdbcParam>
+<jdbcParam mode="IN" index="14" type="STRING" value="{{SerialNumberRequiredFlag}}"></jdbcParam>
+<jdbcParam mode="IN" index="15" type="STRING" value="{{SerialTraceLevel}}"></jdbcParam>
+<jdbcParam mode="IN" index="16" type="STRING" value="{{ManufacturerName}}"></jdbcParam>
+<jdbcParam mode="IN" index="17" type="STRING" value="{{ManufacturerPartNumber}}"></jdbcParam>
+<jdbcParam mode="IN" index="18" type="STRING" value="{{ContainsLithiumBatteries}}"></jdbcParam>
+<jdbcParam mode="IN" index="19" type="STRING" value="{{RepairOrScrapIndicator}}"></jdbcParam>
+<jdbcParam mode="IN" index="20" type="STRING" value="{{Consumable}}"></jdbcParam>
+<jdbcParam mode="IN" index="21" type="STRING" value="{{Returnable}}"></jdbcParam>
+<jdbcParam mode="IN" index="22" type="STRING" value="{{SpecialHandling}}"></jdbcParam>
+<jdbcParam mode="IN" index="23" type="STRING" value="{{SpecialHandlingInstructions}}"></jdbcParam>
+<jdbcParam mode="IN" index="24" type="STRING" value="{{RepairAvoidance}}"></jdbcParam>
+<jdbcParam mode="IN" index="25" type="STRING" value="{{CustomerOwned}}"></jdbcParam>
+<jdbcParam mode="IN" index="26" type="STRING" value="{{GenericAttribute1}}"></jdbcParam>
+<jdbcParam mode="IN" index="27" type="STRING" value="{{GenericAttribute2}}"></jdbcParam>
+<jdbcParam mode="IN" index="28" type="STRING" value="{{GenericAttribute3}}"></jdbcParam>
+<jdbcParam mode="IN" index="29" type="STRING" value="{{GenericAttribute4}}"></jdbcParam>
+<jdbcParam mode="IN" index="30" type="STRING" value="{{GenericAttribute5}}"></jdbcParam>
+<jdbcParam mode="IN" index="31" type="STRING" value="{{GenericFlag1}}"></jdbcParam>
+<jdbcParam mode="IN" index="32" type="STRING" value="{{GenericFlag2}}"></jdbcParam>
+<jdbcParam mode="IN" index="33" type="STRING" value="{{GenericFlag3}}"></jdbcParam>
+<jdbcParam mode="IN" index="34" type="STRING" value="{{GenericFlag4}}"></jdbcParam>
+<jdbcParam mode="IN" index="35" type="STRING" value="{{GenericFlag5}}"></jdbcParam>
+<IsStoredProc>true</IsStoredProc>
+    </Node>
+
+
+    <Node name="Live System Failure" log=""
+          type="com.itko.lisa.test.NoTransNode" 
+          version="1" 
+          uid="null" 
+          think="0" 
+          useFilters="true" 
+          quiet="true" 
+          next="Update Check Item No in db" > 
+
+
+      <!-- Assertions -->
+<CheckResult assertTrue="true" name="If failover" type="com.itko.lisa.vse.stateful.AssertOnExecutionMode">
+<log>Current execution mode is Failover, branching to VS Image Response Selection</log>
+<then>VS Image Response Selection</then>
+<valueToAssertKey></valueToAssertKey>
+        <executionMode>FAILOVER</executionMode>
+</CheckResult>
+
+<CheckResult assertTrue="true" name="If standing in" type="com.itko.lisa.vse.stateful.AssertOnExecutionMode">
+<log>Current execution mode is Stand In, branching to Virtual HTTPS Responder</log>
+<then>Virtual HTTPS Responder</then>
+<valueToAssertKey></valueToAssertKey>
+        <executionMode>STAND_IN</executionMode>
+</CheckResult>
+
+    </Node>
+
+
+    <Node name="end" log=""
+          type="com.itko.lisa.test.NormalEnd" 
+          version="1" 
+          uid="7E0E141F0A6011E8A4FB7446A0C104D6" 
+          think="0h" 
+          useFilters="true" 
+          quiet="true" 
+          next="fail" > 
+
+    </Node>
+
+
+    <Node name="fail" log=""
+          type="com.itko.lisa.test.Abend" 
+          version="1" 
+          uid="7E0E14210A6011E8A4FB7446A0C104D6" 
+          think="0h" 
+          useFilters="true" 
+          quiet="true" 
+          next="fail" > 
+
+    </Node>
+
+
+    <Node name="abort" log="The test was aborted"
+          type="com.itko.lisa.test.AbortStep" 
+          version="1" 
+          uid="7E0E14230A6011E8A4FB7446A0C104D6" 
+          think="0h" 
+          useFilters="true" 
+          quiet="true" 
+          next="fail" > 
+
+    </Node>
+
+
+</VSModel>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceImage buildNumber="10.0.0.431" created="2018-02-23.14:44:14.991" id="46" lastModified="2018-02-23.15:42:22.136" name="RD1" version="10.0.0">
+<st>
+<t id="45" nd="true">
+<sp>
+<t id="49">
+<rq id="50" op="GET /inventory/carMake/index.json/" tl="EXACT">
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carMake</p>
+<p n="HTTP-Segment-Attr-2">index.json</p>
+<p n="HTTP-Segment-Attr-3"/>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carMake/index.json/</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="51" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{  &#xd;
+      "class":"com.ca.lisa.demo.CarMake",&#xd;
+      "id":1,&#xd;
+      "name":"Acura"&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+</sp>
+<rq id="52" op="GET /inventory/carMake/index.json/" tl="SIGNATURE">
+<at>
+<p n="HTTP-Segment-Attr-0">inventory</p>
+<p n="HTTP-Segment-Attr-1">carMake</p>
+<p n="HTTP-Segment-Attr-2">index.json</p>
+<p n="HTTP-Segment-Attr-3"/>
+</at>
+<m>
+<p n="HTTP-Method">GET</p>
+<p n="HTTP-URI">/inventory/carMake/index.json/</p>
+<p n="HTTP-Version">HTTP/1.1</p>
+</m>
+</rq>
+<rs>
+<rp id="53" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+</m>
+<bd chs="UTF-8">{  &#xd;
+      "class":"com.ca.lisa.demo.CarMake",&#xd;
+      "id":1,&#xd;
+      "name":"Acura"&#xd;
+}</bd>
+</rp>
+</rs>
+</t>
+</st>
+<ucrr>
+<rp id="48" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;
+    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Not Found&lt;/h1&gt;
+        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
+        &lt;hr/&gt;
+        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;
+        &lt;br/&gt;&lt;font size="-2"&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</bd>
+</rp>
+</ucrr>
+<usrr>
+<rp id="47" t="0">
+<m>
+<p n="HTTP-Response-Code">200</p>
+<p n="HTTP-Response-Code-Text">OK</p>
+<p n="Server">LISA/Virtual-Environment-Server</p>
+<p n="Date">{{=httpNow()}}</p>
+<p n="X-Powered-By">LISA/{{=lisaVersionString()}}</p>
+<p n="Content-Type">text/xml</p>
+</m>
+<bd chs="UTF-8">&lt;html&gt;
+    &lt;head&gt;&lt;title&gt;404 Not Found&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Not Found&lt;/h1&gt;
+        &lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
+        &lt;hr/&gt;
+        &lt;p&gt;&lt;i&gt;The DevTest VSE service could not match your request to a recorded request.&amp;nbsp; Consider expanding your service image.&lt;/i&gt;&lt;/p&gt;
+        &lt;br/&gt;&lt;font size="-2"&gt;Produced by a DevTest virtualized web server.&lt;/font&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</bd>
+</rp>
+</usrr>
+</serviceImage>

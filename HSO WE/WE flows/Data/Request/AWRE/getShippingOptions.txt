@@ -1,0 +1,5 @@
+{ 
+   "orderTypeVersion" : "{{OTV}}",
+  "productType" : "{{productType}}",
+    "isPOBox" : {{isPOBox}}
+}

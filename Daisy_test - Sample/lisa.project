@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<Project>
+<Name>Daisy_test - Sample</Name>
+<Version>V2</Version>
+<Notes></Notes>
+<ActiveConfig>{{LISA_RELATIVE_PROJ_ROOT}}/Configs/project.config</ActiveConfig>
+<ProjectPrefs>
+<Pref>
+<Key>rh.proj.info</Key>
+<Value>&lt;com.ca.lisa.core.project.ProjectService_-ResourceInfoMapImpl resolves-to=&quot;com.ca.lisa.core.project.ProjectService$ResourceInfoMapImpl$SProxy&quot;&gt;&#10;  &lt;projectResources&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;Daisy_test - Sample\Tests\New DB.tst&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;SoFmOi6&lt;/id&gt;&#10;        &lt;providerKey&gt;Daisy_test - Sample\Tests\New DB.tst&lt;/providerKey&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;Daisy_test - Sample\VirtualServices\item - Copy.vsm&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;omgJd&lt;/id&gt;&#10;        &lt;providerKey&gt;Daisy_test - Sample\VirtualServices\item - Copy.vsm&lt;/providerKey&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;Daisy_test - Sample\VirtualServices\ADD Item.vsm&lt;/string&gt;&#10;      &lt;com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;        &lt;id&gt;cAhJDBclj-&lt;/id&gt;&#10;        &lt;providerKey&gt;Daisy_test - Sample\VirtualServices\ADD Item.vsm&lt;/providerKey&gt;&#10;      &lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfo&gt;&#10;    &lt;/entry&gt;&#10;  &lt;/projectResources&gt;&#10;  &lt;idsToKeys&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;cAhJDBclj-&lt;/string&gt;&#10;      &lt;string&gt;Daisy_test - Sample\VirtualServices\ADD Item.vsm&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;omgJd&lt;/string&gt;&#10;      &lt;string&gt;Daisy_test - Sample\VirtualServices\item - Copy.vsm&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;    &lt;entry&gt;&#10;      &lt;string&gt;SoFmOi6&lt;/string&gt;&#10;      &lt;string&gt;Daisy_test - Sample\Tests\New DB.tst&lt;/string&gt;&#10;    &lt;/entry&gt;&#10;  &lt;/idsToKeys&gt;&#10;&lt;/com.ca.lisa.core.project.ProjectService_-ResourceInfoMapImpl&gt;</Value>
+</Pref>
+</ProjectPrefs>
+</Project>
